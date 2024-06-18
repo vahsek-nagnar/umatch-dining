@@ -3,8 +3,8 @@
 To get started with the project, follow these steps:
 1. **Clone the Repository:**
    ```sh
-   git clone <repository-url>
-   cd my-web-application
+   git clone https://github.com/vahsek-nagnar/umatch-dining.git
+   cd umatch-dining
 
 ## About UMatch Dining:
 
