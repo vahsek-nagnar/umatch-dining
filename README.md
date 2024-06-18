@@ -6,7 +6,7 @@ To get started with the project, follow these steps:
    git clone https://github.com/vahsek-nagnar/umatch-dining.git
    cd umatch-dining
 
-2. **Updating the Main Repository:**
+2. **Updating the Repository:**
    ```sh
    git pull origin main
    git add .
