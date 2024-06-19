@@ -1,10 +1,24 @@
-# My Web Application
+# UMatch Dining
 ## Project Setup
 To get started with the project, follow these steps:
 1. **Clone the Repository:**
    ```sh
-   git clone <repository-url>
-   cd my-web-application
+   git clone https://github.com/vahsek-nagnar/umatch-dining.git
+   cd umatch-dining
+
+2. **Updating the Repository:**
+   ```sh
+   git pull origin main
+   git add .
+   git commit -m "Message"
+   git push origin master
+4. **Updating the Repository With a New Branch:**
+   ```sh
+   git pull origin main
+   git checkout -b "YOUR BRANCH NAME"
+   git add .
+   git commit -m "Message"
+   git push origin "YOUR BRANCH NAME"
 
 ## About UMatch Dining:
 
