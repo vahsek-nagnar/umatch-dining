@@ -48,6 +48,36 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     // ----------------------------------- Food Table and Search: ----------------------------------- \\
+    
+
+    // Popup for food item:
+    function showFoodDetailsPopup(foodItem) {
+      // Create a popup container
+      const popupContainer = document.createElement('div');
+      popupContainer.classList.add('popup-container');
+  
+      // Create content for the popup
+      const popupContent = document.createElement('div');
+      popupContent.classList.add('popup-content');
+      
+      popupContent.innerHTML = `
+          <h2>${foodItem.name}</h2>
+          <p>Rating: ${foodItem.rating}</p>
+          <p>Number of Reviews: ${foodItem.numReviews}</p>
+      `;
+      
+      // Close button for the popup
+      const closeButton = document.createElement('button');
+      closeButton.textContent = 'Close';
+      closeButton.addEventListener('click', () => {
+          popupContainer.remove(); // Remove the popup when close button is clicked
+      });
+      
+      popupContent.appendChild(closeButton);
+      popupContainer.appendChild(popupContent);
+      
+      document.body.appendChild(popupContainer); // Append the popup to the body or a container
+    }
 
     // TODO: (pull data from database) for all food items
     const foodData = [ // example data only
@@ -65,6 +95,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     foodData.forEach(item => {
         const row = document.createElement('tr');
+        row.classList.add('foodRow'); // Add a class to the <tr> element
+        row.id = item.name; // Set the id attribute
+
 
         const nameCell = document.createElement('td');
         nameCell.textContent = item.name;
@@ -79,13 +112,12 @@ document.addEventListener("DOMContentLoaded", () => {
         row.appendChild(numReviewsCell);
 
         tableBody.appendChild(row);
-    });
 
-    // Row clicking
-    document.querySelectorAll("tr").forEach((row) => {
-      row.addEventListener("click", function () {
-        // TODO: brings up information for food item
-      });
+        row.addEventListener("click", function () {
+          showFoodDetailsPopup(item); // Call function to show popup with food item details
+          // TODO: brings up information for food item
+          //console.log("clicked " + row.id);
+        });
     });
 
     // ------------------------------ End Food Table and Search: ------------------------------ \\
