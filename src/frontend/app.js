@@ -14,24 +14,26 @@ document.addEventListener("DOMContentLoaded", () => {
       .addEventListener("click", () => navigate("homeView"));
     document
       .getElementById("profile")
-      .addEventListener("click", () => navigate("profileView"));
+      .addEventListener("click", () => getUsername() === "none" ? alert(`You must be logged in to access your profile`) : navigate("profileView"));
+      ;
     document
       .getElementById("about")
       .addEventListener("click", () => navigate("aboutView"));
     document
       .getElementById("login")
-      .addEventListener("click", () => navigate("loginView"));
+      .addEventListener("click", () => getUsername() === "none" ? navigate("loginView") : confirmLogout());
+      // ^^ above basically means that the login button is a logout button if logged in, or it takes to the login page
+
+    // confirming logout
+    function confirmLogout(){
+      const userConfirmed = confirm("Do you want to logout?");
+    
+      if (userConfirmed) {
+          logoutUser()
+      } 
+    }
     // Initialize with the home view
     navigate("homeView");
-  
-    // Assuming your imratings are within a container with the class
-    // 'imrating-container'
-    document.querySelectorAll(".imrating-container img").forEach((img) => {
-      img.addEventListener("click", function () {
-        const parent = this.parentNode;
-        parent.insertBefore(this, parent.firstChild); // Move the clicked imrating to the beginning
-      });
-    });
 
     // Menu button and sidebar function:
     let menuBtn = document.querySelector('#menu');
@@ -42,12 +44,65 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log("menu clicked")
     };
 
-    // Login handling:
+    // ----------------------------------- LOGIN HANDLING ----------------------------------- \\
+    
+    // fake sample data for frontend purposes:
+    userDatabase = {
+      "keshran" : "k3",
+      "nhford" : "nosir",
+      "hackherenthusiast123" : "t3F#wwdg34gt3wg23@$Q72f0r5ur3#@$Q@#$!FDS@#5R@",
+    }
+
     // TODO: (requires database for authentication?)
+    function authenticateUser(username, password){
+      let correctLogin = false;
+      // fetch username/password database
+      if (userDatabase[username] === password){ // filler database
+        correctLogin = true;
+      }
 
+      // username password pair is correct:
+      if (correctLogin){
+        loginUser(username);
+      }
+      else{ // credentials are incorrect or don't exist
+        alert(`Your username/password is incorrect`);
+      }
+    }
 
+    // function that stores the username in local storage after they've successfully logged in
+    function loginUser(username) {
+      // Store the username in local storage
+      localStorage.setItem('username', username);
+      console.log(`User ${username} logged in and stored in local storage.`);
+    }
 
-    // ----------------------------------- Food Table and Search: ----------------------------------- \\
+    // getter for the username in local storage
+    function getUsername() {
+      const username = localStorage.getItem('username');
+      if (username) {
+          console.log(`Retrieved username: ${username}`);
+          return username;
+      } else {
+          console.log('No username found in local storage.');
+          return "none";
+      }
+
+      // log out user
+      function logoutUser() {
+        // Remove the username from local storage
+        localStorage.removeItem('username');
+        
+        console.log('User logged out');
+        // Perform additional logout logic here (e.g., redirect to login page)
+      }
+    
+    }
+
+    // LOGIN BUTTON FUNCTION:
+  
+
+    // ----------------------------------- FOOD TABLE AND SEARCH ----------------------------------- \\
     
 
     // Popup for food item:
@@ -62,8 +117,9 @@ document.addEventListener("DOMContentLoaded", () => {
       
       popupContent.innerHTML = `
           <h2>${foodItem.name}</h2>
-          <p>Rating: ${foodItem.rating}</p>
+          <p>Rating: ${foodItem.rating}/5</p>
           <p>Number of Reviews: ${foodItem.numReviews}</p>
+          <p>Dietary Info: </p>
       `;
       
       // Close button for the popup
@@ -72,8 +128,21 @@ document.addEventListener("DOMContentLoaded", () => {
       closeButton.addEventListener('click', () => {
           popupContainer.remove(); // Remove the popup when close button is clicked
       });
+
+      const leaveReviewButton = document.createElement('button');
+      leaveReviewButton.classList.add('leave-review-button');
+      leaveReviewButton.textContent = 'Leave Review';
+      leaveReviewButton.addEventListener('click', () => {
+        // Replace with your logic to handle leaving a review for this food item
+        const review = prompt(`Leave a review for ${foodItem.name}:`);
+        if (review) {
+            alert(`You left a review for ${foodItem.name}: ${review}`);
+            // Here you can process the review (e.g., send it to a server, update UI, etc.)
+        }
+      });
       
       popupContent.appendChild(closeButton);
+      popupContent.appendChild(leaveReviewButton);
       popupContainer.appendChild(popupContent);
       
       document.body.appendChild(popupContainer); // Append the popup to the body or a container

@@ -1,7 +1,10 @@
 body {
-    background-color: #641212;
+    background-color: linear-gradient(#6e1414,#410d0d);
     color:white;
     font-family: verdana;
+    background: linear-gradient(217deg, #741717, #521111 70.71%),
+            linear-gradient(127deg, #571212, #6e1414 70.71%),
+            linear-gradient(336deg, #6e1414, rgba(152, 40, 40, 0.8) 70.71%);
 }
   
 h1 {
@@ -215,21 +218,23 @@ p {
     align-items: center; /* Center vertically */   
 }
 
+/*
 .homeContainer .top {
     background-color:#ffffff05;
 }
 
 .homeContainer .bottom {
-    background-color:#ffffff10;
-}
+    background-color:#ffffff05;
+}*/
 
 /* SEARCH BAR */
 
 .searchBar {
     width: 50%;
     min-height: 30px;
-    font-size: 25px;
+    font-size: 20px;
     padding: 10px;
+    background-color:#ffffff;
 }
 
 /* TABLE */
@@ -257,6 +262,11 @@ th {
     color:#641212;
 }
 
+.foodRow:hover{
+    background-color:#831919;
+    cursor: pointer;
+}
+
 /* POPUP */
 
 .popup-container {
@@ -281,8 +291,9 @@ th {
     max-width: 80%;
     max-height: 80%;
     overflow: auto;
-    min-width: 30%;
+    min-width: 400px;
     min-height: 30%;
+    position: relative;
 }
 
 .popup-content h2 {
@@ -298,7 +309,7 @@ th {
 .popup-content button {
     margin-top: 10px;
     padding: 8px 16px;
-    background-color: #007bff;
+    background-color: #d23061;
     color: white;
     border: none;
     border-radius: 4px;
@@ -306,5 +317,22 @@ th {
 }
 
 .popup-content button:hover {
-    background-color: #0056b3;
+    background-color: #9f2449;
+}
+
+.popup-content .leave-review-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    padding: 8px 16px;
+    background-color: #641212;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    max-height: 40px;
+}
+
+.popup-content .leave-review-button:hover {
+    background-color: #901a1a;
 }
