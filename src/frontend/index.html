@@ -54,8 +54,29 @@
             <div id="views">      
                 <div id="homeView" class="view">
                     <h1>UMatch Dining</h1>
-                    <p>Search:</p>
-                    <input type="text"></input>
+                    <div id="homeContainer" class="homeContainer">
+                        <div id="searchContainer" class="left">
+                            <p>Search:</p>
+                            <input type="text" id="foodSearch"></input>
+                        </div>
+                        <div id="resultsContainer" class="right">
+                            <p>Foods:</p>
+                            <div class="table-container">
+                                <table id="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Avg. Rating</th>
+                                            <th># of Reviews</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- Data rows will be inserted here by JavaScript -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div id="profileView" class="view" style="display:none">
                     <h1>Your Profile</h1>

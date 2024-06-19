@@ -189,3 +189,47 @@ p {
     display: none;
     /* Hide all views by default */
 }
+
+.homeContainer {
+    padding: 20px;
+    min-height: 300px;
+    justify-content:left;
+    display:flex;
+    width: 100%;
+}
+
+.homeContainer .left, .homeContainer .right {
+    padding: 20px;
+    flex: 1;
+}
+
+.homeContainer .left {
+    background-color:#ffffff05;
+}
+
+.homeContainer .right {
+    background-color:#ffffff10;
+}
+
+.table-container {
+    max-width: 600px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #f4f4f490;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f499;
+    color:#641212;
+}
