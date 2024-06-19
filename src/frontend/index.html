@@ -3,22 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Application</title>
+    <title>Multi-View App</title>
     <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="app.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Web Application</h1>
-    </header>
-    <main>
-        <section>
-            <p>This is a simple test HTML file to get you 
-               started with your project.</p>
-            <button id="testButton">Click Me</button>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 My Web Application</p>
-    </footer>
+    <div class="sidebar">
+        <div class="top">
+            <div class="logo">
+                <i class="bx bx-spa"></i>
+                <span><b>UMatch Dining</b></span>
+            </div>
+            <i class="bx bx-menu" id="menu"></i>
+        </div>
+        <div class="user"></div>
+        <ul>
+            <li>
+                <a id="home" href="#">
+                    <i class="bx bx-home-alt-2"></i>
+                    <span class="nav-item">Home</span>
+                </a>
+                <span class="tooltip">Home</span>
+            </li>
+            <li>
+                <a id="profile" href="#">
+                    <i class="bx bx-user-circle"></i>
+                    <span class="nav-item">Profile</span>
+                </a>
+                <span class="tooltip">Profile</span>
+            </li>
+            <li>
+                <a id="about"  href="#">
+                    <i class="bx bx-info-circle"></i>
+                    <span class="nav-item">About</span>
+                </a>
+                <span class="tooltip">About</span>
+            </li>
+            <li>
+                <a id="login"  href="#">
+                    <i class="bx bx-log-in"></i>
+                    <span class="nav-item">Login/Logout</span>
+                </a>
+                <span class="tooltip">Login/out</span>
+            </li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <div class="container">
+            <div id="views">      
+                <div id="homeView" class="view">
+                    <h1>UMatch Dining</h1>
+                    <p>Search:</p>
+                    <input type="text"></input>
+                </div>
+                <div id="profileView" class="view" style="display:none">
+                    <h1>Your Profile</h1>
+                    <p>This section could display user profile information. For now, here's a list of some hobbies:</p>
+                    <ul>
+                        <li>Coding</li>
+                        <li>Hiking</li>
+                        <li>Reading</li>
+                        <li>Photography</li>
+                    </ul>
+                </div>
+                <div id="aboutView" class="view" style="display:none">
+                    <h1>About This App</h1>
+                    <p>In the UMatch Dining app, users can not only view and create reviews - they can also see personalized graphics about their dining habits at UMass, as well as recommendations for items.</p>
+                    <p>The intention of this app is for it to become a site to connect with people over UMass cuisine in the future.</p>
+                </div>
+                <div id="loginView" class="view login" style="display:none">
+                    <h1>Login</h1>
+                    <label>Username:</label>
+                    <input type="text"></input>
+                    <label>Password:</label>
+                    <input type="text"></input>
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
