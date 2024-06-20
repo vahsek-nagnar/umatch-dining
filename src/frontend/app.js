@@ -139,9 +139,31 @@ document.addEventListener("DOMContentLoaded", async () => {
         popupContent.querySelector('p:nth-of-type(1)').textContent = `Rating: ${newRating}/5`;
         popupContent.querySelector('p:nth-of-type(2)').textContent = `Number of Reviews: ${foodItem.numReviews}`;
 
-        // Optional: Update JSON or backend with new data
-        // updateFoodItemInJSON(foodItem);
+        // TODO: Update JSON or backend with new data
+        updateFoodItemInJSON(foodItem);
       }
+
+      // updating food item
+      async function updateFoodItemInJSON(foodItem) {
+        try {
+          // Fetch the existing food list from JSON
+          const response = await fetch('food_list.json');
+          if (!response.ok) {
+            throw new Error('Network response was not ok.');
+          }
+          const foodList = await response.json();
+      
+          // Find the food item in the JSON data
+          foodList[foodItem.name] = foodItem;
+            
+          // TODO: update the JSON file
+
+        } catch (error) {
+          console.error('Error updating food item in JSON:', error);
+          // Handle the error as needed (e.g., show error message to user)
+        }
+      }
+      
       
       // Close button for the popup
       const closeButton = document.createElement('button');
@@ -162,7 +184,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         ratingSelect.id = 'rating-select';
         ratingSelect.classList.add('rating-select');
         ratingSelect.innerHTML = `
-          <option value="NaN"></option>
+          <option value="NaN">N/A</option>
           <option value="0">0</option>
           <option value="0.5">0.5</option>
           <option value="1">1</option>
@@ -197,8 +219,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             return;
           }
           leaveReview(reviewText, selectedRating);
-          // Optionally close popup after review submitted
-          // popupContainer.remove();
+          // Remove review items after submitting
           submitButton.remove();
           reviewInput.remove();
           ratingSelect.remove();
@@ -216,7 +237,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       popupContainer.appendChild(popupContent);
       
       document.body.appendChild(popupContainer); // Append the popup to the body or a container
-    }
+    }    
 
     // ---- LOADING FOOD DATA ---- \\
     let foodValues = {};
@@ -244,12 +265,29 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Dynamically update search from search bar
     
+    const searchBar = document.getElementById('foodSearch');
+
+    let filteredFoodData = foodData;
+
+    populateTable(filteredFoodData);
+
+    searchBar.addEventListener('keyup', (e) => {
+      const searchString = e.target.value.toLowerCase();
+
+      filteredFoodData = foodData.filter(item =>
+          item.name.toLowerCase().includes(searchString)
+      );
+
+      populateTable(filteredFoodData);
+    });
 
     // TODO: filter foodData item by search
 
-    const tableBody = document.querySelector('#data-table tbody');
+    function populateTable(filteredFoodData) {
+      const tableBody = document.querySelector('#data-table tbody');
+      tableBody.innerHTML = '';
 
-    foodData.forEach(item => {
+      filteredFoodData.forEach(item => {
         const row = document.createElement('tr');
         row.classList.add('foodRow'); // Add a class to the <tr> element
         row.id = item.name; // Set the id attribute
@@ -278,6 +316,9 @@ document.addEventListener("DOMContentLoaded", async () => {
           //console.log("clicked " + row.id);
         });
     });
+    }
+
+    
 
     // ------------------------------ End Food Table and Search: ------------------------------ \\
 

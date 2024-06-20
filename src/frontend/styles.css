@@ -241,7 +241,8 @@ p {
 /* TABLE */
 
 .table-container {
-    max-width: 600px;
+    max-width: 780px;
+    min-width: 780px;
     margin: 0 auto;
     overflow-x: auto;
 }
