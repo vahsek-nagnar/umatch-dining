@@ -234,7 +234,8 @@ p {
     min-height: 30px;
     font-size: 20px;
     padding: 10px;
-    background-color:#ffffff;
+    background-color:#ffffffdc;
+    border-radius:30px;
 }
 
 /* TABLE */
@@ -253,12 +254,12 @@ table {
 
 th, td {
     padding: 10px;
-    border: 1px solid #f4f4f490;
+    border: 1px solid #f4f4f4c5;
     text-align: left;
 }
 
 th {
-    background-color: #f4f4f499;
+    background-color: #f4f4f4c5;
     color:#641212;
 }
 

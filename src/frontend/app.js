@@ -119,9 +119,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       
       popupContent.innerHTML = `
           <h2>${foodItem.name}</h2>
-          <p>Rating: ${foodItem.rating}/5</p>
+          <p>Rating: ${foodItem.numReviews !== 0 ? (foodItem.totalRatings / foodItem.numReviews).toFixed(1)+'/5' : 'N/A'}</p>
           <p>Number of Reviews: ${foodItem.numReviews}</p>
-          <p>Dietary Info: </p>
+          <p>Calories: ${foodItem.calories}</p>
       `;
       
       // Close button for the popup
