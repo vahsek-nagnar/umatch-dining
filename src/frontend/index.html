@@ -78,13 +78,7 @@
                 </div>
                 <div id="profileView" class="view" style="display:none">
                     <h1>Your Profile</h1>
-                    <p>This section could display user profile information. For now, here's a list of some hobbies:</p>
-                    <ul>
-                        <li>Coding</li>
-                        <li>Hiking</li>
-                        <li>Reading</li>
-                        <li>Photography</li>
-                    </ul>
+                    <p id="name-tag"></p>
                 </div>
                 <div id="aboutView" class="view" style="display:none">
                     <h1>About This App</h1>
@@ -94,10 +88,10 @@
                 <div id="loginView" class="view login" style="display:none">
                     <h1>Login</h1>
                     <label>Username:</label>
-                    <input type="text"></input>
+                    <input type="text" id="username"></input>
                     <label>Password:</label>
-                    <input type="text"></input>
-                    <button type="submit">Submit</button>
+                    <input type="text" id="password"></input>
+                    <button type="submit" id="submit-login">Submit</button>
                 </div>
             </div>
         </div>

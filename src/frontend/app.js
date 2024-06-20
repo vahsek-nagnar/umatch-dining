@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       const userConfirmed = confirm("Do you want to logout?");
     
       if (userConfirmed) {
-          logoutUser()
+          logoutUser();
       } 
     }
     // Initialize with the home view
@@ -76,6 +76,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       // Store the username in local storage
       localStorage.setItem('username', username);
       console.log(`User ${username} logged in and stored in local storage.`);
+      callAllProfileFunctions(); // Calls profile functions
     }
 
     // getter for the username in local storage
@@ -88,20 +89,44 @@ document.addEventListener("DOMContentLoaded", async () => {
           console.log('No username found in local storage.');
           return "none";
       }
-
-      // log out user
-      function logoutUser() {
-        // Remove the username from local storage
-        localStorage.removeItem('username');
-        
-        console.log('User logged out');
-        // Perform additional logout logic here (e.g., redirect to login page)
-      }
     
     }
 
+    // log out user
+    function logoutUser() {
+      // Remove the username from local storage
+      localStorage.removeItem('username');
+            
+      console.log('User logged out');
+      // Perform additional logout logic here (e.g., redirect to login page)
+      navigate("loginView");
+    }
+
     // LOGIN BUTTON FUNCTION:
-  
+    
+    const loginSubmitButton = document.getElementById("submit-login");
+    const usernameInput = document.getElementById("username");
+    const passwordInput = document.getElementById("password");
+
+    loginSubmitButton.addEventListener('click', () => {
+      console.log("login submit")
+      authenticateUser(usernameInput.value, passwordInput.value);
+    });
+
+    // ----------------------------------- PROFILE FUNCTIONS ----------------------------------- \\
+
+    // function to call all the profile functions
+    function callAllProfileFunctions(){
+      let username = getUsername();
+
+      updateNameTag(username);
+    }
+
+    function updateNameTag(username) {
+      const nameTag = document.getElementById('name-tag');
+      nameTag.textContent = `Welcome, ${username}!`;
+      console.log("name updated")
+    }
 
     // ----------------------------------- FOOD TABLE AND SEARCH ----------------------------------- \\
     
@@ -230,8 +255,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         popupContent.appendChild(submitButton);
       });
       
-    
-      
       popupContent.appendChild(closeButton);
       popupContent.appendChild(leaveReviewButton);
       popupContainer.appendChild(popupContent);
@@ -281,8 +304,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       populateTable(filteredFoodData);
     });
 
-    // TODO: filter foodData item by search
-
+    // function for populating table and searching
     function populateTable(filteredFoodData) {
       const tableBody = document.querySelector('#data-table tbody');
       tableBody.innerHTML = '';
@@ -315,10 +337,8 @@ document.addEventListener("DOMContentLoaded", async () => {
           // TODO: brings up information for food item
           //console.log("clicked " + row.id);
         });
-    });
+      });
     }
-
-    
 
     // ------------------------------ End Food Table and Search: ------------------------------ \\
 
