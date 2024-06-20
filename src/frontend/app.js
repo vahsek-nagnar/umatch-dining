@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
+
     function navigate(viewId) {
       // Hide all views
       document.querySelectorAll(".view").forEach((view) => {
@@ -104,6 +105,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // ----------------------------------- FOOD TABLE AND SEARCH ----------------------------------- \\
     
+    // ---- POPUP ---- \\
 
     // Popup for food item:
     function showFoodDetailsPopup(foodItem) {
@@ -148,12 +150,29 @@ document.addEventListener("DOMContentLoaded", () => {
       document.body.appendChild(popupContainer); // Append the popup to the body or a container
     }
 
-    // TODO: (pull data from database) for all food items
-    const foodData = [ // example data only
-      { name: 'Yucca Fries', rating: 3.8, numReviews: 46 },
-      { name: 'Salt & Pepper Tofu', rating: 5.0, numReviews: 54 },
-      { name: 'Kelp Burger', rating: 1.3, numReviews: 17 }
-    ];
+    // ---- LOADING FOOD DATA ---- \\
+    let foodValues = {};
+    try {
+      const foodList = await loadFoodData();
+      //console.log(foodList);
+
+      foodValues = Object.values(foodList);
+
+    } catch (error) {
+        console.error('Error loading food data:', error);
+    }
+
+    let foodData = foodValues;
+
+    if (foodData === null){
+      foodData = [ // example data only for failure
+        { name: 'Yucca Fries', totalRatings: 175, numReviews: 46 },
+        { name: 'Salt & Pepper Tofu', totalRatings: 270, numReviews: 54 },
+        { name: 'Kelp Burger', totalRatings: 22, numReviews: 17 }
+      ];
+    }
+
+    // ---- DYNAMIC SEARCH BAR ---- \\
 
     // Dynamically update search from search bar
     
@@ -173,7 +192,10 @@ document.addEventListener("DOMContentLoaded", () => {
         row.appendChild(nameCell);
 
         const ratingCell = document.createElement('td');
-        ratingCell.textContent = item.rating;
+        ratingCell.textContent = round(item.totalRatings/item.numReviews,1);
+        if (ratingCell.textContent === "NaN"){
+          ratingCell.textContent = "N/A";
+        }
         row.appendChild(ratingCell);
 
         const numReviewsCell = document.createElement('td');
@@ -192,4 +214,28 @@ document.addEventListener("DOMContentLoaded", () => {
     // ------------------------------ End Food Table and Search: ------------------------------ \\
 
   });
+
+
+// Used for rounding calculations
+function round(value, precision) {
+    var multiplier = Math.pow(10, precision || 0);
+    return Math.round(value * multiplier) / multiplier;
+}
+
+
+async function loadFoodData() {
+  try {
+      const response = await fetch('food_list.json');
+
+      if (!response.ok) {
+          throw new Error('Network response was not ok. ' + response.statusText);
+      }
+
+      const foodList = await response.json();
+      return foodList; // Return the parsed JSON object
+  } catch (error) {
+      console.error('There has been a problem with your fetch operation:', error);
+      throw error; // Rethrow the error for further handling
+  }
+}
 
