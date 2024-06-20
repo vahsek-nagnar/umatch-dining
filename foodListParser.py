@@ -56,7 +56,8 @@ class Food:
             data["sugar"],
             data["protein"],
             data.get("totalRatings", 0),
-            data.get("numReviews", 0)
+            data.get("numReviews", 0),
+            data.get("reviews", [])
         )
 
 def parse_csv(file_path):

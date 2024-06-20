@@ -338,3 +338,24 @@ th {
 .popup-content .leave-review-button:hover {
     background-color: #901a1a;
 }
+
+.popup-content .rating-select {
+    margin: 10px;
+    border-radius: 2px;
+}
+
+.popup-content .rating-select:hover {
+    cursor: pointer;
+}
+
+.popup-content .reviewInput {
+    margin-top: 10px;
+}
+
+.popup-content .submit-review {
+    background-color: #641212;
+}
+
+.popup-content .submit-review:hover {
+    background-color: #901a1a;
+}

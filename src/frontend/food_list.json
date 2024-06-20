@@ -30,7 +30,8 @@
         "sugar": 2.0,
         "protein": 3.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+        "reviews": []
     },
     "Spicy Lentil & Veggie Soup": {
         "name": "Spicy Lentil & Veggie Soup",
@@ -61,7 +62,8 @@
         "sugar": 1.2,
         "protein": 3.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Butternut Squash": {
         "name": "Butternut Squash",
@@ -89,7 +91,8 @@
         "sugar": 4.0,
         "protein": 0.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Grilled Chicken Breast": {
         "name": "Grilled Chicken Breast",
@@ -111,7 +114,8 @@
         "sugar": 0.0,
         "protein": 16.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Halal Burger Patty": {
         "name": "Halal Burger Patty",
@@ -132,7 +136,8 @@
         "sugar": 0.0,
         "protein": 12.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Halal French Fries": {
         "name": "Halal French Fries",
@@ -159,7 +164,8 @@
         "sugar": 0.0,
         "protein": 1.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Hand Cut Sweet Potato Fries": {
         "name": "Hand Cut Sweet Potato Fries",
@@ -200,7 +206,8 @@
         "sugar": 5.5,
         "protein": 0.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Kelp Burger": {
         "name": "Kelp Burger",
@@ -234,7 +241,8 @@
         "sugar": 0.0,
         "protein": 11.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sauteed Broccoli": {
         "name": "Sauteed Broccoli",
@@ -256,7 +264,8 @@
         "sugar": 1.7,
         "protein": 2.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Savory Baked Chicken Thigh": {
         "name": "Savory Baked Chicken Thigh",
@@ -283,7 +292,8 @@
         "sugar": 8.3,
         "protein": 14.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Farro, Tomato, & Chickpea Salad": {
         "name": "Farro, Tomato, & Chickpea Salad",
@@ -314,7 +324,8 @@
         "sugar": 1.5,
         "protein": 2.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pickled Winter Moon Root Vegetables": {
         "name": "Pickled Winter Moon Root Vegetables",
@@ -344,7 +355,8 @@
         "sugar": 1.9,
         "protein": 0.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Haitian Pain Patate (Coconut)": {
         "name": "Haitian Pain Patate (Coconut)",
@@ -387,7 +399,8 @@
         "sugar": 4.6,
         "protein": 0.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "White Choc Macadamia Nut Cookie": {
         "name": "White Choc Macadamia Nut Cookie",
@@ -409,7 +422,8 @@
         "sugar": 14.0,
         "protein": 2.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chicken Katsu": {
         "name": "Chicken Katsu",
@@ -463,7 +477,8 @@
         "sugar": 0.2,
         "protein": 3.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Japanese Curry Rice Sauce": {
         "name": "Japanese Curry Rice Sauce",
@@ -505,7 +520,8 @@
         "sugar": 1.1,
         "protein": 1.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Jasmine Rice": {
         "name": "Jasmine Rice",
@@ -524,7 +540,8 @@
         "sugar": 0.0,
         "protein": 1.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cheese Pizza": {
         "name": "Cheese Pizza",
@@ -564,7 +581,8 @@
         "sugar": 1.0,
         "protein": 8.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pepperoni Pizza": {
         "name": "Pepperoni Pizza",
@@ -611,7 +629,8 @@
         "sugar": 0.5,
         "protein": 8.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Crab Rangoon": {
         "name": "Crab Rangoon",
@@ -634,7 +653,8 @@
         "sugar": 1.0,
         "protein": 2.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Dim Sum": {
         "name": "Dim Sum",
@@ -794,7 +814,8 @@
         "sugar": 7.0,
         "protein": 11.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Red Bean Soup": {
         "name": "Red Bean Soup",
@@ -815,7 +836,8 @@
         "sugar": 2.5,
         "protein": 2.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Stir Fry Green Vegetables": {
         "name": "Stir Fry Green Vegetables",
@@ -849,7 +871,8 @@
         "sugar": 1.3,
         "protein": 1.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cucumber Mint Yogurt Sauce": {
         "name": "Cucumber Mint Yogurt Sauce",
@@ -883,7 +906,8 @@
         "sugar": 0.9,
         "protein": 1.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Falafel": {
         "name": "Falafel",
@@ -913,7 +937,8 @@
         "sugar": 1.3,
         "protein": 2.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Green Tahini Sauce": {
         "name": "Green Tahini Sauce",
@@ -940,7 +965,8 @@
         "sugar": 0.1,
         "protein": 2.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mid East Roasted Vegetables": {
         "name": "Mid East Roasted Vegetables",
@@ -972,7 +998,8 @@
         "sugar": 1.8,
         "protein": 0.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Onion and Parsley Salad": {
         "name": "Onion and Parsley Salad",
@@ -997,7 +1024,8 @@
         "sugar": 0.1,
         "protein": 0.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pink Pickled Turnip": {
         "name": "Pink Pickled Turnip",
@@ -1020,7 +1048,8 @@
         "sugar": 0.8,
         "protein": 0.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pita Bread": {
         "name": "Pita Bread",
@@ -1042,7 +1071,8 @@
         "sugar": 1.0,
         "protein": 7.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Blackened Cod": {
         "name": "Blackened Cod",
@@ -1071,7 +1101,8 @@
         "sugar": 0.0,
         "protein": 19.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Marinara Sauce": {
         "name": "Marinara Sauce",
@@ -1090,7 +1121,8 @@
         "sugar": 2.6,
         "protein": 1.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Penne Pasta": {
         "name": "Penne Pasta",
@@ -1110,7 +1142,8 @@
         "sugar": 0.4,
         "protein": 6.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Zucchini": {
         "name": "Roasted Zucchini",
@@ -1132,7 +1165,8 @@
         "sugar": 1.6,
         "protein": 0.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Whole Grain Penne": {
         "name": "Whole Grain Penne",
@@ -1152,7 +1186,8 @@
         "sugar": 1.1,
         "protein": 8.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "GF Penne Pasta": {
         "name": "GF Penne Pasta",
@@ -1171,7 +1206,8 @@
         "sugar": 0.0,
         "protein": 4.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant Based Nuoc Cham": {
         "name": "Plant Based Nuoc Cham",
@@ -1202,7 +1238,8 @@
         "sugar": 7.5,
         "protein": 0.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Vietnamese Tofu Noodle Bowl": {
         "name": "Vietnamese Tofu Noodle Bowl",
@@ -1235,7 +1272,8 @@
         "sugar": 4.1,
         "protein": 12.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Black Beans": {
         "name": "Black Beans",
@@ -1271,7 +1309,8 @@
         "sugar": 0.7,
         "protein": 3.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Latin Toppings": {
         "name": "Latin Toppings",
@@ -1294,7 +1333,8 @@
         "sugar": 1.1,
         "protein": 6.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Taco Casserole": {
         "name": "Taco Casserole",
@@ -1346,7 +1386,8 @@
         "sugar": 0.8,
         "protein": 7.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Yellow Rice": {
         "name": "Yellow Rice",
@@ -1389,7 +1430,8 @@
         "sugar": 0.3,
         "protein": 1.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Zucchini & Corn": {
         "name": "Zucchini & Corn",
@@ -1415,7 +1457,8 @@
         "sugar": 1.8,
         "protein": 1.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Ancho Chile Salsa": {
         "name": "Ancho Chile Salsa",
@@ -1437,7 +1480,8 @@
         "sugar": 0.4,
         "protein": 0.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Homemade Guacamole": {
         "name": "Homemade Guacamole",
@@ -1461,7 +1505,8 @@
         "sugar": 0.8,
         "protein": 0.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mango & Watermelon Salad": {
         "name": "Mango & Watermelon Salad",
@@ -1490,7 +1535,8 @@
         "sugar": 3.9,
         "protein": 0.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pickled Red Onions": {
         "name": "Pickled Red Onions",
@@ -1513,7 +1559,8 @@
         "sugar": 2.4,
         "protein": 0.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Refried Black Beans": {
         "name": "Refried Black Beans",
@@ -1537,7 +1584,8 @@
         "sugar": 0.2,
         "protein": 1.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Lasagna Soup w/Turkey Sausage": {
         "name": "Lasagna Soup w/Turkey Sausage",
@@ -1566,7 +1614,8 @@
         "sugar": 2.5,
         "protein": 6.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Organic Black Bean Soup": {
         "name": "Organic Black Bean Soup",
@@ -1597,7 +1646,8 @@
         "sugar": 1.9,
         "protein": 6.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Black Bean Burger": {
         "name": "Black Bean Burger",
@@ -1651,7 +1701,8 @@
         "sugar": 3.0,
         "protein": 6.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cajun Chicken Thigh": {
         "name": "Cajun Chicken Thigh",
@@ -1682,7 +1733,8 @@
         "sugar": 0.0,
         "protein": 17.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Local Roasted Sweet Potatoes": {
         "name": "Local Roasted Sweet Potatoes",
@@ -1704,7 +1756,8 @@
         "sugar": 4.6,
         "protein": 1.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Oven Roasted Summer Squash": {
         "name": "Oven Roasted Summer Squash",
@@ -1727,7 +1780,8 @@
         "sugar": 1.9,
         "protein": 0.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chocolate Malva Pudding": {
         "name": "Chocolate Malva Pudding",
@@ -1767,7 +1821,8 @@
         "sugar": 14.8,
         "protein": 2.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cranberry Buckle": {
         "name": "Cranberry Buckle",
@@ -1806,7 +1861,8 @@
         "sugar": 28.2,
         "protein": 1.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Caraway Rye Bread": {
         "name": "Caraway Rye Bread",
@@ -1834,7 +1890,8 @@
         "sugar": 0.1,
         "protein": 2.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Taiwan Pork & Pickled Vegetables": {
         "name": "Taiwan Pork & Pickled Vegetables",
@@ -1902,7 +1959,8 @@
         "sugar": 2.0,
         "protein": 7.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Spicy Hawaiian Tofu Poke Bowl": {
         "name": "Spicy Hawaiian Tofu Poke Bowl",
@@ -1974,7 +2032,8 @@
         "sugar": 12.7,
         "protein": 9.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Spicy Hawaiian Tuna Poke Bowl": {
         "name": "Spicy Hawaiian Tuna Poke Bowl",
@@ -2030,7 +2089,8 @@
         "sugar": 13.1,
         "protein": 24.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cantonese BBQ Pork Ribs": {
         "name": "Cantonese BBQ Pork Ribs",
@@ -2087,7 +2147,8 @@
         "sugar": 3.9,
         "protein": 8.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pad Thai w/Peanuts": {
         "name": "Pad Thai w/Peanuts",
@@ -2122,7 +2183,8 @@
         "sugar": 7.5,
         "protein": 4.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Thai Seafood w/Basil": {
         "name": "Thai Seafood w/Basil",
@@ -2182,7 +2244,8 @@
         "sugar": 5.3,
         "protein": 12.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Vegetable Spring Rolls": {
         "name": "Vegetable Spring Rolls",
@@ -2202,7 +2265,8 @@
         "sugar": 0.0,
         "protein": 0.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Creamy Cucumber Salad": {
         "name": "Creamy Cucumber Salad",
@@ -2234,7 +2298,8 @@
         "sugar": 1.4,
         "protein": 1.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Matbucha": {
         "name": "Matbucha",
@@ -2253,7 +2318,8 @@
         "sugar": 1.4,
         "protein": 0.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Moroccan Beef Stew": {
         "name": "Moroccan Beef Stew",
@@ -2285,7 +2351,8 @@
         "sugar": 0.7,
         "protein": 8.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Moroccan Lemon Chickpea Couscous (Almonds)": {
         "name": "Moroccan Lemon Chickpea Couscous (Almonds)",
@@ -2326,7 +2393,8 @@
         "sugar": 5.7,
         "protein": 7.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Spiced Sweet Potato Wedges": {
         "name": "Spiced Sweet Potato Wedges",
@@ -2352,7 +2420,8 @@
         "sugar": 3.5,
         "protein": 1.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sweet Onion Salad": {
         "name": "Sweet Onion Salad",
@@ -2376,7 +2445,8 @@
         "sugar": 2.6,
         "protein": 0.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Tear Drop Peppers": {
         "name": "Tear Drop Peppers",
@@ -2401,7 +2471,8 @@
         "sugar": 5.1,
         "protein": 0.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Lemon Oregano Roasted Chicken": {
         "name": "Lemon Oregano Roasted Chicken",
@@ -2434,7 +2505,8 @@
         "sugar": 0.3,
         "protein": 21.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Orecchiette Pasta": {
         "name": "Orecchiette Pasta",
@@ -2454,7 +2526,8 @@
         "sugar": 1.5,
         "protein": 5.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Oven Roasted Red Potatoes": {
         "name": "Oven Roasted Red Potatoes",
@@ -2475,7 +2548,8 @@
         "sugar": 1.1,
         "protein": 1.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Carrots": {
         "name": "Carrots",
@@ -2494,7 +2568,8 @@
         "sugar": 0.9,
         "protein": 0.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chopped Cilantro": {
         "name": "Chopped Cilantro",
@@ -2513,7 +2588,8 @@
         "sugar": 0.0,
         "protein": 0.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Fresh Red Peppers": {
         "name": "Fresh Red Peppers",
@@ -2532,7 +2608,8 @@
         "sugar": 0.4,
         "protein": 0.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pickled Daikon": {
         "name": "Pickled Daikon",
@@ -2554,7 +2631,8 @@
         "sugar": 2.8,
         "protein": 0.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Scallions": {
         "name": "Scallions",
@@ -2573,7 +2651,8 @@
         "sugar": 0.0,
         "protein": 0.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Thai Basil": {
         "name": "Thai Basil",
@@ -2592,7 +2671,8 @@
         "sugar": 0.0,
         "protein": 0.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Thai Cucumber Salad": {
         "name": "Thai Cucumber Salad",
@@ -2618,7 +2698,8 @@
         "sugar": 4.1,
         "protein": 0.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Thai Garlic Pepper Tofu": {
         "name": "Thai Garlic Pepper Tofu",
@@ -2653,7 +2734,8 @@
         "sugar": 2.2,
         "protein": 10.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Thai Stir Fried Green Beans": {
         "name": "Thai Stir Fried Green Beans",
@@ -2677,7 +2759,8 @@
         "sugar": 3.3,
         "protein": 1.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cochinta Pibil (Pork)": {
         "name": "Cochinta Pibil (Pork)",
@@ -2711,7 +2794,8 @@
         "sugar": 0.1,
         "protein": 6.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Quinoa, Corn & Avocado Salad": {
         "name": "Quinoa, Corn & Avocado Salad",
@@ -2739,7 +2823,8 @@
         "sugar": 1.1,
         "protein": 1.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Spicy Mango Salad": {
         "name": "Spicy Mango Salad",
@@ -2765,7 +2850,8 @@
         "sugar": 4.9,
         "protein": 0.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Yucatan Chili Salsa": {
         "name": "Yucatan Chili Salsa",
@@ -2793,7 +2879,8 @@
         "sugar": 0.3,
         "protein": 0.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Yucutan Saffron Rice": {
         "name": "Yucutan Saffron Rice",
@@ -2831,7 +2918,8 @@
         "sugar": 0.4,
         "protein": 1.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chana Masala Cauliflower Soup": {
         "name": "Chana Masala Cauliflower Soup",
@@ -2860,7 +2948,8 @@
         "sugar": 0.5,
         "protein": 0.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Santa Fe Tortilla Soup": {
         "name": "Santa Fe Tortilla Soup",
@@ -2889,7 +2978,8 @@
         "sugar": 1.9,
         "protein": 1.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Salmon w/Pomegranate Vin Blanc": {
         "name": "Salmon w/Pomegranate Vin Blanc",
@@ -2920,7 +3010,8 @@
         "sugar": 1.0,
         "protein": 13.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Local Chive Mashed Potato": {
         "name": "Local Chive Mashed Potato",
@@ -2944,7 +3035,8 @@
         "sugar": 0.3,
         "protein": 1.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Green Beans w/Caramelized Shallots": {
         "name": "Green Beans w/Caramelized Shallots",
@@ -2967,7 +3059,8 @@
         "sugar": 3.4,
         "protein": 1.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Honey Glazed Carrots & Parsnips": {
         "name": "Honey Glazed Carrots & Parsnips",
@@ -2993,7 +3086,8 @@
         "sugar": 6.1,
         "protein": 1.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Awesome Burger": {
         "name": "Awesome Burger",
@@ -3012,7 +3106,8 @@
         "sugar": 1.0,
         "protein": 13.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chicken Gyro": {
         "name": "Chicken Gyro",
@@ -3070,7 +3165,8 @@
         "sugar": 2.4,
         "protein": 20.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "French Fries": {
         "name": "French Fries",
@@ -3098,7 +3194,8 @@
         "sugar": 0.0,
         "protein": 1.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Lemon Pepper Chicken Thigh": {
         "name": "Lemon Pepper Chicken Thigh",
@@ -3124,7 +3221,8 @@
         "sugar": 0.0,
         "protein": 14.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Butternut Squash w/Spices": {
         "name": "Roasted Butternut Squash w/Spices",
@@ -3154,7 +3252,8 @@
         "sugar": 1.8,
         "protein": 0.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sweet Potato Fries": {
         "name": "Sweet Potato Fries",
@@ -3194,7 +3293,8 @@
         "sugar": 5.4,
         "protein": 0.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Corn w/Red Peppers": {
         "name": "Corn w/Red Peppers",
@@ -3218,7 +3318,8 @@
         "sugar": 4.9,
         "protein": 2.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Guacamole": {
         "name": "Guacamole",
@@ -3243,7 +3344,8 @@
         "sugar": 0.0,
         "protein": 0.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant Based Pulmuone Steak & Pepper Quesadilla": {
         "name": "Plant Based Pulmuone Steak & Pepper Quesadilla",
@@ -3312,7 +3414,8 @@
         "sugar": 2.6,
         "protein": 5.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sour Cream": {
         "name": "Sour Cream",
@@ -3331,7 +3434,8 @@
         "sugar": 0.0,
         "protein": 1.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Spanish Rice": {
         "name": "Spanish Rice",
@@ -3363,7 +3467,8 @@
         "sugar": 0.9,
         "protein": 1.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Garlic Parmesan Cream Sauce": {
         "name": "Garlic Parmesan Cream Sauce",
@@ -3399,7 +3504,8 @@
         "sugar": 1.8,
         "protein": 2.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Gemelli Pasta": {
         "name": "Gemelli Pasta",
@@ -3419,7 +3525,8 @@
         "sugar": 2.0,
         "protein": 7.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Homemade Red Pepper Hummus": {
         "name": "Homemade Red Pepper Hummus",
@@ -3444,7 +3551,8 @@
         "sugar": 2.3,
         "protein": 3.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Marinated Olives, Tomatoes & Artichokes": {
         "name": "Marinated Olives, Tomatoes & Artichokes",
@@ -3469,7 +3577,8 @@
         "sugar": 0.5,
         "protein": 0.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Zucchini w/Rstd Tomatoes": {
         "name": "Roasted Zucchini w/Rstd Tomatoes",
@@ -3492,7 +3601,8 @@
         "sugar": 2.9,
         "protein": 1.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Spaghetti": {
         "name": "Spaghetti",
@@ -3512,7 +3622,8 @@
         "sugar": 0.8,
         "protein": 6.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Spaghetti w/Peas, Tom & Garlic Cream Sc": {
         "name": "Spaghetti w/Peas, Tom & Garlic Cream Sc",
@@ -3549,7 +3660,8 @@
         "sugar": 2.5,
         "protein": 5.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Tomato Arugula Chorizo Salad": {
         "name": "Tomato Arugula Chorizo Salad",
@@ -3581,7 +3693,8 @@
         "sugar": 1.1,
         "protein": 1.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chocolate Cake w/Coffee Icing": {
         "name": "Chocolate Cake w/Coffee Icing",
@@ -3626,7 +3739,8 @@
         "sugar": 19.7,
         "protein": 1.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Strawberry Cheesecake w/Oreo Crust": {
         "name": "Strawberry Cheesecake w/Oreo Crust",
@@ -3667,7 +3781,8 @@
         "sugar": 11.4,
         "protein": 2.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Three Cheese Bread": {
         "name": "Three Cheese Bread",
@@ -3707,7 +3822,8 @@
         "sugar": 0.0,
         "protein": 1.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Japanese Curry Noodles w/Tonkatsu": {
         "name": "Japanese Curry Noodles w/Tonkatsu",
@@ -3750,7 +3866,8 @@
         "sugar": 2.3,
         "protein": 6.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Vegetable Pizza": {
         "name": "Vegetable Pizza",
@@ -3795,7 +3912,8 @@
         "sugar": 0.7,
         "protein": 8.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "California Roll": {
         "name": "California Roll",
@@ -3860,7 +3978,8 @@
         "sugar": 13.4,
         "protein": 6.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Shrimp Sushi Roll": {
         "name": "Shrimp Sushi Roll",
@@ -3890,7 +4009,8 @@
         "sugar": 12.7,
         "protein": 7.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Teriyaki Pulmuone Tofu Roll": {
         "name": "Teriyaki Pulmuone Tofu Roll",
@@ -3928,7 +4048,8 @@
         "sugar": 13.9,
         "protein": 8.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Vegetable Sushi Roll": {
         "name": "Vegetable Sushi Roll",
@@ -3957,7 +4078,8 @@
         "sugar": 12.7,
         "protein": 3.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Arroz Rojo (Red Tomato Rice)": {
         "name": "Arroz Rojo (Red Tomato Rice)",
@@ -3996,7 +4118,8 @@
         "sugar": 0.2,
         "protein": 1.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Frijoles Pintos Tradicionales": {
         "name": "Frijoles Pintos Tradicionales",
@@ -4022,7 +4145,8 @@
         "sugar": 0.6,
         "protein": 1.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant Based Chorizo Crumbles": {
         "name": "Plant Based Chorizo Crumbles",
@@ -4041,7 +4165,8 @@
         "sugar": 0.5,
         "protein": 4.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Tacos Al Pastor (Pork)": {
         "name": "Tacos Al Pastor (Pork)",
@@ -4086,7 +4211,8 @@
         "sugar": 2.1,
         "protein": 13.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cod Misoyaki": {
         "name": "Cod Misoyaki",
@@ -4110,7 +4236,8 @@
         "sugar": 7.4,
         "protein": 16.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pulmuone Tofu w/Gingered Vegetables": {
         "name": "Pulmuone Tofu w/Gingered Vegetables",
@@ -4156,7 +4283,8 @@
         "sugar": 1.8,
         "protein": 19.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Stir Fried Vegetables": {
         "name": "Stir Fried Vegetables",
@@ -4190,7 +4318,8 @@
         "sugar": 0.8,
         "protein": 1.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Vegetable Yaki Udon": {
         "name": "Vegetable Yaki Udon",
@@ -4228,7 +4357,8 @@
         "sugar": 3.6,
         "protein": 4.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Apple Cinnamon Pancakes": {
         "name": "Apple Cinnamon Pancakes",
@@ -4289,7 +4419,8 @@
         "sugar": 3.7,
         "protein": 2.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Avocado Toast Bar (Bacon)": {
         "name": "Avocado Toast Bar (Bacon)",
@@ -4381,7 +4512,8 @@
         "sugar": 3.3,
         "protein": 14.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "BUSH's Baked Beans": {
         "name": "BUSH's Baked Beans",
@@ -4413,7 +4545,8 @@
         "sugar": 6.0,
         "protein": 3.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chicken Congee": {
         "name": "Chicken Congee",
@@ -4437,7 +4570,8 @@
         "sugar": 0.3,
         "protein": 2.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chinese Twist Cruller": {
         "name": "Chinese Twist Cruller",
@@ -4456,7 +4590,8 @@
         "sugar": 0.0,
         "protein": 0.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Hard Boiled Eggs": {
         "name": "Hard Boiled Eggs",
@@ -4475,7 +4610,8 @@
         "sugar": 0.0,
         "protein": 10.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Hot Oatmeal": {
         "name": "Hot Oatmeal",
@@ -4494,7 +4630,8 @@
         "sugar": 0.2,
         "protein": 3.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Omelet Bar": {
         "name": "Omelet Bar",
@@ -4532,7 +4669,8 @@
         "sugar": 1.1,
         "protein": 20.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pulmuone Tofu Scramble": {
         "name": "Pulmuone Tofu Scramble",
@@ -4561,7 +4699,8 @@
         "sugar": 0.5,
         "protein": 13.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Tomatoes": {
         "name": "Roasted Tomatoes",
@@ -4584,7 +4723,8 @@
         "sugar": 0.5,
         "protein": 0.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sauteed Mushrooms": {
         "name": "Sauteed Mushrooms",
@@ -4608,7 +4748,8 @@
         "sugar": 1.2,
         "protein": 1.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Scrambled Eggs": {
         "name": "Scrambled Eggs",
@@ -4628,7 +4769,8 @@
         "sugar": 0.0,
         "protein": 10.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Skillet Hash Browns": {
         "name": "Skillet Hash Browns",
@@ -4653,7 +4795,8 @@
         "sugar": 0.3,
         "protein": 0.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sliced Kielbasa": {
         "name": "Sliced Kielbasa",
@@ -4683,7 +4826,8 @@
         "sugar": 1.5,
         "protein": 12.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mini Butter Croissant": {
         "name": "Mini Butter Croissant",
@@ -4712,7 +4856,8 @@
         "sugar": 2.0,
         "protein": 3.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mocha Scuffin": {
         "name": "Mocha Scuffin",
@@ -4751,7 +4896,8 @@
         "sugar": 16.7,
         "protein": 3.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Besan Chilla (Chickpea Pancakes)": {
         "name": "Besan Chilla (Chickpea Pancakes)",
@@ -4779,7 +4925,8 @@
         "sugar": 0.2,
         "protein": 4.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Channa Masala": {
         "name": "Channa Masala",
@@ -4811,7 +4958,8 @@
         "sugar": 3.4,
         "protein": 6.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chapati": {
         "name": "Chapati",
@@ -4837,7 +4985,8 @@
         "sugar": 1.0,
         "protein": 2.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Coconut Chutney (Peanuts)": {
         "name": "Coconut Chutney (Peanuts)",
@@ -4860,7 +5009,8 @@
         "sugar": 0.3,
         "protein": 2.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Idli": {
         "name": "Idli",
@@ -4879,7 +5029,8 @@
         "sugar": 0.0,
         "protein": 2.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sambhar": {
         "name": "Sambhar",
@@ -4909,7 +5060,8 @@
         "sugar": 0.6,
         "protein": 4.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Grilled Carrots": {
         "name": "Grilled Carrots",
@@ -4931,7 +5083,8 @@
         "sugar": 1.4,
         "protein": 0.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mixed Berry Crisp": {
         "name": "Mixed Berry Crisp",
@@ -4968,7 +5121,8 @@
         "sugar": 4.9,
         "protein": 0.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sweet Red Bean Cheesecake": {
         "name": "Sweet Red Bean Cheesecake",
@@ -5005,7 +5159,8 @@
         "sugar": 11.6,
         "protein": 3.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Hawaiian Roll": {
         "name": "Hawaiian Roll",
@@ -5039,7 +5194,8 @@
         "sugar": 3.4,
         "protein": 3.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Spicy Tuna Roll": {
         "name": "Spicy Tuna Roll",
@@ -5097,7 +5253,8 @@
         "sugar": 13.2,
         "protein": 11.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Egg & Tomato Stir Fry": {
         "name": "Egg & Tomato Stir Fry",
@@ -5142,7 +5299,8 @@
         "sugar": 2.2,
         "protein": 4.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Vegetable Lo Mein": {
         "name": "Vegetable Lo Mein",
@@ -5197,7 +5355,8 @@
         "sugar": 4.2,
         "protein": 2.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chicken Shawarma": {
         "name": "Chicken Shawarma",
@@ -5226,7 +5385,8 @@
         "sugar": 0.1,
         "protein": 15.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Citrus Yogurt w/Sumac": {
         "name": "Citrus Yogurt w/Sumac",
@@ -5256,7 +5416,8 @@
         "sugar": 1.2,
         "protein": 2.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Herb Roasted Tomatoes": {
         "name": "Herb Roasted Tomatoes",
@@ -5280,7 +5441,8 @@
         "sugar": 0.5,
         "protein": 0.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Lavash Bread": {
         "name": "Lavash Bread",
@@ -5306,7 +5468,8 @@
         "sugar": 0.5,
         "protein": 1.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Tahini Sauce": {
         "name": "Tahini Sauce",
@@ -5330,7 +5493,8 @@
         "sugar": 0.1,
         "protein": 2.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Tomato Slices": {
         "name": "Tomato Slices",
@@ -5349,7 +5513,8 @@
         "sugar": 1.2,
         "protein": 0.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Turmeric Basmati Rice": {
         "name": "Turmeric Basmati Rice",
@@ -5377,7 +5542,8 @@
         "sugar": 0.0,
         "protein": 2.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Fettuccini Pasta": {
         "name": "Fettuccini Pasta",
@@ -5405,7 +5571,8 @@
         "sugar": 1.5,
         "protein": 5.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Spiced Zucchini": {
         "name": "Roasted Spiced Zucchini",
@@ -5433,7 +5600,8 @@
         "sugar": 1.5,
         "protein": 0.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Avocado": {
         "name": "Avocado",
@@ -5452,7 +5620,8 @@
         "sugar": 0.1,
         "protein": 0.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Corn": {
         "name": "Corn",
@@ -5473,7 +5642,8 @@
         "sugar": 5.3,
         "protein": 2.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Eggplant Donburi": {
         "name": "Eggplant Donburi",
@@ -5500,7 +5670,8 @@
         "sugar": 4.5,
         "protein": 4.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Gluten Free Unagi Sauce": {
         "name": "Gluten Free Unagi Sauce",
@@ -5523,7 +5694,8 @@
         "sugar": 12.2,
         "protein": 0.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Japanese Pickled Cucumbers": {
         "name": "Japanese Pickled Cucumbers",
@@ -5547,7 +5719,8 @@
         "sugar": 8.2,
         "protein": 0.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Nori": {
         "name": "Nori",
@@ -5566,7 +5739,8 @@
         "sugar": 0.0,
         "protein": 2.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pickled Ginger": {
         "name": "Pickled Ginger",
@@ -5585,7 +5759,8 @@
         "sugar": 7.6,
         "protein": 0.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Sesame Seeds": {
         "name": "Roasted Sesame Seeds",
@@ -5604,7 +5779,8 @@
         "sugar": 0.0,
         "protein": 3.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sauteed Spinach w/Sesame Seeds": {
         "name": "Sauteed Spinach w/Sesame Seeds",
@@ -5628,7 +5804,8 @@
         "sugar": 0.5,
         "protein": 2.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Spring Mix": {
         "name": "Spring Mix",
@@ -5647,7 +5824,8 @@
         "sugar": 0.1,
         "protein": 0.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cuban Mojo Pork": {
         "name": "Cuban Mojo Pork",
@@ -5678,7 +5856,8 @@
         "sugar": 0.1,
         "protein": 12.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cuban Rice & Beans": {
         "name": "Cuban Rice & Beans",
@@ -5724,7 +5903,8 @@
         "sugar": 0.7,
         "protein": 2.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Salsa Criolla": {
         "name": "Salsa Criolla",
@@ -5747,7 +5927,8 @@
         "sugar": 1.1,
         "protein": 0.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Warm Charred Corn Salsa": {
         "name": "Warm Charred Corn Salsa",
@@ -5775,7 +5956,8 @@
         "sugar": 1.5,
         "protein": 0.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Yuca Fries": {
         "name": "Yuca Fries",
@@ -5796,7 +5978,8 @@
         "sugar": 0.5,
         "protein": 0.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "PILLSBURY Cinnamon Roll": {
         "name": "PILLSBURY Cinnamon Roll",
@@ -5845,7 +6028,8 @@
         "sugar": 17.9,
         "protein": 7.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Red Potato Home Fries": {
         "name": "Red Potato Home Fries",
@@ -5868,7 +6052,8 @@
         "sugar": 1.1,
         "protein": 1.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Rstd Tomato, Bean & Mushroom Breakfast": {
         "name": "Rstd Tomato, Bean & Mushroom Breakfast",
@@ -5911,7 +6096,8 @@
         "sugar": 6.5,
         "protein": 5.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Marble Bundt Coffeecake (Nuts)": {
         "name": "Marble Bundt Coffeecake (Nuts)",
@@ -5951,7 +6137,8 @@
         "sugar": 40.0,
         "protein": 6.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Parmesan Leek Pastry": {
         "name": "Parmesan Leek Pastry",
@@ -5981,7 +6168,8 @@
         "sugar": 2.5,
         "protein": 4.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Baked Potato Soup (Pork & Beef)": {
         "name": "Baked Potato Soup (Pork & Beef)",
@@ -6024,7 +6212,8 @@
         "sugar": 1.9,
         "protein": 3.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Native Three Sisters Soup": {
         "name": "Native Three Sisters Soup",
@@ -6060,7 +6249,8 @@
         "sugar": 2.5,
         "protein": 2.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Cauliflower": {
         "name": "Roasted Cauliflower",
@@ -6081,7 +6271,8 @@
         "sugar": 1.6,
         "protein": 1.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Baked Rotisserie Chicken": {
         "name": "Baked Rotisserie Chicken",
@@ -6101,7 +6292,8 @@
         "sugar": 0.0,
         "protein": 14.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Reese's Peanut Butter Brownie": {
         "name": "Reese's Peanut Butter Brownie",
@@ -6161,7 +6353,8 @@
         "sugar": 17.2,
         "protein": 2.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Halal Pho Noodle Bowl": {
         "name": "Halal Pho Noodle Bowl",
@@ -6236,7 +6429,8 @@
         "sugar": 8.6,
         "protein": 16.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Vietnamese Chicken Pho Noodle Bowl": {
         "name": "Vietnamese Chicken Pho Noodle Bowl",
@@ -6271,7 +6465,8 @@
         "sugar": 5.6,
         "protein": 12.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Kung Pao Peanut Chicken": {
         "name": "Kung Pao Peanut Chicken",
@@ -6343,7 +6538,8 @@
         "sugar": 9.3,
         "protein": 15.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Spicy Tofu & Vegetable Stir Fry": {
         "name": "Spicy Tofu & Vegetable Stir Fry",
@@ -6404,7 +6600,8 @@
         "sugar": 3.6,
         "protein": 8.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Afghani Chicken Kebabs": {
         "name": "Afghani Chicken Kebabs",
@@ -6445,7 +6642,8 @@
         "sugar": 2.2,
         "protein": 14.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Bombay Lentils & Spinach": {
         "name": "Bombay Lentils & Spinach",
@@ -6479,7 +6677,8 @@
         "sugar": 2.3,
         "protein": 4.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cauliflower & Potato Curry": {
         "name": "Cauliflower & Potato Curry",
@@ -6512,7 +6711,8 @@
         "sugar": 1.7,
         "protein": 0.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cumin Basmati Rice": {
         "name": "Cumin Basmati Rice",
@@ -6539,7 +6739,8 @@
         "sugar": 0.0,
         "protein": 2.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Naan": {
         "name": "Naan",
@@ -6588,7 +6789,8 @@
         "sugar": 1.1,
         "protein": 4.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Meat Lasagna": {
         "name": "Meat Lasagna",
@@ -6638,7 +6840,8 @@
         "sugar": 4.5,
         "protein": 8.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mediterranean Tomato Sauce": {
         "name": "Mediterranean Tomato Sauce",
@@ -6668,7 +6871,8 @@
         "sugar": 1.5,
         "protein": 1.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chickpeas": {
         "name": "Chickpeas",
@@ -6687,7 +6891,8 @@
         "sugar": 1.4,
         "protein": 2.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cucumber, Feta, Dill & Mint Salad": {
         "name": "Cucumber, Feta, Dill & Mint Salad",
@@ -6714,7 +6919,8 @@
         "sugar": 1.2,
         "protein": 4.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Grape Tomatoes": {
         "name": "Grape Tomatoes",
@@ -6733,7 +6939,8 @@
         "sugar": 2.0,
         "protein": 0.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Lentils & Rice": {
         "name": "Lentils & Rice",
@@ -6763,7 +6970,8 @@
         "sugar": 0.0,
         "protein": 3.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Red & Yellow Pepper Salad": {
         "name": "Red & Yellow Pepper Salad",
@@ -6792,7 +7000,8 @@
         "sugar": 1.7,
         "protein": 0.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Spiced Butternut Squash": {
         "name": "Roasted Spiced Butternut Squash",
@@ -6822,7 +7031,8 @@
         "sugar": 1.7,
         "protein": 0.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Summer Squash, Tomato & Basil": {
         "name": "Summer Squash, Tomato & Basil",
@@ -6848,7 +7058,8 @@
         "sugar": 2.1,
         "protein": 0.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sunflower Seeds": {
         "name": "Sunflower Seeds",
@@ -6867,7 +7078,8 @@
         "sugar": 0.5,
         "protein": 3.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Tahini Vinaigrette": {
         "name": "Tahini Vinaigrette",
@@ -6896,7 +7108,8 @@
         "sugar": 1.6,
         "protein": 0.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Wilted Swiss Chard": {
         "name": "Wilted Swiss Chard",
@@ -6919,7 +7132,8 @@
         "sugar": 1.3,
         "protein": 2.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Berries & Cream French Toast": {
         "name": "Berries & Cream French Toast",
@@ -6955,7 +7169,8 @@
         "sugar": 10.2,
         "protein": 5.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Corned Beef Hash": {
         "name": "Corned Beef Hash",
@@ -6987,7 +7202,8 @@
         "sugar": 0.7,
         "protein": 3.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Tomatoes w/Feta & Spianch": {
         "name": "Roasted Tomatoes w/Feta & Spianch",
@@ -7012,7 +7228,8 @@
         "sugar": 0.6,
         "protein": 2.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Blueberry Scones": {
         "name": "Blueberry Scones",
@@ -7052,7 +7269,8 @@
         "sugar": 4.3,
         "protein": 1.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Hazelnut Chocolate Coffeecake": {
         "name": "Hazelnut Chocolate Coffeecake",
@@ -7087,7 +7305,8 @@
         "sugar": 7.4,
         "protein": 2.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Black Bean Frijoles": {
         "name": "Black Bean Frijoles",
@@ -7106,7 +7325,8 @@
         "sugar": 0.7,
         "protein": 4.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "French Toast": {
         "name": "French Toast",
@@ -7167,7 +7387,8 @@
         "sugar": 2.2,
         "protein": 4.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Fried Plantain": {
         "name": "Fried Plantain",
@@ -7188,7 +7409,8 @@
         "sugar": 8.1,
         "protein": 0.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pork Sausage Links": {
         "name": "Pork Sausage Links",
@@ -7207,7 +7429,8 @@
         "sugar": 0.0,
         "protein": 7.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Ranchero Skillet Potatoes": {
         "name": "Ranchero Skillet Potatoes",
@@ -7236,7 +7459,8 @@
         "sugar": 1.1,
         "protein": 1.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Blueberry Coffeecake": {
         "name": "Blueberry Coffeecake",
@@ -7269,7 +7493,8 @@
         "sugar": 11.1,
         "protein": 1.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cinnamon Chip Scone": {
         "name": "Cinnamon Chip Scone",
@@ -7304,7 +7529,8 @@
         "sugar": 4.3,
         "protein": 1.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Breakfast Burrito": {
         "name": "Breakfast Burrito",
@@ -7326,7 +7552,8 @@
         "sugar": 0.4,
         "protein": 15.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Butter Croissant": {
         "name": "Butter Croissant",
@@ -7355,7 +7582,8 @@
         "sugar": 2.0,
         "protein": 3.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "GF Bacon Breakfast Bagel Sandwich": {
         "name": "GF Bacon Breakfast Bagel Sandwich",
@@ -7377,7 +7605,8 @@
         "sugar": 3.7,
         "protein": 16.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "GF Breakfast Bagel Sandwich": {
         "name": "GF Breakfast Bagel Sandwich",
@@ -7405,7 +7634,8 @@
         "sugar": 3.7,
         "protein": 9.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "O'Brien Potatoes": {
         "name": "O'Brien Potatoes",
@@ -7430,7 +7660,8 @@
         "sugar": 1.2,
         "protein": 1.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sausage Breakfast Burrito": {
         "name": "Sausage Breakfast Burrito",
@@ -7458,7 +7689,8 @@
         "sugar": 0.4,
         "protein": 21.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Strawberry Yogurt Parfait": {
         "name": "Strawberry Yogurt Parfait",
@@ -7517,7 +7749,8 @@
         "sugar": 26.9,
         "protein": 7.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Lemon Blondie": {
         "name": "Lemon Blondie",
@@ -7557,7 +7790,8 @@
         "sugar": 28.5,
         "protein": 2.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mashed Potatoes": {
         "name": "Mashed Potatoes",
@@ -7578,7 +7812,8 @@
         "sugar": 1.5,
         "protein": 1.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Oatmeal Raisin Cookie": {
         "name": "Oatmeal Raisin Cookie",
@@ -7601,7 +7836,8 @@
         "sugar": 28.0,
         "protein": 4.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Philly Cheese Steak Grinder": {
         "name": "Philly Cheese Steak Grinder",
@@ -7654,7 +7890,8 @@
         "sugar": 1.9,
         "protein": 18.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roast Turkey": {
         "name": "Roast Turkey",
@@ -7679,7 +7916,8 @@
         "sugar": 0.0,
         "protein": 17.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Butternut Squash": {
         "name": "Roasted Butternut Squash",
@@ -7701,7 +7939,8 @@
         "sugar": 1.7,
         "protein": 0.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Turkey Gravy": {
         "name": "Turkey Gravy",
@@ -7746,7 +7985,8 @@
         "sugar": 0.1,
         "protein": 1.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Buffalo Chicken Wrap": {
         "name": "Buffalo Chicken Wrap",
@@ -7810,7 +8050,8 @@
         "sugar": 0.1,
         "protein": 21.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chicken Caesar Salad": {
         "name": "Chicken Caesar Salad",
@@ -7873,7 +8114,8 @@
         "sugar": 1.0,
         "protein": 15.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "GF Peanut Butter & Strawberry Jam Sandwich": {
         "name": "GF Peanut Butter & Strawberry Jam Sandwich",
@@ -7908,7 +8150,8 @@
         "sugar": 39.5,
         "protein": 9.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Gluten Free Turkey Sandwich": {
         "name": "Gluten Free Turkey Sandwich",
@@ -7982,7 +8225,8 @@
         "sugar": 9.1,
         "protein": 17.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Tossed Salad": {
         "name": "Tossed Salad",
@@ -8001,7 +8245,8 @@
         "sugar": 2.8,
         "protein": 1.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Tuna on White": {
         "name": "Tuna on White",
@@ -8057,7 +8302,8 @@
         "sugar": 1.8,
         "protein": 12.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Fish w/Salsa Verde & Roasted Tomatoes": {
         "name": "Fish w/Salsa Verde & Roasted Tomatoes",
@@ -8087,7 +8333,8 @@
         "sugar": 0.1,
         "protein": 15.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Pork Loin w/Cran Bacon Relish": {
         "name": "Roasted Pork Loin w/Cran Bacon Relish",
@@ -8115,7 +8362,8 @@
         "sugar": 4.4,
         "protein": 15.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Italian Vegetables & White Beans": {
         "name": "Italian Vegetables & White Beans",
@@ -8142,7 +8390,8 @@
         "sugar": 1.9,
         "protein": 2.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Rice Pilaf": {
         "name": "Rice Pilaf",
@@ -8169,7 +8418,8 @@
         "sugar": 0.0,
         "protein": 1.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sauteed Local Kale & Mushrooms": {
         "name": "Sauteed Local Kale & Mushrooms",
@@ -8194,7 +8444,8 @@
         "sugar": 1.5,
         "protein": 2.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Grilled Chicken Thighs": {
         "name": "Grilled Chicken Thighs",
@@ -8215,7 +8466,8 @@
         "sugar": 0.0,
         "protein": 14.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Berkshire Butter Chicken (Cashews)": {
         "name": "Berkshire Butter Chicken (Cashews)",
@@ -8264,7 +8516,8 @@
         "sugar": 0.6,
         "protein": 12.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chana Dal, Baby Spinach, Toasted Cumin": {
         "name": "Chana Dal, Baby Spinach, Toasted Cumin",
@@ -8293,7 +8546,8 @@
         "sugar": 2.3,
         "protein": 8.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Potato & Pea Samosa": {
         "name": "Potato & Pea Samosa",
@@ -8320,7 +8574,8 @@
         "sugar": 0.0,
         "protein": 2.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Potatoes & Green Pea Curry": {
         "name": "Potatoes & Green Pea Curry",
@@ -8351,7 +8606,8 @@
         "sugar": 2.6,
         "protein": 2.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Homemade Macaroni & Cheese": {
         "name": "Homemade Macaroni & Cheese",
@@ -8391,7 +8647,8 @@
         "sugar": 2.9,
         "protein": 8.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Meatball Sauce": {
         "name": "Meatball Sauce",
@@ -8420,7 +8677,8 @@
         "sugar": 2.5,
         "protein": 9.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Alfalfa Sprouts": {
         "name": "Alfalfa Sprouts",
@@ -8439,7 +8697,8 @@
         "sugar": 0.0,
         "protein": 0.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Artichoke Spinach Pasta Salad": {
         "name": "Artichoke Spinach Pasta Salad",
@@ -8477,7 +8736,8 @@
         "sugar": 1.2,
         "protein": 2.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Beans Black": {
         "name": "Beans Black",
@@ -8496,7 +8756,8 @@
         "sugar": 0.5,
         "protein": 3.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Carrots Sticks": {
         "name": "Carrots Sticks",
@@ -8515,7 +8776,8 @@
         "sugar": 0.9,
         "protein": 0.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Celery Sticks": {
         "name": "Celery Sticks",
@@ -8534,7 +8796,8 @@
         "sugar": 0.2,
         "protein": 0.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cucumbers": {
         "name": "Cucumbers",
@@ -8553,7 +8816,8 @@
         "sugar": 0.9,
         "protein": 0.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Fat Free Cottage Cheese": {
         "name": "Fat Free Cottage Cheese",
@@ -8572,7 +8836,8 @@
         "sugar": 2.3,
         "protein": 7.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Golden Raisins": {
         "name": "Golden Raisins",
@@ -8591,7 +8856,8 @@
         "sugar": 16.8,
         "protein": 1.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Green Peppers": {
         "name": "Green Peppers",
@@ -8610,7 +8876,8 @@
         "sugar": 0.2,
         "protein": 0.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Italian Tuna Salad": {
         "name": "Italian Tuna Salad",
@@ -8637,7 +8904,8 @@
         "sugar": 0.4,
         "protein": 4.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Kidney Beans": {
         "name": "Kidney Beans",
@@ -8662,7 +8930,8 @@
         "sugar": 1.5,
         "protein": 4.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Marinated Artichoke Hearts": {
         "name": "Marinated Artichoke Hearts",
@@ -8686,7 +8955,8 @@
         "sugar": 0.0,
         "protein": 1.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Onions": {
         "name": "Onions",
@@ -8705,7 +8975,8 @@
         "sugar": 0.0,
         "protein": 0.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pepperoncini": {
         "name": "Pepperoncini",
@@ -8729,7 +9000,8 @@
         "sugar": 0.6,
         "protein": 0.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Peppers Red Roasted": {
         "name": "Peppers Red Roasted",
@@ -8752,7 +9024,8 @@
         "sugar": 1.1,
         "protein": 0.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pita Chips": {
         "name": "Pita Chips",
@@ -8776,7 +9049,8 @@
         "sugar": 0.4,
         "protein": 3.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pulmuone Tofu": {
         "name": "Pulmuone Tofu",
@@ -8798,7 +9072,8 @@
         "sugar": 0.0,
         "protein": 4.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pumpkin Seeds": {
         "name": "Pumpkin Seeds",
@@ -8817,7 +9092,8 @@
         "sugar": 0.5,
         "protein": 4.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Pepper, Olive & Feta Salad": {
         "name": "Roasted Pepper, Olive & Feta Salad",
@@ -8847,7 +9123,8 @@
         "sugar": 0.9,
         "protein": 3.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Romaine Lettuce": {
         "name": "Romaine Lettuce",
@@ -8866,7 +9143,8 @@
         "sugar": 0.3,
         "protein": 0.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Shredded Cheddar Cheese": {
         "name": "Shredded Cheddar Cheese",
@@ -8885,7 +9163,8 @@
         "sugar": 0.1,
         "protein": 6.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sliced Eggs": {
         "name": "Sliced Eggs",
@@ -8904,7 +9183,8 @@
         "sugar": 0.0,
         "protein": 3.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sliced Mushrooms": {
         "name": "Sliced Mushrooms",
@@ -8923,7 +9203,8 @@
         "sugar": 0.3,
         "protein": 0.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sliced Olives Black": {
         "name": "Sliced Olives Black",
@@ -8942,7 +9223,8 @@
         "sugar": 0.0,
         "protein": 0.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Spinach Leaves": {
         "name": "Spinach Leaves",
@@ -8961,7 +9243,8 @@
         "sugar": 0.1,
         "protein": 0.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chocolate Peanut Butter Bar": {
         "name": "Chocolate Peanut Butter Bar",
@@ -8992,7 +9275,8 @@
         "sugar": 18.2,
         "protein": 4.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Peach Cobbler": {
         "name": "Peach Cobbler",
@@ -9033,7 +9317,8 @@
         "sugar": 12.5,
         "protein": 2.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Atlantic Sea Farm Whole Grain Kelp Bread": {
         "name": "Atlantic Sea Farm Whole Grain Kelp Bread",
@@ -9083,7 +9368,8 @@
         "sugar": 0.7,
         "protein": 1.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pork Char Siu": {
         "name": "Pork Char Siu",
@@ -9129,7 +9415,8 @@
         "sugar": 6.2,
         "protein": 13.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Wonton Noodle Bowl (Pork, Shrimp)": {
         "name": "Wonton Noodle Bowl (Pork, Shrimp)",
@@ -9168,7 +9455,8 @@
         "sugar": 1.3,
         "protein": 5.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "California Roll with Brown Rice": {
         "name": "California Roll with Brown Rice",
@@ -9231,7 +9519,8 @@
         "sugar": 9.8,
         "protein": 7.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Vegetable Sushi Roll w/Brown Rice": {
         "name": "Vegetable Sushi Roll w/Brown Rice",
@@ -9258,7 +9547,8 @@
         "sugar": 9.1,
         "protein": 4.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Vegetarian Brown Sushi Roll": {
         "name": "Vegetarian Brown Sushi Roll",
@@ -9293,7 +9583,8 @@
         "sugar": 9.4,
         "protein": 4.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Halal Crispy Shrimp Poke Bowl": {
         "name": "Halal Crispy Shrimp Poke Bowl",
@@ -9351,7 +9642,8 @@
         "sugar": 6.2,
         "protein": 7.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Halal Crispy Tofu Poke Bowl": {
         "name": "Halal Crispy Tofu Poke Bowl",
@@ -9416,7 +9708,8 @@
         "sugar": 6.9,
         "protein": 7.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sweet & Sticky Chicken": {
         "name": "Sweet & Sticky Chicken",
@@ -9444,7 +9737,8 @@
         "sugar": 4.7,
         "protein": 17.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Carrot Tzimmes": {
         "name": "Carrot Tzimmes",
@@ -9471,7 +9765,8 @@
         "sugar": 13.9,
         "protein": 0.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Curry Roasted Cauliflower & Red Onions": {
         "name": "Curry Roasted Cauliflower & Red Onions",
@@ -9496,7 +9791,8 @@
         "sugar": 2.3,
         "protein": 1.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Ma Po Tofu & Pork": {
         "name": "Ma Po Tofu & Pork",
@@ -9533,7 +9829,8 @@
         "sugar": 3.7,
         "protein": 9.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant Based Pulmuone Bulgogi w/Peppers and Onions": {
         "name": "Plant Based Pulmuone Bulgogi w/Peppers and Onions",
@@ -9582,7 +9879,8 @@
         "sugar": 5.9,
         "protein": 7.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Spicy Angel Wings": {
         "name": "Spicy Angel Wings",
@@ -9612,7 +9910,8 @@
         "sugar": 8.6,
         "protein": 17.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Vegetable Fried Rice": {
         "name": "Vegetable Fried Rice",
@@ -9676,7 +9975,8 @@
         "sugar": 1.8,
         "protein": 2.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Linguini Pasta": {
         "name": "Linguini Pasta",
@@ -9696,7 +9996,8 @@
         "sugar": 0.7,
         "protein": 6.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "American Cheese": {
         "name": "American Cheese",
@@ -9715,7 +10016,8 @@
         "sugar": 0.7,
         "protein": 2.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chicken Salad": {
         "name": "Chicken Salad",
@@ -9741,7 +10043,8 @@
         "sugar": 0.2,
         "protein": 5.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Deli Beef": {
         "name": "Deli Beef",
@@ -9766,7 +10069,8 @@
         "sugar": 0.0,
         "protein": 11.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Homemade Mid Eastern Hummus": {
         "name": "Homemade Mid Eastern Hummus",
@@ -9790,7 +10094,8 @@
         "sugar": 2.4,
         "protein": 4.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Provolone Cheese": {
         "name": "Provolone Cheese",
@@ -9809,7 +10114,8 @@
         "sugar": 0.0,
         "protein": 3.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Tuna Salad": {
         "name": "Tuna Salad",
@@ -9832,7 +10138,8 @@
         "sugar": 0.2,
         "protein": 8.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Turkey Breast": {
         "name": "Turkey Breast",
@@ -9865,7 +10172,8 @@
         "sugar": 0.0,
         "protein": 13.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Coconut Oatmeal Choc Chip Bar": {
         "name": "Coconut Oatmeal Choc Chip Bar",
@@ -9902,7 +10210,8 @@
         "sugar": 8.6,
         "protein": 3.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Double Chocolate Chip Cookie": {
         "name": "Double Chocolate Chip Cookie",
@@ -9925,7 +10234,8 @@
         "sugar": 16.0,
         "protein": 2.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Soy Braised Pork Belly": {
         "name": "Soy Braised Pork Belly",
@@ -9956,7 +10266,8 @@
         "sugar": 1.3,
         "protein": 3.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Tonkotsu Ramen (Pork, Fish)": {
         "name": "Tonkotsu Ramen (Pork, Fish)",
@@ -10007,7 +10318,8 @@
         "sugar": 1.1,
         "protein": 7.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Peruvian Shrimp": {
         "name": "Peruvian Shrimp",
@@ -10037,7 +10349,8 @@
         "sugar": 0.2,
         "protein": 4.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Peruvian Shrimp & Potato Tostada Garnish": {
         "name": "Peruvian Shrimp & Potato Tostada Garnish",
@@ -10063,7 +10376,8 @@
         "sugar": 0.3,
         "protein": 0.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Ellis Family Herbed Chicken": {
         "name": "Ellis Family Herbed Chicken",
@@ -10107,7 +10421,8 @@
         "sugar": 0.3,
         "protein": 7.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Lyonnaise Potatoes": {
         "name": "Lyonnaise Potatoes",
@@ -10131,7 +10446,8 @@
         "sugar": 0.9,
         "protein": 1.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Spiced Cauliflower & Chickpeas": {
         "name": "Spiced Cauliflower & Chickpeas",
@@ -10161,7 +10477,8 @@
         "sugar": 2.3,
         "protein": 3.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Green Curry Thai Pulmuone Tofu": {
         "name": "Green Curry Thai Pulmuone Tofu",
@@ -10187,7 +10504,8 @@
         "sugar": 2.4,
         "protein": 1.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Honey Lemongrass Chicken": {
         "name": "Honey Lemongrass Chicken",
@@ -10223,7 +10541,8 @@
         "sugar": 6.7,
         "protein": 14.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chocolate Drop Cookies": {
         "name": "Chocolate Drop Cookies",
@@ -10259,7 +10578,8 @@
         "sugar": 7.9,
         "protein": 1.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Rice Krispy Treats": {
         "name": "Rice Krispy Treats",
@@ -10299,7 +10619,8 @@
         "sugar": 8.7,
         "protein": 0.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Szechuan Cold Noodles w/Peanuts": {
         "name": "Szechuan Cold Noodles w/Peanuts",
@@ -10367,7 +10688,8 @@
         "sugar": 2.4,
         "protein": 7.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Ancho Lime Pulled Chicken": {
         "name": "Ancho Lime Pulled Chicken",
@@ -10394,7 +10716,8 @@
         "sugar": 0.2,
         "protein": 14.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Corn Tostada": {
         "name": "Corn Tostada",
@@ -10419,7 +10742,8 @@
         "sugar": 0.0,
         "protein": 0.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Salsa Verde con Aguacate": {
         "name": "Salsa Verde con Aguacate",
@@ -10444,7 +10768,8 @@
         "sugar": 0.4,
         "protein": 0.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Key West Baked Chicken": {
         "name": "Key West Baked Chicken",
@@ -10467,7 +10792,8 @@
         "sugar": 0.0,
         "protein": 14.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Oreo Cookie Cake": {
         "name": "Oreo Cookie Cake",
@@ -10521,7 +10847,8 @@
         "sugar": 18.1,
         "protein": 1.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant Based Cran Apple Crisp": {
         "name": "Plant Based Cran Apple Crisp",
@@ -10554,7 +10881,8 @@
         "sugar": 16.4,
         "protein": 0.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chiptole Jalapeno Honey Cornbread": {
         "name": "Chiptole Jalapeno Honey Cornbread",
@@ -10606,7 +10934,8 @@
         "sugar": 7.4,
         "protein": 3.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Salt & Pepper Pulmuone Tofu": {
         "name": "Salt & Pepper Pulmuone Tofu",
@@ -10656,7 +10985,8 @@
         "sugar": 1.1,
         "protein": 6.1,
         "totalRatings": 5,
-        "numReviews": 1
+        "numReviews": 1,
+        "reviews": []
     },
     "Spicy Hunan Beef": {
         "name": "Spicy Hunan Beef",
@@ -10706,7 +11036,8 @@
         "sugar": 1.9,
         "protein": 9.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chermoula Roasted Chicken": {
         "name": "Chermoula Roasted Chicken",
@@ -10739,7 +11070,8 @@
         "sugar": 0.4,
         "protein": 7.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mid East Tomato Salad": {
         "name": "Mid East Tomato Salad",
@@ -10765,7 +11097,8 @@
         "sugar": 1.1,
         "protein": 0.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Moroccan Rice w/Almonds": {
         "name": "Moroccan Rice w/Almonds",
@@ -10811,7 +11144,8 @@
         "sugar": 1.4,
         "protein": 1.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Corn, Tomato & Scallion Salad": {
         "name": "Corn, Tomato & Scallion Salad",
@@ -10836,7 +11170,8 @@
         "sugar": 1.7,
         "protein": 0.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cucumbers, Cubed": {
         "name": "Cucumbers, Cubed",
@@ -10855,7 +11190,8 @@
         "sugar": 0.3,
         "protein": 0.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Honey Mustard Vinaigrette": {
         "name": "Honey Mustard Vinaigrette",
@@ -10881,7 +11217,8 @@
         "sugar": 4.0,
         "protein": 0.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Red Beans": {
         "name": "Red Beans",
@@ -10934,7 +11271,8 @@
         "sugar": 1.7,
         "protein": 4.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Diced Sweet Potato": {
         "name": "Roasted Diced Sweet Potato",
@@ -10956,7 +11294,8 @@
         "sugar": 4.7,
         "protein": 1.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Arroz Blanco": {
         "name": "Arroz Blanco",
@@ -10983,7 +11322,8 @@
         "sugar": 0.0,
         "protein": 1.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Curtido (Spicy Cabbage Slaw)": {
         "name": "Curtido (Spicy Cabbage Slaw)",
@@ -11013,7 +11353,8 @@
         "sugar": 0.8,
         "protein": 0.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Salvadoran Salsa Roja (Chicken)": {
         "name": "Salvadoran Salsa Roja (Chicken)",
@@ -11039,7 +11380,8 @@
         "sugar": 0.6,
         "protein": 0.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Jerk Chicken Thigh": {
         "name": "Jerk Chicken Thigh",
@@ -11066,7 +11408,8 @@
         "sugar": 0.2,
         "protein": 17.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Onions & Peppers": {
         "name": "Roasted Onions & Peppers",
@@ -11090,7 +11433,8 @@
         "sugar": 1.6,
         "protein": 0.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Oreo Rice Krispy Bar": {
         "name": "Oreo Rice Krispy Bar",
@@ -11149,7 +11493,8 @@
         "sugar": 10.5,
         "protein": 0.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Shrimp Tom Yum Soup": {
         "name": "Shrimp Tom Yum Soup",
@@ -11194,7 +11539,8 @@
         "sugar": 0.8,
         "protein": 3.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Spicy Garlic Tofu": {
         "name": "Spicy Garlic Tofu",
@@ -11253,7 +11599,8 @@
         "sugar": 4.8,
         "protein": 13.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Steamed Fish w/Scallion Ginger Sauce": {
         "name": "Steamed Fish w/Scallion Ginger Sauce",
@@ -11292,7 +11639,8 @@
         "sugar": 0.2,
         "protein": 13.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Stir Fry Rice Cakes with Napa Cabbage": {
         "name": "Stir Fry Rice Cakes with Napa Cabbage",
@@ -11325,7 +11673,8 @@
         "sugar": 0.9,
         "protein": 2.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "African Peri Peri Chicken": {
         "name": "African Peri Peri Chicken",
@@ -11357,7 +11706,8 @@
         "sugar": 0.2,
         "protein": 20.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chickpea & Cauliflower Palava": {
         "name": "Chickpea & Cauliflower Palava",
@@ -11385,7 +11735,8 @@
         "sugar": 3.1,
         "protein": 5.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Jollof (West African Tomato Rice)": {
         "name": "Jollof (West African Tomato Rice)",
@@ -11439,7 +11790,8 @@
         "sugar": 0.8,
         "protein": 1.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Marinated Cabbage": {
         "name": "Marinated Cabbage",
@@ -11467,7 +11819,8 @@
         "sugar": 0.8,
         "protein": 0.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Moroccan Tomato Onion Salad": {
         "name": "Moroccan Tomato Onion Salad",
@@ -11493,7 +11846,8 @@
         "sugar": 0.7,
         "protein": 0.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Garlicy Potatoes w/Harissa": {
         "name": "Garlicy Potatoes w/Harissa",
@@ -11520,7 +11874,8 @@
         "sugar": 0.1,
         "protein": 1.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Margherita Eggplant w/Pesto": {
         "name": "Margherita Eggplant w/Pesto",
@@ -11549,7 +11904,8 @@
         "sugar": 2.2,
         "protein": 4.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Coriander Chutney": {
         "name": "Coriander Chutney",
@@ -11568,7 +11924,8 @@
         "sugar": 0.0,
         "protein": 0.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cucumber & Yogurt Raita": {
         "name": "Cucumber & Yogurt Raita",
@@ -11609,7 +11966,8 @@
         "sugar": 0.7,
         "protein": 0.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cumin Spinach": {
         "name": "Cumin Spinach",
@@ -11640,7 +11998,8 @@
         "sugar": 0.1,
         "protein": 1.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Dal Tadka": {
         "name": "Dal Tadka",
@@ -11671,7 +12030,8 @@
         "sugar": 0.8,
         "protein": 6.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Fresh Red Onions": {
         "name": "Fresh Red Onions",
@@ -11690,7 +12050,8 @@
         "sugar": 0.4,
         "protein": 0.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Tamarind Date Chutney": {
         "name": "Tamarind Date Chutney",
@@ -11709,7 +12070,8 @@
         "sugar": 7.6,
         "protein": 0.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mexican Quinoa & Black Bean Salad": {
         "name": "Mexican Quinoa & Black Bean Salad",
@@ -11740,7 +12102,8 @@
         "sugar": 0.8,
         "protein": 2.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Buffalo Chicken Leg": {
         "name": "Buffalo Chicken Leg",
@@ -11765,7 +12128,8 @@
         "sugar": 0.2,
         "protein": 12.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant Based Pasta Supreme": {
         "name": "Plant Based Pasta Supreme",
@@ -11812,7 +12176,8 @@
         "sugar": 0.8,
         "protein": 6.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Cajun Potato Wedges": {
         "name": "Roasted Cajun Potato Wedges",
@@ -11840,7 +12205,8 @@
         "sugar": 0.7,
         "protein": 1.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Loaded Tater Tots": {
         "name": "Loaded Tater Tots",
@@ -11894,7 +12260,8 @@
         "sugar": 1.2,
         "protein": 6.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Vegetarian Loaded Tater Tots": {
         "name": "Vegetarian Loaded Tater Tots",
@@ -11948,7 +12315,8 @@
         "sugar": 1.4,
         "protein": 6.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sauteed Onions & Peppers": {
         "name": "Sauteed Onions & Peppers",
@@ -11969,7 +12337,8 @@
         "sugar": 0.4,
         "protein": 0.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cauliflower & Chickpea Gyro": {
         "name": "Cauliflower & Chickpea Gyro",
@@ -11998,7 +12367,8 @@
         "sugar": 2.2,
         "protein": 3.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Lemon Rice Pilaf": {
         "name": "Lemon Rice Pilaf",
@@ -12041,7 +12411,8 @@
         "sugar": 0.2,
         "protein": 1.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant Based Moroccan Meatballs w/Spicy Tomato": {
         "name": "Plant Based Moroccan Meatballs w/Spicy Tomato",
@@ -12077,7 +12448,8 @@
         "sugar": 3.6,
         "protein": 16.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cavatappi Pasta": {
         "name": "Cavatappi Pasta",
@@ -12096,7 +12468,8 @@
         "sugar": 0.7,
         "protein": 5.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chickpea Salad w/Tomatoes & Feta": {
         "name": "Chickpea Salad w/Tomatoes & Feta",
@@ -12121,7 +12494,8 @@
         "sugar": 2.8,
         "protein": 4.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Marinated Tomato & Mozzarella Salad": {
         "name": "Marinated Tomato & Mozzarella Salad",
@@ -12145,7 +12519,8 @@
         "sugar": 1.6,
         "protein": 3.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "McNulty Family Chicken Pot Pie": {
         "name": "McNulty Family Chicken Pot Pie",
@@ -12188,7 +12563,8 @@
         "sugar": 1.7,
         "protein": 7.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mandarin Malva Pudding": {
         "name": "Mandarin Malva Pudding",
@@ -12239,7 +12615,8 @@
         "sugar": 16.7,
         "protein": 1.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Proterra Tantanmen Ramen": {
         "name": "Proterra Tantanmen Ramen",
@@ -12317,7 +12694,8 @@
         "sugar": 3.3,
         "protein": 46.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "GF Shrimp Scampi Pasta (Chicken Flavor)": {
         "name": "GF Shrimp Scampi Pasta (Chicken Flavor)",
@@ -12349,7 +12727,8 @@
         "sugar": 0.1,
         "protein": 6.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chicken Taco Filling": {
         "name": "Chicken Taco Filling",
@@ -12374,7 +12753,8 @@
         "sugar": 0.0,
         "protein": 4.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Filling for Beef Tacos": {
         "name": "Filling for Beef Tacos",
@@ -12410,7 +12790,8 @@
         "sugar": 0.4,
         "protein": 5.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Taco Shells": {
         "name": "Taco Shells",
@@ -12429,7 +12810,8 @@
         "sugar": 0.0,
         "protein": 0.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chap Che Noodles": {
         "name": "Chap Che Noodles",
@@ -12469,7 +12851,8 @@
         "sugar": 6.4,
         "protein": 1.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Korean Chicken Bulgogi w/Broccoli": {
         "name": "Korean Chicken Bulgogi w/Broccoli",
@@ -12508,7 +12891,8 @@
         "sugar": 1.2,
         "protein": 11.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Korean Kimchi Pulmuone Tofu w/Nasyoa Kimchi": {
         "name": "Korean Kimchi Pulmuone Tofu w/Nasyoa Kimchi",
@@ -12538,7 +12922,8 @@
         "sugar": 1.7,
         "protein": 12.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Root Vegetables": {
         "name": "Roasted Root Vegetables",
@@ -12561,7 +12946,8 @@
         "sugar": 3.9,
         "protein": 0.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Smoked Bacon Slices": {
         "name": "Smoked Bacon Slices",
@@ -12580,7 +12966,8 @@
         "sugar": 0.0,
         "protein": 3.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Gluten Free Waffles": {
         "name": "Gluten Free Waffles",
@@ -12606,7 +12993,8 @@
         "sugar": 8.0,
         "protein": 6.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Caprese Stuffed Mushrooms": {
         "name": "Caprese Stuffed Mushrooms",
@@ -12635,7 +13023,8 @@
         "sugar": 1.4,
         "protein": 2.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Haddock w/Lemon Garlic Butter": {
         "name": "Roasted Haddock w/Lemon Garlic Butter",
@@ -12662,7 +13051,8 @@
         "sugar": 0.1,
         "protein": 4.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Wyatt Family Shephard's Pie": {
         "name": "Wyatt Family Shephard's Pie",
@@ -12694,7 +13084,8 @@
         "sugar": 1.9,
         "protein": 6.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "New England Scallop Roll": {
         "name": "New England Scallop Roll",
@@ -12752,7 +13143,8 @@
         "sugar": 3.1,
         "protein": 9.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Baked Orange Pulmuone Tofu": {
         "name": "Baked Orange Pulmuone Tofu",
@@ -12799,7 +13191,8 @@
         "sugar": 7.4,
         "protein": 8.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant Based Chic'n Fried Rice": {
         "name": "Plant Based Chic'n Fried Rice",
@@ -12891,7 +13284,8 @@
         "sugar": 0.6,
         "protein": 3.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Szechuan Broccoli": {
         "name": "Szechuan Broccoli",
@@ -12941,7 +13335,8 @@
         "sugar": 22.0,
         "protein": 1.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Miso Tofu Noodle Soup": {
         "name": "Miso Tofu Noodle Soup",
@@ -12985,7 +13380,8 @@
         "sugar": 2.2,
         "protein": 9.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "GF Chicken Gyro Rice Bowl": {
         "name": "GF Chicken Gyro Rice Bowl",
@@ -13035,7 +13431,8 @@
         "sugar": 2.1,
         "protein": 23.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Green Rice": {
         "name": "Green Rice",
@@ -13065,7 +13462,8 @@
         "sugar": 0.7,
         "protein": 2.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Peruvian Chicken w/Aji Verde": {
         "name": "Peruvian Chicken w/Aji Verde",
@@ -13092,7 +13490,8 @@
         "sugar": 0.0,
         "protein": 15.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pinto Beans": {
         "name": "Pinto Beans",
@@ -13140,7 +13539,8 @@
         "sugar": 0.9,
         "protein": 4.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plantain Tostones": {
         "name": "Plantain Tostones",
@@ -13161,7 +13561,8 @@
         "sugar": 0.4,
         "protein": 0.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chinese Steamed Pork Ribs w/Taro Root": {
         "name": "Chinese Steamed Pork Ribs w/Taro Root",
@@ -13214,7 +13615,8 @@
         "sugar": 2.6,
         "protein": 2.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Scallion Ginger Tofu": {
         "name": "Scallion Ginger Tofu",
@@ -13273,7 +13675,8 @@
         "sugar": 1.7,
         "protein": 10.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Greek Lentils": {
         "name": "Greek Lentils",
@@ -13319,7 +13722,8 @@
         "sugar": 1.4,
         "protein": 8.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Herb Lamb Roast": {
         "name": "Herb Lamb Roast",
@@ -13352,7 +13756,8 @@
         "sugar": 0.0,
         "protein": 13.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Brown Rice Pilaf": {
         "name": "Brown Rice Pilaf",
@@ -13390,7 +13795,8 @@
         "sugar": 0.1,
         "protein": 1.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Broccoli Flowerettes": {
         "name": "Broccoli Flowerettes",
@@ -13412,7 +13818,8 @@
         "sugar": 1.4,
         "protein": 2.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Butternut Squash w/Sage": {
         "name": "Butternut Squash w/Sage",
@@ -13435,7 +13842,8 @@
         "sugar": 1.8,
         "protein": 0.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chickpea Salad w/Artichokes & Peppers": {
         "name": "Chickpea Salad w/Artichokes & Peppers",
@@ -13466,7 +13874,8 @@
         "sugar": 3.0,
         "protein": 2.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Induur Chana Masala": {
         "name": "Induur Chana Masala",
@@ -13496,7 +13905,8 @@
         "sugar": 4.5,
         "protein": 6.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pulmuone Tofu Tikka Masala": {
         "name": "Pulmuone Tofu Tikka Masala",
@@ -13542,7 +13952,8 @@
         "sugar": 1.7,
         "protein": 10.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Curried Cauliflower": {
         "name": "Roasted Curried Cauliflower",
@@ -13566,7 +13977,8 @@
         "sugar": 1.6,
         "protein": 1.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Spinach & Garlic": {
         "name": "Spinach & Garlic",
@@ -13589,7 +14001,8 @@
         "sugar": 0.4,
         "protein": 2.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Carbonara Cream Sauce w/Bacon": {
         "name": "Carbonara Cream Sauce w/Bacon",
@@ -13615,7 +14028,8 @@
         "sugar": 1.3,
         "protein": 3.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cheese Ravioli w/Carbonara Cream (Bacon)": {
         "name": "Cheese Ravioli w/Carbonara Cream (Bacon)",
@@ -13673,7 +14087,8 @@
         "sugar": 2.4,
         "protein": 8.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant-Based Condiments Bar w/Almonds": {
         "name": "Plant-Based Condiments Bar w/Almonds",
@@ -13717,7 +14132,8 @@
         "sugar": 6.6,
         "protein": 7.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Salmon Cream Cheese Sushi Roll": {
         "name": "Salmon Cream Cheese Sushi Roll",
@@ -13751,7 +14167,8 @@
         "sugar": 13.8,
         "protein": 14.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Teriyaki Chicken Rice Bowl": {
         "name": "Teriyaki Chicken Rice Bowl",
@@ -13781,7 +14198,8 @@
         "sugar": 6.0,
         "protein": 22.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Nacho Cheese Sauce": {
         "name": "Nacho Cheese Sauce",
@@ -13808,7 +14226,8 @@
         "sugar": 0.9,
         "protein": 3.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant Based Cheddar Cheese": {
         "name": "Plant Based Cheddar Cheese",
@@ -13841,7 +14260,8 @@
         "sugar": 0.0,
         "protein": 0.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pork Nacho Bar": {
         "name": "Pork Nacho Bar",
@@ -13874,7 +14294,8 @@
         "sugar": 0.3,
         "protein": 7.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Brown Rice": {
         "name": "Brown Rice",
@@ -13893,7 +14314,8 @@
         "sugar": 0.3,
         "protein": 2.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Malaysian Roasted Chicken w/Almonds": {
         "name": "Malaysian Roasted Chicken w/Almonds",
@@ -13930,7 +14352,8 @@
         "sugar": 1.6,
         "protein": 5.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mee Goreng": {
         "name": "Mee Goreng",
@@ -13998,7 +14421,8 @@
         "sugar": 1.2,
         "protein": 6.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pulmuone Tofu & Vegetable Stir Fry": {
         "name": "Pulmuone Tofu & Vegetable Stir Fry",
@@ -14062,7 +14486,8 @@
         "sugar": 3.3,
         "protein": 8.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chickpea Salad w/Roasted Garlic & Olives": {
         "name": "Chickpea Salad w/Roasted Garlic & Olives",
@@ -14087,7 +14512,8 @@
         "sugar": 1.6,
         "protein": 3.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Lemon Pepper Roasted Potatoes": {
         "name": "Lemon Pepper Roasted Potatoes",
@@ -14110,7 +14536,8 @@
         "sugar": 0.0,
         "protein": 1.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant Based Sloppy Joe": {
         "name": "Plant Based Sloppy Joe",
@@ -14184,7 +14611,8 @@
         "sugar": 4.6,
         "protein": 14.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Ratatouille w/Pulmuone Tofu": {
         "name": "Ratatouille w/Pulmuone Tofu",
@@ -14216,7 +14644,8 @@
         "sugar": 2.3,
         "protein": 5.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Wilted Kale & Potato Salad": {
         "name": "Wilted Kale & Potato Salad",
@@ -14245,7 +14674,8 @@
         "sugar": 0.8,
         "protein": 1.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "STOUFFER'S  Alfredo Sauce": {
         "name": "STOUFFER'S  Alfredo Sauce",
@@ -14278,7 +14708,8 @@
         "sugar": 1.9,
         "protein": 2.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sundried Tomato Pesto Ravioli": {
         "name": "Sundried Tomato Pesto Ravioli",
@@ -14341,7 +14772,8 @@
         "sugar": 4.9,
         "protein": 7.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Whole Grain Spaghetti": {
         "name": "Whole Grain Spaghetti",
@@ -14362,7 +14794,8 @@
         "sugar": 2.2,
         "protein": 7.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Deli Salami": {
         "name": "Deli Salami",
@@ -14394,7 +14827,8 @@
         "sugar": 0.0,
         "protein": 7.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Homemade Spicy Hummus": {
         "name": "Homemade Spicy Hummus",
@@ -14419,7 +14853,8 @@
         "sugar": 2.2,
         "protein": 4.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Deli Bar": {
         "name": "Deli Bar",
@@ -14500,7 +14935,8 @@
         "sugar": 5.5,
         "protein": 10.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Atlantic Sea Farm Miso Soup w/Pulmuone Tofu": {
         "name": "Atlantic Sea Farm Miso Soup w/Pulmuone Tofu",
@@ -14543,7 +14979,8 @@
         "sugar": 0.3,
         "protein": 3.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Korean Black Bean Noodles (Pulmuone Pork, Beef)": {
         "name": "Korean Black Bean Noodles (Pulmuone Pork, Beef)",
@@ -14608,7 +15045,8 @@
         "sugar": 28.9,
         "protein": 23.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "BRK Brkfst Sausage Sandwich": {
         "name": "BRK Brkfst Sausage Sandwich",
@@ -14643,7 +15081,8 @@
         "sugar": 1.7,
         "protein": 17.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Breakfast Sandwich": {
         "name": "Breakfast Sandwich",
@@ -14670,7 +15109,8 @@
         "sugar": 1.7,
         "protein": 11.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Buttermilk Biscuit": {
         "name": "Buttermilk Biscuit",
@@ -14702,7 +15142,8 @@
         "sugar": 3.0,
         "protein": 5.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Double Chocolate Muffin Top": {
         "name": "Double Chocolate Muffin Top",
@@ -14742,7 +15183,8 @@
         "sugar": 19.7,
         "protein": 3.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Baked Meatless Tenders": {
         "name": "Baked Meatless Tenders",
@@ -14819,7 +15261,8 @@
         "sugar": 0.0,
         "protein": 11.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Double Chocolate Chip Cookies": {
         "name": "Double Chocolate Chip Cookies",
@@ -14842,7 +15285,8 @@
         "sugar": 16.0,
         "protein": 2.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Fudge Drop Brownie": {
         "name": "Fudge Drop Brownie",
@@ -14880,7 +15324,8 @@
         "sugar": 53.0,
         "protein": 4.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mashed Potato Bowl w/Chicken": {
         "name": "Mashed Potato Bowl w/Chicken",
@@ -14940,7 +15385,8 @@
         "sugar": 3.3,
         "protein": 18.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pancake Bar": {
         "name": "Pancake Bar",
@@ -15042,7 +15488,8 @@
         "sugar": 19.7,
         "protein": 6.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sour Cream & Green Onion Potato Casserole": {
         "name": "Sour Cream & Green Onion Potato Casserole",
@@ -15069,7 +15516,8 @@
         "sugar": 0.7,
         "protein": 3.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Harissa Braised Zucchini": {
         "name": "Harissa Braised Zucchini",
@@ -15102,7 +15550,8 @@
         "sugar": 2.0,
         "protein": 0.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Middle Eastern Saffron Rice w/Pine Nuts": {
         "name": "Middle Eastern Saffron Rice w/Pine Nuts",
@@ -15132,7 +15581,8 @@
         "sugar": 1.6,
         "protein": 2.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Moroccan Stewed Lentils": {
         "name": "Moroccan Stewed Lentils",
@@ -15164,7 +15614,8 @@
         "sugar": 0.1,
         "protein": 2.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Butternut Squash w/Balsamic & Pepitas": {
         "name": "Roasted Butternut Squash w/Balsamic & Pepitas",
@@ -15189,7 +15640,8 @@
         "sugar": 2.4,
         "protein": 1.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "OATLY Chocolate Soft Serve": {
         "name": "OATLY Chocolate Soft Serve",
@@ -15209,7 +15661,8 @@
         "sugar": 21.5,
         "protein": 2.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "OATLY Vanilla Soft Serve": {
         "name": "OATLY Vanilla Soft Serve",
@@ -15243,7 +15696,8 @@
         "sugar": 22.7,
         "protein": 1.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "BBQ Pulled Pork": {
         "name": "BBQ Pulled Pork",
@@ -15271,7 +15725,8 @@
         "sugar": 4.0,
         "protein": 10.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant Based Pulmuone Shaved Steak w/Onions & Peppers": {
         "name": "Plant Based Pulmuone Shaved Steak w/Onions & Peppers",
@@ -15297,7 +15752,8 @@
         "sugar": 8.1,
         "protein": 12.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pork & Jalapeno Enchilada": {
         "name": "Pork & Jalapeno Enchilada",
@@ -15331,7 +15787,8 @@
         "sugar": 1.7,
         "protein": 9.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chermoula Pulmuone Tofu": {
         "name": "Chermoula Pulmuone Tofu",
@@ -15367,7 +15824,8 @@
         "sugar": 0.4,
         "protein": 17.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Citrus Basmati Rice": {
         "name": "Citrus Basmati Rice",
@@ -15395,7 +15853,8 @@
         "sugar": 0.2,
         "protein": 2.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant Based Chic'n Cacciatore": {
         "name": "Plant Based Chic'n Cacciatore",
@@ -15435,7 +15894,8 @@
         "sugar": 6.6,
         "protein": 22.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Saag Paneer": {
         "name": "Saag Paneer",
@@ -15466,7 +15926,8 @@
         "sugar": 2.3,
         "protein": 6.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Vegetable Korma": {
         "name": "Vegetable Korma",
@@ -15502,7 +15963,8 @@
         "sugar": 2.6,
         "protein": 0.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chinese Broccoli": {
         "name": "Chinese Broccoli",
@@ -15555,7 +16017,8 @@
         "sugar": 1.8,
         "protein": 2.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mandarin Chicken w/Cashews": {
         "name": "Mandarin Chicken w/Cashews",
@@ -15598,7 +16061,8 @@
         "sugar": 4.4,
         "protein": 8.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pork Fried Rice": {
         "name": "Pork Fried Rice",
@@ -15637,7 +16101,8 @@
         "sugar": 0.5,
         "protein": 4.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Teriyaki Pulmuone Tofu": {
         "name": "Teriyaki Pulmuone Tofu",
@@ -15691,7 +16156,8 @@
         "sugar": 9.2,
         "protein": 10.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Stuffed Mushroom w/Spin & Blue Cheese": {
         "name": "Stuffed Mushroom w/Spin & Blue Cheese",
@@ -15726,7 +16192,8 @@
         "sugar": 1.4,
         "protein": 4.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Quinoa w/ Roasted Squash & Sage": {
         "name": "Quinoa w/ Roasted Squash & Sage",
@@ -15751,7 +16218,8 @@
         "sugar": 5.2,
         "protein": 2.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Fresh Sauteed Spinach": {
         "name": "Fresh Sauteed Spinach",
@@ -15774,7 +16242,8 @@
         "sugar": 0.4,
         "protein": 2.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Ginger & Tomato Salad": {
         "name": "Ginger & Tomato Salad",
@@ -15799,7 +16268,8 @@
         "sugar": 1.1,
         "protein": 0.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Greek Spinach Rice Pilaf": {
         "name": "Greek Spinach Rice Pilaf",
@@ -15828,7 +16298,8 @@
         "sugar": 0.3,
         "protein": 1.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant Based Chic'n Souvlakia": {
         "name": "Plant Based Chic'n Souvlakia",
@@ -15863,7 +16334,8 @@
         "sugar": 0.3,
         "protein": 10.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Rstd Mediterranean Cauliflower": {
         "name": "Rstd Mediterranean Cauliflower",
@@ -15889,7 +16361,8 @@
         "sugar": 1.6,
         "protein": 1.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Corn & Tomatoes": {
         "name": "Corn & Tomatoes",
@@ -15914,7 +16387,8 @@
         "sugar": 6.2,
         "protein": 3.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Lemongrass Pulmuone Tofu w/Peanuts": {
         "name": "Lemongrass Pulmuone Tofu w/Peanuts",
@@ -15956,7 +16430,8 @@
         "sugar": 0.6,
         "protein": 12.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Thai Pork Lettuce Wraps": {
         "name": "Thai Pork Lettuce Wraps",
@@ -15999,7 +16474,8 @@
         "sugar": 2.2,
         "protein": 9.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Barley & Roasted Tomato Risotto": {
         "name": "Barley & Roasted Tomato Risotto",
@@ -16043,7 +16519,8 @@
         "sugar": 1.9,
         "protein": 1.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Carrot Kale Salad": {
         "name": "Carrot Kale Salad",
@@ -16067,7 +16544,8 @@
         "sugar": 2.9,
         "protein": 0.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant Based Chic'n Broccoli Supreme w/Pasta": {
         "name": "Plant Based Chic'n Broccoli Supreme w/Pasta",
@@ -16200,7 +16678,8 @@
         "sugar": 0.6,
         "protein": 8.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Garlic Zucchini w/Tomatoes": {
         "name": "Roasted Garlic Zucchini w/Tomatoes",
@@ -16226,7 +16705,8 @@
         "sugar": 1.8,
         "protein": 1.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Bow Tie Pasta": {
         "name": "Bow Tie Pasta",
@@ -16256,7 +16736,8 @@
         "sugar": 0.9,
         "protein": 3.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sauteed Whole Green Beans": {
         "name": "Sauteed Whole Green Beans",
@@ -16279,7 +16760,8 @@
         "sugar": 2.3,
         "protein": 1.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Veracruz Style Fish": {
         "name": "Veracruz Style Fish",
@@ -16311,7 +16793,8 @@
         "sugar": 1.3,
         "protein": 8.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Citrus Saffron Basmati Rice": {
         "name": "Citrus Saffron Basmati Rice",
@@ -16340,7 +16823,8 @@
         "sugar": 0.2,
         "protein": 2.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Green Beans w/Coconut": {
         "name": "Green Beans w/Coconut",
@@ -16368,7 +16852,8 @@
         "sugar": 2.9,
         "protein": 1.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Saag Aloo": {
         "name": "Saag Aloo",
@@ -16405,7 +16890,8 @@
         "sugar": 0.6,
         "protein": 2.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Tandoori Chicken Wings": {
         "name": "Tandoori Chicken Wings",
@@ -16432,7 +16918,8 @@
         "sugar": 0.1,
         "protein": 5.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Hokkien Mee (Shrimp, Squid & Pork)": {
         "name": "Hokkien Mee (Shrimp, Squid & Pork)",
@@ -16482,7 +16969,8 @@
         "sugar": 0.0,
         "protein": 5.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Malaysian Beef Rendang": {
         "name": "Malaysian Beef Rendang",
@@ -16519,7 +17007,8 @@
         "sugar": 2.2,
         "protein": 12.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Nasi Lemak (Coconut Rice) from Malaysia": {
         "name": "Nasi Lemak (Coconut Rice) from Malaysia",
@@ -16548,7 +17037,8 @@
         "sugar": 0.4,
         "protein": 1.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chopped Walnuts": {
         "name": "Chopped Walnuts",
@@ -16567,7 +17057,8 @@
         "sugar": 0.4,
         "protein": 2.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Bread Pudding w/Jack Daniel's Sauce": {
         "name": "Bread Pudding w/Jack Daniel's Sauce",
@@ -16593,7 +17084,8 @@
         "sugar": 16.0,
         "protein": 3.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Karaage Chicken": {
         "name": "Karaage Chicken",
@@ -16622,7 +17114,8 @@
         "sugar": 0.2,
         "protein": 4.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Buffalo Wings": {
         "name": "Buffalo Wings",
@@ -16645,7 +17138,8 @@
         "sugar": 0.1,
         "protein": 17.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Jerk Chicken Wings": {
         "name": "Jerk Chicken Wings",
@@ -16682,7 +17176,8 @@
         "sugar": 0.7,
         "protein": 17.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant Based Boneless Buffalo Chic'n Wings": {
         "name": "Plant Based Boneless Buffalo Chic'n Wings",
@@ -16761,7 +17256,8 @@
         "sugar": 0.1,
         "protein": 11.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Baked French Toast w/Banana Maple Syrup and Ricotta": {
         "name": "Baked French Toast w/Banana Maple Syrup and Ricotta",
@@ -16796,7 +17292,8 @@
         "sugar": 21.3,
         "protein": 5.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Date Coffeecake w/Walnuts & Espresso Glaze": {
         "name": "Date Coffeecake w/Walnuts & Espresso Glaze",
@@ -16838,7 +17335,8 @@
         "sugar": 17.2,
         "protein": 2.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mini Raspberry Danish": {
         "name": "Mini Raspberry Danish",
@@ -16864,7 +17362,8 @@
         "sugar": 5.0,
         "protein": 2.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Balsamic Glazed Peppers & Onions": {
         "name": "Balsamic Glazed Peppers & Onions",
@@ -16890,7 +17389,8 @@
         "sugar": 2.4,
         "protein": 0.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Meatball Grinder": {
         "name": "Meatball Grinder",
@@ -16923,7 +17423,8 @@
         "sugar": 3.9,
         "protein": 18.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant Based Sesame Orange Chic'n": {
         "name": "Plant Based Sesame Orange Chic'n",
@@ -16970,7 +17471,8 @@
         "sugar": 3.7,
         "protein": 7.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Apple Walnut Salad w/Cranberry Vinaigrette": {
         "name": "Apple Walnut Salad w/Cranberry Vinaigrette",
@@ -16999,7 +17501,8 @@
         "sugar": 2.1,
         "protein": 0.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Manicotti": {
         "name": "Manicotti",
@@ -17026,7 +17529,8 @@
         "sugar": 2.1,
         "protein": 12.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Teriyaki Chicken Roll": {
         "name": "Teriyaki Chicken Roll",
@@ -17059,7 +17563,8 @@
         "sugar": 13.9,
         "protein": 7.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Jerk Chicken": {
         "name": "Jerk Chicken",
@@ -17096,7 +17601,8 @@
         "sugar": 0.5,
         "protein": 8.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chicken Tinga": {
         "name": "Chicken Tinga",
@@ -17125,7 +17631,8 @@
         "sugar": 0.3,
         "protein": 7.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Corn and Red Peppers": {
         "name": "Corn and Red Peppers",
@@ -17151,7 +17658,8 @@
         "sugar": 1.6,
         "protein": 0.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mexican Rice": {
         "name": "Mexican Rice",
@@ -17183,7 +17691,8 @@
         "sugar": 0.2,
         "protein": 1.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Baked Potatoes w/Kielbasa & Toppings": {
         "name": "Baked Potatoes w/Kielbasa & Toppings",
@@ -17217,7 +17726,8 @@
         "sugar": 0.9,
         "protein": 5.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chili Con Carne": {
         "name": "Chili Con Carne",
@@ -17256,7 +17766,8 @@
         "sugar": 0.7,
         "protein": 4.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sibley's Pico de Gallo": {
         "name": "Sibley's Pico de Gallo",
@@ -17280,7 +17791,8 @@
         "sugar": 0.7,
         "protein": 0.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Piri Piri Fish": {
         "name": "Piri Piri Fish",
@@ -17319,7 +17831,8 @@
         "sugar": 1.3,
         "protein": 7.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Herb Buttered Red Potatoes": {
         "name": "Herb Buttered Red Potatoes",
@@ -17343,7 +17856,8 @@
         "sugar": 1.1,
         "protein": 1.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Brussels Sprouts": {
         "name": "Roasted Brussels Sprouts",
@@ -17365,7 +17879,8 @@
         "sugar": 1.5,
         "protein": 2.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Vichy Carrots w/Butter": {
         "name": "Vichy Carrots w/Butter",
@@ -17389,7 +17904,8 @@
         "sugar": 3.9,
         "protein": 0.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mei Fun Noodles": {
         "name": "Mei Fun Noodles",
@@ -17427,7 +17943,8 @@
         "sugar": 1.1,
         "protein": 3.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant Based Ma Po Tofu": {
         "name": "Plant Based Ma Po Tofu",
@@ -17470,7 +17987,8 @@
         "sugar": 4.4,
         "protein": 10.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "San Bei Ji (Chicken)": {
         "name": "San Bei Ji (Chicken)",
@@ -17500,7 +18018,8 @@
         "sugar": 2.9,
         "protein": 12.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Egg Salad": {
         "name": "Egg Salad",
@@ -17523,7 +18042,8 @@
         "sugar": 0.2,
         "protein": 10.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Taiwanese Beef Noodle Bowl": {
         "name": "Taiwanese Beef Noodle Bowl",
@@ -17567,7 +18087,8 @@
         "sugar": 1.3,
         "protein": 16.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Fried Eggs": {
         "name": "Fried Eggs",
@@ -17587,7 +18108,8 @@
         "sugar": 0.0,
         "protein": 5.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Canadian Bacon": {
         "name": "Canadian Bacon",
@@ -17606,7 +18128,8 @@
         "sugar": 0.3,
         "protein": 5.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mexican Migas (Tortilla Scrambled Eggs)": {
         "name": "Mexican Migas (Tortilla Scrambled Eggs)",
@@ -17636,7 +18159,8 @@
         "sugar": 0.4,
         "protein": 9.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Crunchy Baked White Fish": {
         "name": "Crunchy Baked White Fish",
@@ -17695,7 +18219,8 @@
         "sugar": 0.1,
         "protein": 0.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Shake & Bake Chicken Legs": {
         "name": "Shake & Bake Chicken Legs",
@@ -17791,7 +18316,8 @@
         "sugar": 0.7,
         "protein": 17.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Spinach w/Mushrooms": {
         "name": "Spinach w/Mushrooms",
@@ -17814,7 +18340,8 @@
         "sugar": 0.8,
         "protein": 2.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pearl Sugar Waffle Sundae": {
         "name": "Pearl Sugar Waffle Sundae",
@@ -17894,7 +18421,8 @@
         "sugar": 73.0,
         "protein": 7.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Scallion Ginger Poached Chicken": {
         "name": "Scallion Ginger Poached Chicken",
@@ -17929,7 +18457,8 @@
         "sugar": 0.3,
         "protein": 14.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Harissa Tahini Sauce": {
         "name": "Harissa Tahini Sauce",
@@ -17954,7 +18483,8 @@
         "sugar": 0.1,
         "protein": 2.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Hummus": {
         "name": "Hummus",
@@ -17974,7 +18504,8 @@
         "sugar": 1.0,
         "protein": 2.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Persian Lamb Tagine w/Almonds": {
         "name": "Persian Lamb Tagine w/Almonds",
@@ -18014,7 +18545,8 @@
         "sugar": 8.5,
         "protein": 7.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Eggplant Salad w/Herbs & Za'atar": {
         "name": "Roasted Eggplant Salad w/Herbs & Za'atar",
@@ -18044,7 +18576,8 @@
         "sugar": 1.3,
         "protein": 0.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sumac Onions": {
         "name": "Sumac Onions",
@@ -18066,7 +18599,8 @@
         "sugar": 1.2,
         "protein": 0.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cavatappi w/Red Pepper Pesto, Green Pea & Mushroom": {
         "name": "Cavatappi w/Red Pepper Pesto, Green Pea & Mushroom",
@@ -18094,7 +18628,8 @@
         "sugar": 1.2,
         "protein": 4.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Stewed Chickpeas": {
         "name": "Stewed Chickpeas",
@@ -18142,7 +18677,8 @@
         "sugar": 3.5,
         "protein": 4.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Edamame & Shiitake": {
         "name": "Edamame & Shiitake",
@@ -18166,7 +18702,8 @@
         "sugar": 2.4,
         "protein": 6.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plain Sushi Rice": {
         "name": "Plain Sushi Rice",
@@ -18185,7 +18722,8 @@
         "sugar": 0.0,
         "protein": 3.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sriracha \"Mayonnaise\"": {
         "name": "Sriracha \"Mayonnaise\"",
@@ -18220,7 +18758,8 @@
         "sugar": 0.3,
         "protein": 0.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Teriyaki Tofu Poke Bowl": {
         "name": "Teriyaki Tofu Poke Bowl",
@@ -18250,7 +18789,8 @@
         "sugar": 2.4,
         "protein": 12.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Hard Boiled Egg": {
         "name": "Hard Boiled Egg",
@@ -18269,7 +18809,8 @@
         "sugar": 0.0,
         "protein": 10.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Ethiopian Collard Greens": {
         "name": "Ethiopian Collard Greens",
@@ -18298,7 +18839,8 @@
         "sugar": 0.4,
         "protein": 2.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Potato Wedges": {
         "name": "Roasted Potato Wedges",
@@ -18321,7 +18863,8 @@
         "sugar": 0.5,
         "protein": 1.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plantain Chips": {
         "name": "Plantain Chips",
@@ -18340,7 +18883,8 @@
         "sugar": 0.0,
         "protein": 0.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "BBQ Pulled Pork on Ciabatta": {
         "name": "BBQ Pulled Pork on Ciabatta",
@@ -18487,7 +19031,8 @@
         "sugar": 8.9,
         "protein": 13.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Herb Roasted Mushrooms": {
         "name": "Herb Roasted Mushrooms",
@@ -18511,7 +19056,8 @@
         "sugar": 1.7,
         "protein": 2.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Salmon Kelp Burger": {
         "name": "Salmon Kelp Burger",
@@ -18530,7 +19076,8 @@
         "sugar": 0.0,
         "protein": 13.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Thai Red Curry Tofu": {
         "name": "Thai Red Curry Tofu",
@@ -18561,7 +19108,8 @@
         "sugar": 1.5,
         "protein": 7.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Italian Rstd Mushrooms & Vegetables": {
         "name": "Italian Rstd Mushrooms & Vegetables",
@@ -18589,7 +19137,8 @@
         "sugar": 1.5,
         "protein": 1.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Red Pepper Pesto Pasta Salad": {
         "name": "Red Pepper Pesto Pasta Salad",
@@ -18617,7 +19166,8 @@
         "sugar": 1.7,
         "protein": 5.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Bun Bo Hue (Vietnamese Beef Soup Broth)": {
         "name": "Bun Bo Hue (Vietnamese Beef Soup Broth)",
@@ -18652,7 +19202,8 @@
         "sugar": 3.1,
         "protein": 18.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Spice Roast Pork w/Black Bean Salsa Fresca": {
         "name": "Spice Roast Pork w/Black Bean Salsa Fresca",
@@ -18680,7 +19231,8 @@
         "sugar": 0.2,
         "protein": 15.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Zucchini Mole Amarillo": {
         "name": "Zucchini Mole Amarillo",
@@ -18710,7 +19262,8 @@
         "sugar": 1.9,
         "protein": 1.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Baingan Deva (Eggplant w/Yogurt Sauce)": {
         "name": "Baingan Deva (Eggplant w/Yogurt Sauce)",
@@ -18757,7 +19310,8 @@
         "sugar": 2.5,
         "protein": 1.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chicken Tikka Masala": {
         "name": "Chicken Tikka Masala",
@@ -18800,7 +19354,8 @@
         "sugar": 2.3,
         "protein": 11.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Marsala Dusted Yam, Spinach & Corn": {
         "name": "Marsala Dusted Yam, Spinach & Corn",
@@ -18835,7 +19390,8 @@
         "sugar": 3.7,
         "protein": 3.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Turkey Burger Patty": {
         "name": "Turkey Burger Patty",
@@ -18867,7 +19423,8 @@
         "sugar": 0.0,
         "protein": 16.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Baked Buffalo Pulmuone Tofu": {
         "name": "Baked Buffalo Pulmuone Tofu",
@@ -18898,7 +19455,8 @@
         "sugar": 0.2,
         "protein": 9.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mexican Stuffed Yellow Peppers": {
         "name": "Mexican Stuffed Yellow Peppers",
@@ -18961,7 +19519,8 @@
         "sugar": 3.0,
         "protein": 9.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "White Beans w/Kale": {
         "name": "White Beans w/Kale",
@@ -18986,7 +19545,8 @@
         "sugar": 2.4,
         "protein": 3.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Zucchini, Corn & Peppers": {
         "name": "Zucchini, Corn & Peppers",
@@ -19010,7 +19570,8 @@
         "sugar": 3.6,
         "protein": 1.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Vietnamese Beef Pho Noodle Bowl": {
         "name": "Vietnamese Beef Pho Noodle Bowl",
@@ -19054,7 +19615,8 @@
         "sugar": 10.5,
         "protein": 8.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Vietnamese Veg Pho Noodle Bowl w/Pulmuone Tofu": {
         "name": "Vietnamese Veg Pho Noodle Bowl w/Pulmuone Tofu",
@@ -19094,7 +19656,8 @@
         "sugar": 3.8,
         "protein": 10.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Burger Bar": {
         "name": "Burger Bar",
@@ -19171,7 +19734,8 @@
         "sugar": 10.6,
         "protein": 23.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chipotle Mayonnaise": {
         "name": "Chipotle Mayonnaise",
@@ -19194,7 +19758,8 @@
         "sugar": 0.1,
         "protein": 0.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Flour Tortilla": {
         "name": "Flour Tortilla",
@@ -19215,7 +19780,8 @@
         "sugar": 0.0,
         "protein": 2.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mexican Salsa": {
         "name": "Mexican Salsa",
@@ -19240,7 +19806,8 @@
         "sugar": 0.5,
         "protein": 0.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Tacos de Pescado (Fish Tacos)": {
         "name": "Tacos de Pescado (Fish Tacos)",
@@ -19269,7 +19836,8 @@
         "sugar": 0.5,
         "protein": 6.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Green Curry Fried Rice w/Seafood": {
         "name": "Green Curry Fried Rice w/Seafood",
@@ -19306,7 +19874,8 @@
         "sugar": 2.3,
         "protein": 4.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Thai Basil Tofu": {
         "name": "Thai Basil Tofu",
@@ -19355,7 +19924,8 @@
         "sugar": 1.4,
         "protein": 11.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Thai Red Curry Chicken": {
         "name": "Thai Red Curry Chicken",
@@ -19385,7 +19955,8 @@
         "sugar": 2.3,
         "protein": 8.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Black Bean Sweet Potato Burger": {
         "name": "Black Bean Sweet Potato Burger",
@@ -19422,7 +19993,8 @@
         "sugar": 3.0,
         "protein": 8.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cajun Red Beans & Rice": {
         "name": "Cajun Red Beans & Rice",
@@ -19474,7 +20046,8 @@
         "sugar": 0.8,
         "protein": 1.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant Based Chorizo & Jalapeno Quesadilla": {
         "name": "Plant Based Chorizo & Jalapeno Quesadilla",
@@ -19501,7 +20074,8 @@
         "sugar": 0.3,
         "protein": 3.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Buffalo Chicken Salad": {
         "name": "Buffalo Chicken Salad",
@@ -19543,7 +20117,8 @@
         "sugar": 3.5,
         "protein": 5.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Tri Colored Tortrilla Strips": {
         "name": "Tri Colored Tortrilla Strips",
@@ -19562,7 +20137,8 @@
         "sugar": 0.0,
         "protein": 0.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sweet & Sour Pulmuone Tofu": {
         "name": "Sweet & Sour Pulmuone Tofu",
@@ -19617,7 +20193,8 @@
         "sugar": 13.2,
         "protein": 4.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Hash Brown Cakes": {
         "name": "Hash Brown Cakes",
@@ -19644,7 +20221,8 @@
         "sugar": 0.0,
         "protein": 1.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant Based Breakfast Sandwich Bar w/Pulmuone Crumbles": {
         "name": "Plant Based Breakfast Sandwich Bar w/Pulmuone Crumbles",
@@ -19684,7 +20262,8 @@
         "sugar": 2.0,
         "protein": 16.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Blueberry Muffin Top": {
         "name": "Blueberry Muffin Top",
@@ -19722,7 +20301,8 @@
         "sugar": 17.1,
         "protein": 3.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Blueberry Yogurt Parfait": {
         "name": "Blueberry Yogurt Parfait",
@@ -19782,7 +20362,8 @@
         "sugar": 27.9,
         "protein": 7.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "French Toast Sticks": {
         "name": "French Toast Sticks",
@@ -19823,7 +20404,8 @@
         "sugar": 24.0,
         "protein": 12.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Tater Tots": {
         "name": "Tater Tots",
@@ -19848,7 +20430,8 @@
         "sugar": 0.0,
         "protein": 5.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chicken Parmesan Sandwich": {
         "name": "Chicken Parmesan Sandwich",
@@ -19920,7 +20503,8 @@
         "sugar": 3.9,
         "protein": 19.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Rice Krispy Bar": {
         "name": "Rice Krispy Bar",
@@ -19960,7 +20544,8 @@
         "sugar": 26.2,
         "protein": 2.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Carrots": {
         "name": "Roasted Carrots",
@@ -19982,7 +20567,8 @@
         "sugar": 4.5,
         "protein": 0.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "STOUFFER'S Macaroni and Cheese": {
         "name": "STOUFFER'S Macaroni and Cheese",
@@ -20036,7 +20622,8 @@
         "sugar": 1.1,
         "protein": 4.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Savory Baked Chicken": {
         "name": "Savory Baked Chicken",
@@ -20063,7 +20650,8 @@
         "sugar": 8.3,
         "protein": 7.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Shoyu Ramen Bar (Pork, Chicken)": {
         "name": "Shoyu Ramen Bar (Pork, Chicken)",
@@ -20112,7 +20700,8 @@
         "sugar": 3.4,
         "protein": 16.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Tantanmen Ramen Broth": {
         "name": "Tantanmen Ramen Broth",
@@ -20154,7 +20743,8 @@
         "sugar": 1.0,
         "protein": 1.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Korean BBQ Chicken": {
         "name": "Korean BBQ Chicken",
@@ -20192,7 +20782,8 @@
         "sugar": 4.5,
         "protein": 17.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Edamame & Mushroom": {
         "name": "Edamame & Mushroom",
@@ -20216,7 +20807,8 @@
         "sugar": 1.9,
         "protein": 6.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cuban Black Beans": {
         "name": "Cuban Black Beans",
@@ -20240,7 +20832,8 @@
         "sugar": 0.5,
         "protein": 3.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sibley's Guacamole": {
         "name": "Sibley's Guacamole",
@@ -20264,7 +20857,8 @@
         "sugar": 0.2,
         "protein": 0.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Raspberry Peach Crisp": {
         "name": "Raspberry Peach Crisp",
@@ -20290,7 +20884,8 @@
         "sugar": 22.0,
         "protein": 1.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pesto Pasta Bar": {
         "name": "Pesto Pasta Bar",
@@ -20322,7 +20917,8 @@
         "sugar": 2.1,
         "protein": 23.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "San Bei Ji": {
         "name": "San Bei Ji",
@@ -20352,7 +20948,8 @@
         "sugar": 5.8,
         "protein": 9.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Waffle Fries w/Maple BBQ Pulled Pork": {
         "name": "Waffle Fries w/Maple BBQ Pulled Pork",
@@ -20405,7 +21002,8 @@
         "sugar": 14.4,
         "protein": 18.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mediterranean Couscous": {
         "name": "Mediterranean Couscous",
@@ -20444,7 +21042,8 @@
         "sugar": 10.2,
         "protein": 1.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Moroccan Chickpea & Vegetable Tagine": {
         "name": "Moroccan Chickpea & Vegetable Tagine",
@@ -20501,7 +21100,8 @@
         "sugar": 3.8,
         "protein": 2.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Penne w/Spinach, Goat Cheese & Tomato Pesto": {
         "name": "Penne w/Spinach, Goat Cheese & Tomato Pesto",
@@ -20536,7 +21136,8 @@
         "sugar": 2.2,
         "protein": 6.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Tandoori Chicken Leg": {
         "name": "Tandoori Chicken Leg",
@@ -20563,7 +21164,8 @@
         "sugar": 0.2,
         "protein": 13.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cranberry Orange Scone": {
         "name": "Cranberry Orange Scone",
@@ -20596,7 +21198,8 @@
         "sugar": 4.3,
         "protein": 0.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pearl Sugar Waffles": {
         "name": "Pearl Sugar Waffles",
@@ -20627,7 +21230,8 @@
         "sugar": 15.0,
         "protein": 3.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "General Tso Chicken": {
         "name": "General Tso Chicken",
@@ -20711,7 +21315,8 @@
         "sugar": 3.4,
         "protein": 6.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "General Tso Pulmuone Tofu": {
         "name": "General Tso Pulmuone Tofu",
@@ -20774,7 +21379,8 @@
         "sugar": 4.0,
         "protein": 6.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mexican Brownie": {
         "name": "Mexican Brownie",
@@ -20828,7 +21434,8 @@
         "sugar": 24.8,
         "protein": 2.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mexican Potato Casserole": {
         "name": "Mexican Potato Casserole",
@@ -20868,7 +21475,8 @@
         "sugar": 1.1,
         "protein": 3.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant Based Sweet & Sour Chic'n": {
         "name": "Plant Based Sweet & Sour Chic'n",
@@ -20962,7 +21570,8 @@
         "sugar": 11.2,
         "protein": 5.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sweet & Sour Chicken": {
         "name": "Sweet & Sour Chicken",
@@ -21038,7 +21647,8 @@
         "sugar": 11.5,
         "protein": 5.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Banana Berry Ice Cream Splits w/Walnuts": {
         "name": "Banana Berry Ice Cream Splits w/Walnuts",
@@ -21110,7 +21720,8 @@
         "sugar": 85.2,
         "protein": 6.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Breakfast Biscuit Sandwich w/Pork Carnitas & Guac": {
         "name": "Breakfast Biscuit Sandwich w/Pork Carnitas & Guac",
@@ -21148,7 +21759,8 @@
         "sugar": 4.1,
         "protein": 21.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Shredded Hash Browns": {
         "name": "Shredded Hash Browns",
@@ -21175,7 +21787,8 @@
         "sugar": 0.2,
         "protein": 0.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Eggplant Parmesan": {
         "name": "Eggplant Parmesan",
@@ -21219,7 +21832,8 @@
         "sugar": 3.5,
         "protein": 1.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Garlic Bread": {
         "name": "Garlic Bread",
@@ -21242,7 +21856,8 @@
         "sugar": 0.6,
         "protein": 3.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant Based Baked Ziti": {
         "name": "Plant Based Baked Ziti",
@@ -21297,7 +21912,8 @@
         "sugar": 1.6,
         "protein": 5.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Roasted Cauliflower w/Garlic": {
         "name": "Roasted Cauliflower w/Garlic",
@@ -21320,7 +21936,8 @@
         "sugar": 1.6,
         "protein": 1.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Buffalo Chicken Quesadilla": {
         "name": "Buffalo Chicken Quesadilla",
@@ -21375,7 +21992,8 @@
         "sugar": 0.7,
         "protein": 16.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Montreal Roast Potatoes": {
         "name": "Montreal Roast Potatoes",
@@ -21398,7 +22016,8 @@
         "sugar": 0.9,
         "protein": 2.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant Based Savory Baked Chic'n": {
         "name": "Plant Based Savory Baked Chic'n",
@@ -21431,7 +22050,8 @@
         "sugar": 8.3,
         "protein": 20.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Thai Green Curry Tofu": {
         "name": "Thai Green Curry Tofu",
@@ -21462,7 +22082,8 @@
         "sugar": 1.3,
         "protein": 7.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Birria Ramen (Beef)": {
         "name": "Birria Ramen (Beef)",
@@ -21509,7 +22130,8 @@
         "sugar": 3.1,
         "protein": 18.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Brussel Sprouts w/Chorizo Sausage (Pork)": {
         "name": "Brussel Sprouts w/Chorizo Sausage (Pork)",
@@ -21534,7 +22156,8 @@
         "sugar": 1.6,
         "protein": 4.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Puerto Rican Rice & Pigeon Peas": {
         "name": "Puerto Rican Rice & Pigeon Peas",
@@ -21572,7 +22195,8 @@
         "sugar": 0.5,
         "protein": 1.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Vegetable Pulao": {
         "name": "Vegetable Pulao",
@@ -21604,7 +22228,8 @@
         "sugar": 3.7,
         "protein": 2.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Baked General Tso's Pulmuone Tofu": {
         "name": "Baked General Tso's Pulmuone Tofu",
@@ -21651,7 +22276,8 @@
         "sugar": 6.2,
         "protein": 9.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Bok Choy": {
         "name": "Bok Choy",
@@ -21670,7 +22296,8 @@
         "sugar": 0.6,
         "protein": 0.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cashew Chicken": {
         "name": "Cashew Chicken",
@@ -21722,7 +22349,8 @@
         "sugar": 2.0,
         "protein": 10.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pork & Shrimp Wonton Soup": {
         "name": "Pork & Shrimp Wonton Soup",
@@ -21796,7 +22424,8 @@
         "sugar": 2.3,
         "protein": 6.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Kung Pao Chicken w/Peanuts": {
         "name": "Kung Pao Chicken w/Peanuts",
@@ -21837,7 +22466,8 @@
         "sugar": 7.6,
         "protein": 14.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sesame Ginger Baby Bok Choy": {
         "name": "Sesame Ginger Baby Bok Choy",
@@ -21860,7 +22490,8 @@
         "sugar": 1.0,
         "protein": 1.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Apple Cranberry Oat Almond Crisp": {
         "name": "Apple Cranberry Oat Almond Crisp",
@@ -21891,7 +22522,8 @@
         "sugar": 6.9,
         "protein": 0.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Beef Brisket Noodle Bowl": {
         "name": "Beef Brisket Noodle Bowl",
@@ -21928,7 +22560,8 @@
         "sugar": 1.9,
         "protein": 11.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Banana Leaf Wrapped Chicken": {
         "name": "Banana Leaf Wrapped Chicken",
@@ -21962,7 +22595,8 @@
         "sugar": 10.3,
         "protein": 11.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Braised Pulmuone Tofu": {
         "name": "Braised Pulmuone Tofu",
@@ -22041,7 +22675,8 @@
         "sugar": 2.0,
         "protein": 10.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Local Red Onions": {
         "name": "Local Red Onions",
@@ -22060,7 +22695,8 @@
         "sugar": 1.2,
         "protein": 0.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Moroccan Carrot Salad": {
         "name": "Moroccan Carrot Salad",
@@ -22087,7 +22723,8 @@
         "sugar": 3.2,
         "protein": 0.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Nigerian Beef Stew": {
         "name": "Nigerian Beef Stew",
@@ -22124,7 +22761,8 @@
         "sugar": 1.7,
         "protein": 12.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Jain Family Pulav (Vegetable Rice)": {
         "name": "Jain Family Pulav (Vegetable Rice)",
@@ -22160,7 +22798,8 @@
         "sugar": 1.1,
         "protein": 1.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Kapade Family Kidney Bean Curry": {
         "name": "Kapade Family Kidney Bean Curry",
@@ -22199,7 +22838,8 @@
         "sugar": 2.4,
         "protein": 3.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sauteed Cabbage w/Coconut": {
         "name": "Sauteed Cabbage w/Coconut",
@@ -22227,7 +22867,8 @@
         "sugar": 2.6,
         "protein": 1.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Corn & Black Bean Salad": {
         "name": "Corn & Black Bean Salad",
@@ -22259,7 +22900,8 @@
         "sugar": 1.3,
         "protein": 2.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Queso Sauce": {
         "name": "Queso Sauce",
@@ -22288,7 +22930,8 @@
         "sugar": 1.0,
         "protein": 2.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Tri Color Tortilla Chips": {
         "name": "Tri Color Tortilla Chips",
@@ -22307,7 +22950,8 @@
         "sugar": 0.0,
         "protein": 1.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Char Sui Pork Stir Fry": {
         "name": "Char Sui Pork Stir Fry",
@@ -22354,7 +22998,8 @@
         "sugar": 2.4,
         "protein": 8.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Banana Peppers": {
         "name": "Banana Peppers",
@@ -22373,7 +23018,8 @@
         "sugar": 0.0,
         "protein": 0.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cannellini Bean Salad w/Red Onion & Olives": {
         "name": "Cannellini Bean Salad w/Red Onion & Olives",
@@ -22398,7 +23044,8 @@
         "sugar": 1.1,
         "protein": 2.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Craisins": {
         "name": "Craisins",
@@ -22417,7 +23064,8 @@
         "sugar": 20.6,
         "protein": 0.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Green Olives": {
         "name": "Green Olives",
@@ -22436,7 +23084,8 @@
         "sugar": 0.0,
         "protein": 0.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Kale & Carrot Salad w/ Pepitas & Tahini": {
         "name": "Kale & Carrot Salad w/ Pepitas & Tahini",
@@ -22463,7 +23112,8 @@
         "sugar": 1.7,
         "protein": 1.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Olive Tapenade": {
         "name": "Olive Tapenade",
@@ -22488,7 +23138,8 @@
         "sugar": 0.2,
         "protein": 1.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Radishes": {
         "name": "Radishes",
@@ -22507,7 +23158,8 @@
         "sugar": 0.4,
         "protein": 0.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Tuna": {
         "name": "Tuna",
@@ -22526,7 +23178,8 @@
         "sugar": 0.0,
         "protein": 6.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Fried Pickles": {
         "name": "Fried Pickles",
@@ -22546,7 +23199,8 @@
         "sugar": 0.6,
         "protein": 0.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Plant Based Boneless BBQ Chic'n": {
         "name": "Plant Based Boneless BBQ Chic'n",
@@ -22632,7 +23286,8 @@
         "sugar": 1.0,
         "protein": 3.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Jjamppong (Korean Spicy Seafood Noodle Soup)": {
         "name": "Jjamppong (Korean Spicy Seafood Noodle Soup)",
@@ -22688,7 +23343,8 @@
         "sugar": 2.0,
         "protein": 15.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Japanese Chicken & Egg Rice Bowl": {
         "name": "Japanese Chicken & Egg Rice Bowl",
@@ -22744,7 +23400,8 @@
         "sugar": 3.9,
         "protein": 12.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Miso Pulmuone Tofu": {
         "name": "Miso Pulmuone Tofu",
@@ -22779,7 +23436,8 @@
         "sugar": 2.9,
         "protein": 12.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Cholry Chickpea Curry": {
         "name": "Cholry Chickpea Curry",
@@ -22812,7 +23470,8 @@
         "sugar": 2.5,
         "protein": 3.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Street Corn Salad": {
         "name": "Street Corn Salad",
@@ -22839,7 +23498,8 @@
         "sugar": 2.9,
         "protein": 1.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Vegetable Curry Samosa": {
         "name": "Vegetable Curry Samosa",
@@ -22866,7 +23526,8 @@
         "sugar": 0.0,
         "protein": 2.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Alfredo Sauce": {
         "name": "Alfredo Sauce",
@@ -22899,7 +23560,8 @@
         "sugar": 1.9,
         "protein": 2.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Artichoke Hearts": {
         "name": "Artichoke Hearts",
@@ -22918,7 +23580,8 @@
         "sugar": 0.0,
         "protein": 1.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Eggplant Parmesan GF": {
         "name": "Eggplant Parmesan GF",
@@ -22942,7 +23605,8 @@
         "sugar": 3.2,
         "protein": 4.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Green Chickpea & Kelp Meatballs": {
         "name": "Green Chickpea & Kelp Meatballs",
@@ -22967,7 +23631,8 @@
         "sugar": 0.0,
         "protein": 5.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Kalamata Olives": {
         "name": "Kalamata Olives",
@@ -22986,7 +23651,8 @@
         "sugar": 0.4,
         "protein": 2.7,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Oven Roasted Tomatoes": {
         "name": "Oven Roasted Tomatoes",
@@ -23005,7 +23671,8 @@
         "sugar": 5.7,
         "protein": 1.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pesto Sauce": {
         "name": "Pesto Sauce",
@@ -23028,7 +23695,8 @@
         "sugar": 0.0,
         "protein": 2.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Vermicelli and Shrimp in Garlic Sauce": {
         "name": "Vermicelli and Shrimp in Garlic Sauce",
@@ -23079,7 +23747,8 @@
         "sugar": 2.8,
         "protein": 3.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Caramelized Carrots w/Paprika & Honey": {
         "name": "Caramelized Carrots w/Paprika & Honey",
@@ -23105,7 +23774,8 @@
         "sugar": 5.1,
         "protein": 0.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Lebanese Chicken Kebab": {
         "name": "Lebanese Chicken Kebab",
@@ -23133,7 +23803,8 @@
         "sugar": 0.1,
         "protein": 15.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mid East Olive Salad": {
         "name": "Mid East Olive Salad",
@@ -23156,7 +23827,8 @@
         "sugar": 0.3,
         "protein": 0.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mujadara (Rice)": {
         "name": "Mujadara (Rice)",
@@ -23188,7 +23860,8 @@
         "sugar": 0.2,
         "protein": 3.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Tabouleh": {
         "name": "Tabouleh",
@@ -23211,7 +23884,8 @@
         "sugar": 1.1,
         "protein": 1.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Zhoug (Yemeni Hot Sauce)": {
         "name": "Zhoug (Yemeni Hot Sauce)",
@@ -23239,7 +23913,8 @@
         "sugar": 0.6,
         "protein": 0.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Lemon Onion Salad": {
         "name": "Lemon Onion Salad",
@@ -23261,7 +23936,8 @@
         "sugar": 0.0,
         "protein": 0.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chicken Fajitas": {
         "name": "Chicken Fajitas",
@@ -23294,7 +23970,8 @@
         "sugar": 0.5,
         "protein": 7.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chicken Noodle Soup": {
         "name": "Chicken Noodle Soup",
@@ -23325,7 +24002,8 @@
         "sugar": 1.3,
         "protein": 4.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Maple Roasted Sweet Potatoes": {
         "name": "Maple Roasted Sweet Potatoes",
@@ -23350,7 +24028,8 @@
         "sugar": 5.5,
         "protein": 1.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pork Carnitas": {
         "name": "Pork Carnitas",
@@ -23370,7 +24049,8 @@
         "sugar": 0.1,
         "protein": 20.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Red Rice": {
         "name": "Red Rice",
@@ -23406,7 +24086,8 @@
         "sugar": 0.3,
         "protein": 3.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Tamale Corn Cakes": {
         "name": "Tamale Corn Cakes",
@@ -23440,7 +24121,8 @@
         "sugar": 4.3,
         "protein": 2.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pad Kra Pao Moo (Pork)": {
         "name": "Pad Kra Pao Moo (Pork)",
@@ -23470,7 +24152,8 @@
         "sugar": 3.2,
         "protein": 6.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Spicy Stir Fried Octopus": {
         "name": "Spicy Stir Fried Octopus",
@@ -23523,7 +24206,8 @@
         "sugar": 2.5,
         "protein": 12.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Sweet Chili Pulmuone Tofu": {
         "name": "Sweet Chili Pulmuone Tofu",
@@ -23556,7 +24240,8 @@
         "sugar": 6.8,
         "protein": 10.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Vegetable Ho Fun Noodles": {
         "name": "Vegetable Ho Fun Noodles",
@@ -23592,7 +24277,8 @@
         "sugar": 1.8,
         "protein": 5.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "1% Milk": {
         "name": "1% Milk",
@@ -23611,7 +24297,8 @@
         "sugar": 11.8,
         "protein": 8.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Assorted Cereals": {
         "name": "Assorted Cereals",
@@ -23630,7 +24317,8 @@
         "sugar": 0.0,
         "protein": 0.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "GENERAL MILLS Apple Turnover": {
         "name": "GENERAL MILLS Apple Turnover",
@@ -23650,7 +24338,8 @@
         "sugar": 8.0,
         "protein": 4.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Lowfat Chocolate Milk": {
         "name": "Lowfat Chocolate Milk",
@@ -23671,7 +24360,8 @@
         "sugar": 21.7,
         "protein": 6.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Orange Juice": {
         "name": "Orange Juice",
@@ -23690,7 +24380,8 @@
         "sugar": 28.0,
         "protein": 0.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Dal Palak": {
         "name": "Dal Palak",
@@ -23723,7 +24414,8 @@
         "sugar": 0.6,
         "protein": 4.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Korean Fried Rice w/Nasyoa Kimchi": {
         "name": "Korean Fried Rice w/Nasyoa Kimchi",
@@ -23752,7 +24444,8 @@
         "sugar": 1.6,
         "protein": 6.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Korean Pork Bulgogi": {
         "name": "Korean Pork Bulgogi",
@@ -23786,7 +24479,8 @@
         "sugar": 4.2,
         "protein": 12.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pulmuone Tofu w/Ssamjang Sauce": {
         "name": "Pulmuone Tofu w/Ssamjang Sauce",
@@ -23824,7 +24518,8 @@
         "sugar": 2.5,
         "protein": 1.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Feta Cheese": {
         "name": "Feta Cheese",
@@ -23843,7 +24538,8 @@
         "sugar": 0.0,
         "protein": 6.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Salmon Sushi Roll": {
         "name": "Salmon Sushi Roll",
@@ -23873,7 +24569,8 @@
         "sugar": 12.7,
         "protein": 12.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pulmuone Tofu w/Garlic Sauce": {
         "name": "Pulmuone Tofu w/Garlic Sauce",
@@ -23940,7 +24637,8 @@
         "sugar": 4.4,
         "protein": 8.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Open Face Hot Turkey Sandwich": {
         "name": "Open Face Hot Turkey Sandwich",
@@ -24084,7 +24782,8 @@
         "sugar": 7.0,
         "protein": 19.3,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Caprese Grilled Cheese": {
         "name": "Caprese Grilled Cheese",
@@ -24143,7 +24842,8 @@
         "sugar": 2.7,
         "protein": 10.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Grilled Cheese Sandwich": {
         "name": "Grilled Cheese Sandwich",
@@ -24196,7 +24896,8 @@
         "sugar": 1.5,
         "protein": 4.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Grilled Ham & Cheese Sandwich": {
         "name": "Grilled Ham & Cheese Sandwich",
@@ -24250,7 +24951,8 @@
         "sugar": 2.9,
         "protein": 22.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Tomato Bisque Soup": {
         "name": "Tomato Bisque Soup",
@@ -24272,7 +24974,8 @@
         "sugar": 6.3,
         "protein": 1.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Creme Brulee French Toast": {
         "name": "Creme Brulee French Toast",
@@ -24300,7 +25003,8 @@
         "sugar": 14.4,
         "protein": 2.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Congee Toppings (Peanuts)": {
         "name": "Congee Toppings (Peanuts)",
@@ -24340,7 +25044,8 @@
         "sugar": 7.7,
         "protein": 5.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mushroom Vegetable Congee": {
         "name": "Mushroom Vegetable Congee",
@@ -24382,7 +25087,8 @@
         "sugar": 1.7,
         "protein": 2.6,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pork & Century Egg Congee": {
         "name": "Pork & Century Egg Congee",
@@ -24408,7 +25114,8 @@
         "sugar": 0.3,
         "protein": 4.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "American Chop Suey": {
         "name": "American Chop Suey",
@@ -24457,7 +25164,8 @@
         "sugar": 2.6,
         "protein": 7.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chicken and Corn Soup": {
         "name": "Chicken and Corn Soup",
@@ -24499,7 +25207,8 @@
         "sugar": 3.8,
         "protein": 3.2,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Szechuan Mussels": {
         "name": "Szechuan Mussels",
@@ -24528,7 +25237,8 @@
         "sugar": 0.4,
         "protein": 4.4,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Mussamun Chicken Curry": {
         "name": "Mussamun Chicken Curry",
@@ -24561,7 +25271,8 @@
         "sugar": 4.4,
         "protein": 4.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Nasi Goreng": {
         "name": "Nasi Goreng",
@@ -24588,7 +25299,8 @@
         "sugar": 1.4,
         "protein": 3.9,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Pad Si Ew (Pork & Oysters)": {
         "name": "Pad Si Ew (Pork & Oysters)",
@@ -24639,7 +25351,8 @@
         "sugar": 2.2,
         "protein": 11.0,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Chili Jam": {
         "name": "Chili Jam",
@@ -24663,7 +25376,8 @@
         "sugar": 19.2,
         "protein": 0.1,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Laksa Noodle Bowl (Shrimp, Eggs, Almonds, Pulmuone Tofu)": {
         "name": "Laksa Noodle Bowl (Shrimp, Eggs, Almonds, Pulmuone Tofu)",
@@ -24705,7 +25419,8 @@
         "sugar": 3.0,
         "protein": 13.8,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     },
     "Califlower Tacos Al Pastor": {
         "name": "Califlower Tacos Al Pastor",
@@ -24736,6 +25451,7 @@
         "sugar": 6.7,
         "protein": 2.5,
         "totalRatings": 0,
-        "numReviews": 0
+        "numReviews": 0,
+"reviews": []
     }
 }

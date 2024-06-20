@@ -119,10 +119,29 @@ document.addEventListener("DOMContentLoaded", async () => {
       
       popupContent.innerHTML = `
           <h2>${foodItem.name}</h2>
-          <p>Rating: ${foodItem.numReviews !== 0 ? (foodItem.totalRatings / foodItem.numReviews).toFixed(1)+'/5' : 'N/A'}</p>
+          <p>Rating: ${foodItem.numReviews !== 0 ? (foodItem.totalRatings / foodItem.numReviews).toFixed(1)+'/5.0' : 'N/A'}</p>
           <p>Number of Reviews: ${foodItem.numReviews}</p>
           <p>Calories: ${foodItem.calories}</p>
       `;
+
+      // Function to update food item with review
+      function leaveReview(reviewText, rating) {
+        // Update food item with new review
+        foodItem.reviews.push({ text: reviewText, rating: rating });
+        foodItem.totalRatings += rating;
+        foodItem.numReviews++;
+
+        // TODO: Should also update the user's reviews object with the review
+        // ex. user.reviews.push({ text: reviewText, rating: rating });
+
+        // Update UI with new rating and numReviews
+        const newRating = foodItem.numReviews !== 0 ? (foodItem.totalRatings / foodItem.numReviews).toFixed(1) : 'N/A';
+        popupContent.querySelector('p:nth-of-type(1)').textContent = `Rating: ${newRating}/5`;
+        popupContent.querySelector('p:nth-of-type(2)').textContent = `Number of Reviews: ${foodItem.numReviews}`;
+
+        // Optional: Update JSON or backend with new data
+        // updateFoodItemInJSON(foodItem);
+      }
       
       // Close button for the popup
       const closeButton = document.createElement('button');
@@ -135,13 +154,62 @@ document.addEventListener("DOMContentLoaded", async () => {
       leaveReviewButton.classList.add('leave-review-button');
       leaveReviewButton.textContent = 'Leave Review';
       leaveReviewButton.addEventListener('click', () => {
-        // Replace with your logic to handle leaving a review for this food item
-        const review = prompt(`Leave a review for ${foodItem.name}:`);
-        if (review) {
-            alert(`You left a review for ${foodItem.name}: ${review}`);
-            // Here you can process the review (e.g., send it to a server, update UI, etc.)
-        }
+        // Hide Leave Review button
+        leaveReviewButton.style.display = 'none';
+      
+        // Create rating dropdown and review input
+        const ratingSelect = document.createElement('select');
+        ratingSelect.id = 'rating-select';
+        ratingSelect.classList.add('rating-select');
+        ratingSelect.innerHTML = `
+          <option value="NaN"></option>
+          <option value="0">0</option>
+          <option value="0.5">0.5</option>
+          <option value="1">1</option>
+          <option value="1.5">1.5</option>
+          <option value="2">2</option>
+          <option value="2.5">2.5</option>
+          <option value="3">3</option>
+          <option value="3.5">3.5</option>
+          <option value="4">4</option>
+          <option value="4.5">4.5</option>
+          <option value="5">5</option>
+        `;
+      
+        const reviewInput = document.createElement('textarea');
+        reviewInput.placeholder = 'Write your review here...';
+        reviewInput.style.width = '100%';
+        reviewInput.style.height = '100px';
+        reviewInput.classList.add('reviewInput');
+      
+        const submitButton = document.createElement('button');
+        submitButton.textContent = 'Submit Review';
+        submitButton.classList.add('submit-review');
+        submitButton.addEventListener('click', () => {
+          const selectedRating = parseFloat(ratingSelect.value);
+          const reviewText = reviewInput.value.trim();
+          if (isNaN(selectedRating) || selectedRating < 0 || selectedRating > 5) {
+            alert('Please select a valid rating between 0 and 5.');
+            return;
+          }
+          if (reviewText === '') {
+            alert('Please enter a review text.');
+            return;
+          }
+          leaveReview(reviewText, selectedRating);
+          // Optionally close popup after review submitted
+          // popupContainer.remove();
+          submitButton.remove();
+          reviewInput.remove();
+          ratingSelect.remove();
+        });
+      
+        popupContent.appendChild(ratingSelect);
+        popupContent.appendChild(reviewInput);
+        popupContent.appendChild(submitButton);
       });
+      
+    
       
       popupContent.appendChild(closeButton);
       popupContent.appendChild(leaveReviewButton);
