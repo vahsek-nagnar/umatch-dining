@@ -348,7 +348,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     //--END OF POPUP CONTAINER--\\
     
     //---SHOW REVIEWS---\\
-    function showReviewsPopup(foodItem) {
+    async function showReviewsPopup(foodItem) {
       const reviewsContainer = document.createElement('div');
       reviewsContainer.classList.add('popup-container');
   
@@ -357,10 +357,25 @@ document.addEventListener("DOMContentLoaded", async () => {
       reviewsContent.classList.add('popup-content');
       
       reviewsContent.innerHTML = `
-          <h2>${foodItem.name}</h2>
-          <p>Rating: ${foodItem.numReviews !== 0 ? (foodItem.totalRatings / foodItem.numReviews).toFixed(1)+'/5.0' : 'N/A'}</p>
-          <p>Number of Reviews: ${foodItem.numReviews}</p>
+          <h2>${foodItem.name} Reviews</h2>
       `;
+
+      let foodItems = await loadFoodData();
+      // Check if the food item has reviews
+      if (foodItems[foodItem.name] && foodItems[foodItem.name].reviews.length > 0) {
+        // Iterate through the reviews and create <p> elements for each
+        foodItems[foodItem.name].reviews.forEach(review => {
+            const reviewText = `${review.rating}/5.0: ${review.text}`;
+            const reviewElement = document.createElement('p');
+            reviewElement.textContent = reviewText;
+            reviewsContent.appendChild(reviewElement);
+        });
+      } else {
+        // If no reviews, create a <p> element with the 'No reviews available' text and append it
+        const noReviewsElement = document.createElement('p');
+        noReviewsElement.textContent = 'No reviews available.';
+        reviewsContent.appendChild(noReviewsElement);
+      }
 
       const closeReviewsButton = document.createElement('button');
       closeReviewsButton.textContent = 'Close Reviews';
