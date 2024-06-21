@@ -85,33 +85,37 @@
                     <p>In the UMatch Dining app, users can not only view and create reviews - they can also see personalized graphics about their dining habits at UMass, as well as recommendations for items.</p>
                     <p>The intention of this app is for it to become a site to connect with people over UMass cuisine in the future.</p>
                 </div>
-                <div id="loginView" class="view-login" style="display:none">
-                    <button id="switch-login"><b>Login</b></button>
-                    <button id="switch-signup"><b>Signup</b></button>
-                    <div id="login-container" class="login-container">
-                        <h1>Login</h1>
-                        <div>
-                            <label>Username:</label>
-                            <input type="text" id="username"></input>
+                <div id="loginView" class="view" style="display:none">
+                    <div class="login-view-container">
+                        <div class="buttons">
+                            <button id="switch-login"><b>Login</b></button>
+                            <button id="switch-signup"><b>Signup</b></button>
                         </div>
-                        <div>
-                            <label>Password:</label>
-                            <input type="text" id="password"></input>
-                        </div>                  
-                        <button type="submit" id="submit-login"><b>Submit</b></button>
-                    </div>
-                    <div id="signup-container" class="login-container" style="display:none">
-                        <h1>Signup</h1>
-                        <div>
-                            <label>Username:</label>
-                            <input type="text" id="signup-username"></input>
+                        <div id="login-container" class="login-container">
+                            <h1>Login</h1>
+                            <div>
+                                <label>Username:</label>
+                                <input type="text" id="username"></input>
+                            </div>
+                            <div>
+                                <label>Password:</label>
+                                <input type="password" id="password"></input>
+                            </div>                  
+                            <button type="submit" id="submit-login"><b>Submit</b></button>
                         </div>
-                        <div>
-                            <label>Password:</label>
-                            <input type="text" id="signup-password"></input>
-                        </div>                  
-                        <button type="submit" id="submit-signup"><b>Submit</b></button>
-                    </div>
+                        <div id="signup-container" class="login-container" style="display:none">
+                            <h1>Signup</h1>
+                            <div>
+                                <label>Username:</label>
+                                <input type="text" id="signup-username"></input>
+                            </div>
+                            <div>
+                                <label>Password:</label>
+                                <input type="password" id="signup-password"></input>
+                            </div>                  
+                            <button type="submit" id="submit-signup"><b>Submit</b></button>
+                        </div>
+                    </div>     
                 </div>
             </div>
         </div>
