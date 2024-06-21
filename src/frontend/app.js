@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", async () => {
-
+    
+    // Handle navigation:
     function navigate(viewId) {
       // Hide all views
       document.querySelectorAll(".view").forEach((view) => {
@@ -8,8 +9,11 @@ document.addEventListener("DOMContentLoaded", async () => {
   
       // Show the requested view
       document.getElementById(viewId).style.display = "block";
+
+      localStorage.setItem('currentView', viewId); // sets current view
     }
   
+    // Views: 
     document
       .getElementById("home")
       .addEventListener("click", () => navigate("homeView"));
@@ -25,6 +29,30 @@ document.addEventListener("DOMContentLoaded", async () => {
       .addEventListener("click", () => getUsername() === "none" ? navigate("loginView") : confirmLogout());
       // ^^ above basically means that the login button is a logout button if logged in, or it takes to the login page
 
+    // login-view buttons:
+    document
+      .getElementById("switch-login")
+      .addEventListener("click", () => navigateLoginViews("login-container"));
+
+    document
+      .getElementById("switch-signup")
+      .addEventListener("click", () => navigateLoginViews("signup-container"));
+
+    // Function for login page views specifically
+    function navigateLoginViews(viewId){
+      // Hide all views
+      console.log("navigated to " + viewId)
+      document.querySelectorAll(".login-container").forEach((view) => {
+        view.style.display = "none";
+      });
+  
+      // Show the requested view
+      document.getElementById(viewId).style.display = "block";
+    }
+
+    // default at login view:
+    navigateLoginViews("login-container");
+
     // confirming logout
     function confirmLogout(){
       const userConfirmed = confirm("Do you want to logout?");
@@ -33,8 +61,9 @@ document.addEventListener("DOMContentLoaded", async () => {
           logoutUser();
       } 
     }
-    // Initialize with the home view
-    navigate("homeView");
+    // Initialize with the current view or home view as default
+    const lastView = localStorage.getItem('currentView') || 'homeView';
+    navigate(lastView);
 
     // Menu button and sidebar function:
     let menuBtn = document.querySelector('#menu');
@@ -77,6 +106,8 @@ document.addEventListener("DOMContentLoaded", async () => {
       localStorage.setItem('username', username);
       console.log(`User ${username} logged in and stored in local storage.`);
       callAllProfileFunctions(); // Calls profile functions
+      alert('Login successful!');
+      navigate("homeView"); // Redirects user to home page
     }
 
     // getter for the username in local storage
@@ -119,8 +150,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     function callAllProfileFunctions(){
       let username = getUsername();
 
+      if (username === null){
+        return; // returns if not logged in
+      }
+
       updateNameTag(username);
     }
+
+    callAllProfileFunctions(); // Call on load-in
 
     function updateNameTag(username) {
       const nameTag = document.getElementById('name-tag');
