@@ -144,6 +144,10 @@ document.addEventListener("DOMContentLoaded", async () => {
       authenticateUser(usernameInput.value, passwordInput.value);
     });
 
+    // SUBMIT BUTTON FUNCTION:
+
+    //TODO: add click event to submit button that connects to a signup user function that first checks that the username doesn't already exist, and then adds them to the user database
+
     // ----------------------------------- PROFILE FUNCTIONS ----------------------------------- \\
 
     // function to call all the profile functions
