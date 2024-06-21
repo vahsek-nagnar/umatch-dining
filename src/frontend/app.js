@@ -203,6 +203,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         // TODO: Update JSON or backend with new data
         updateFoodItemInJSON(foodItem);
+
+        // Update table:
+        populateTable(foodData);
       }
 
       // updating food item
@@ -371,8 +374,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         row.addEventListener("click", function () {
           showFoodDetailsPopup(item); // Call function to show popup with food item details
-          // TODO: brings up information for food item
-          //console.log("clicked " + row.id);
         });
       });
     }
