@@ -76,17 +76,19 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // ----------------------------------- LOGIN HANDLING ----------------------------------- \\
     
-    // fake sample data for frontend purposes:
-    userDatabase = {
-      "keshran" : "k3",
-      "nhford" : "nosir",
-      "hackherenthusiast123" : "t3F#wwdg34gt3wg23@$Q72f0r5ur3#@$Q@#$!FDS@#5R@",
+    // TODO: remove fake sample data for frontend purposes:
+    function fetchUserDatabase(){
+      return {
+        "keshran" : "k3",
+        "nhford" : "nosir",
+        "hackherenthusiast123" : "t3F#wwdg34gt3wg23@$Q72f0r5ur3#@$Q@#$!FDS@#5R@",
+      }
     }
 
     // TODO: (requires database for authentication?)
     function authenticateUser(username, password){
       let correctLogin = false;
-      // fetch username/password database
+      const userDatabase = fetchUserDatabase()
       if (userDatabase[username] === password){ // filler database
         correctLogin = true;
       }
@@ -140,13 +142,38 @@ document.addEventListener("DOMContentLoaded", async () => {
     const passwordInput = document.getElementById("password");
 
     loginSubmitButton.addEventListener('click', () => {
-      console.log("login submit")
       authenticateUser(usernameInput.value, passwordInput.value);
     });
 
-    // SUBMIT BUTTON FUNCTION:
+    // SIGNUP BUTTON FUNCTION:
 
-    //TODO: add click event to submit button that connects to a signup user function that first checks that the username doesn't already exist, and then adds them to the user database
+    const signupSubmitButton = document.getElementById("submit-signup");
+    const signupUsernameInput = document.getElementById("signup-username");
+    const signupPasswordInput = document.getElementById("signup-password");
+
+    signupSubmitButton.addEventListener('click', () => {
+      // sign up user:
+      authenticateSignup(signupUsernameInput.value, signupPasswordInput.value);
+    });
+
+    function authenticateSignup(username, password){
+      const userDatabase = fetchUserDatabase()
+      if (Object.keys(userDatabase).some(e => e === username)){
+        // return an alert saying the username exists:
+        alert('That username already exists');
+      } else if(username.length < 1 || password.length < 1) { 
+        alert('Please enter a valid username/password');
+      } else if(username === password) {
+        alert('Your username can not be identical to your password');
+      } else {
+        signupUser(username, password); // function to sign the user up
+      }
+    }
+
+    function signupUser(username, password) {
+      // TODO: adds the user to the database
+      console.log("user " + username + " has been signed up!");
+    }
 
     // ----------------------------------- PROFILE FUNCTIONS ----------------------------------- \\
 
@@ -171,7 +198,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // ----------------------------------- FOOD TABLE AND SEARCH ----------------------------------- \\
     
-    // ---- POPUP ---- \\
+    // ---- POPUP CONTAINER ---- \\
 
     // Popup for food item:
     function showFoodDetailsPopup(foodItem) {
@@ -298,13 +325,56 @@ document.addEventListener("DOMContentLoaded", async () => {
         popupContent.appendChild(reviewInput);
         popupContent.appendChild(submitButton);
       });
+
+      // view reviews button
+      const viewReviewsButton = document.createElement('button');
+      viewReviewsButton.classList.add('view-reviews-button');
+      viewReviewsButton.textContent = 'View Reviews';
+
+      // close popup
+      viewReviewsButton.addEventListener('click', () => {
+        popupContainer.remove(); // Remove the popup when close button is clicked
+        showReviewsPopup(foodItem); // Opens reviews
+      });
       
       popupContent.appendChild(closeButton);
       popupContent.appendChild(leaveReviewButton);
+      popupContent.appendChild(viewReviewsButton);
       popupContainer.appendChild(popupContent);
       
       document.body.appendChild(popupContainer); // Append the popup to the body or a container
-    }    
+    }  
+
+    //--END OF POPUP CONTAINER--\\
+    
+    //---SHOW REVIEWS---\\
+    function showReviewsPopup(foodItem) {
+      const reviewsContainer = document.createElement('div');
+      reviewsContainer.classList.add('popup-container');
+  
+      // Create content for the popup
+      const reviewsContent = document.createElement('div');
+      reviewsContent.classList.add('popup-content');
+      
+      reviewsContent.innerHTML = `
+          <h2>${foodItem.name}</h2>
+          <p>Rating: ${foodItem.numReviews !== 0 ? (foodItem.totalRatings / foodItem.numReviews).toFixed(1)+'/5.0' : 'N/A'}</p>
+          <p>Number of Reviews: ${foodItem.numReviews}</p>
+      `;
+
+      const closeReviewsButton = document.createElement('button');
+      closeReviewsButton.textContent = 'Close Reviews';
+
+      closeReviewsButton.addEventListener('click', () => {
+        reviewsContainer.remove(); // Remove the reviews container
+        showFoodDetailsPopup(foodItem); // Re-open the og popup
+      });
+
+      reviewsContent.appendChild(closeReviewsButton);
+      reviewsContainer.appendChild(reviewsContent);
+
+      document.body.appendChild(reviewsContainer);
+    }
 
     // ---- LOADING FOOD DATA ---- \\
     let foodValues = {};

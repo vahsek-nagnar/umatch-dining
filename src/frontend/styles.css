@@ -340,6 +340,22 @@ th {
     background-color: #901a1a;
 }
 
+.popup-content .view-reviews-button {
+    margin-left: 20px;
+    right: 20px;
+    padding: 8px 16px;
+    background-color: #641212;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    max-height: 40px;
+}
+
+.popup-content .view-reviews-button:hover {
+    background-color: #901a1a;
+}
+
 .popup-content .rating-select {
     margin: 10px;
     border-radius: 2px;
