@@ -80,7 +80,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // ----------------------------------- LOGIN HANDLING ----------------------------------- \\
     
-    // TODO: remove fake sample data for frontend purposes:
     // Function to fetch the user database
     async function fetchUserDatabase() {
       try {
@@ -97,7 +96,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       }
     }
 
-    // TODO: (requires database for authentication?)
+    // Authenticate user function
     async function authenticateUser(username, password) {
       try {
         const userDatabase = await fetchUserDatabase(); // Wait for the database to be fetched
@@ -255,7 +254,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // ---- POPUP CONTAINER ---- \\
 
     // Popup for food item:
-    function showFoodDetailsPopup(foodItem) {
+    async function showFoodDetailsPopup(foodItem) {
       // Create a popup container
       const popupContainer = document.createElement('div');
       popupContainer.classList.add('popup-container');
@@ -271,49 +270,60 @@ document.addEventListener("DOMContentLoaded", async () => {
           <p>Calories: ${foodItem.calories}</p>
       `;
 
-      // Function to update food item with review
-      function leaveReview(reviewText, rating) {
-        // Update food item with new review
-        foodItem.reviews.push({ text: reviewText, rating: rating });
-        foodItem.totalRatings += rating;
-        foodItem.numReviews++;
-
-        // TODO: Should also update the user's reviews object with the review
-        // ex. user.reviews.push({ text: reviewText, rating: rating });
-
-        // Update UI with new rating and numReviews
-        const newRating = foodItem.numReviews !== 0 ? (foodItem.totalRatings / foodItem.numReviews).toFixed(1) : 'N/A';
-        popupContent.querySelector('p:nth-of-type(1)').textContent = `Rating: ${newRating}/5`;
-        popupContent.querySelector('p:nth-of-type(2)').textContent = `Number of Reviews: ${foodItem.numReviews}`;
-
-        // TODO: Update JSON or backend with new data
-        updateFoodItemInJSON(foodItem);
-
-        // Update table:
-        populateTable(foodData);
+      async function leaveReview(reviewText, rating) {
+        try {
+            // Update food item with new review
+            foodItem.reviews.push({ text: reviewText, rating: rating });
+            foodItem.totalRatings += rating;
+            foodItem.numReviews++;
+    
+            // Update UI with new rating and numReviews
+            const newRating = foodItem.numReviews !== 0 ? (foodItem.totalRatings / foodItem.numReviews).toFixed(1) : 'N/A';
+            popupContent.querySelector('p:nth-of-type(1)').textContent = `Rating: ${newRating}/5`;
+            popupContent.querySelector('p:nth-of-type(2)').textContent = `Number of Reviews: ${foodItem.numReviews}`;
+    
+            // Update JSON or database with new data
+            await updateFoodItemInJSON(foodItem);
+    
+            // Update user's reviews object if logged in
+            const username = getUsername();
+            if (username !== 'none') {
+                const user = await user_db.get(username);
+                if (!user.reviews) {
+                    user.reviews = []; // Initialize reviews array if it doesn't exist
+                }
+                user.reviews.push({ text: reviewText, rating: rating });
+                await user_db.put(user);
+            }
+    
+            // Update table
+            populateTable(foodData);
+    
+        } catch (error) {
+            console.error('Error leaving review:', error);
+            alert('An error occurred while leaving the review. Please try again later.');
+        }
       }
-
+    
       // updating food item
       async function updateFoodItemInJSON(foodItem) {
         try {
-          // Fetch the existing food list from JSON
-          const response = await fetch('food_list.json');
-          if (!response.ok) {
-            throw new Error('Network response was not ok.');
-          }
-          const foodList = await response.json();
-      
-          // Find the food item in the JSON data
-          foodList[foodItem.name] = foodItem;
-            
-          // TODO: update the JSON file
-
+          // Fetch the existing food item from PouchDB
+          const existingFoodItem = await food_db.get(foodItem._id);
+  
+          // Update the existing food item with new data
+          Object.assign(existingFoodItem, foodItem);
+  
+          // Save the updated food item back to PouchDB
+          const response = await food_db.put(existingFoodItem);
+          console.log('Updated food item:', response);
+  
+          return response;
         } catch (error) {
-          console.error('Error updating food item in JSON:', error);
-          // Handle the error as needed (e.g., show error message to user)
+            console.error('Error updating food item in PouchDB:', error);
+            throw error; // Propagate the error to handle it elsewhere
         }
       }
-      
       
       // Close button for the popup
       const closeButton = document.createElement('button');
@@ -416,9 +426,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       let foodItems = await loadFoodData();
       // Check if the food item has reviews
-      if (foodItems[foodItem.name] && foodItems[foodItem.name].reviews.length > 0) {
+      let foodName = foodItem.name.replace(/\s+/g, '_').toLowerCase();
+      console.log(foodName)
+      console.log(foodItems)
+      if (foodItems[foodName] && foodItems[foodName].reviews.length > 0) {
         // Iterate through the reviews and create <p> elements for each
-        foodItems[foodItem.name].reviews.forEach(review => {
+        foodItems[foodName].reviews.forEach(review => {
             const reviewText = `${review.rating}/5.0: ${review.text}`;
             const reviewElement = document.createElement('p');
             reviewElement.textContent = reviewText;
@@ -534,24 +547,63 @@ function round(value, precision) {
 
 async function loadFoodData() {
   try {
-      const response = await fetch('food_list.json');
+      // Fetch all documents from PouchDB
+      const response = await food_db.allDocs({ include_docs: true });
 
-      if (!response.ok) {
-          throw new Error('Network response was not ok. ' + response.statusText);
-      }
+      // Extract the documents and their data
+      const foodList = {};
+      response.rows.forEach(row => {
+          foodList[row.doc._id] = row.doc;
+      });
 
-      const foodList = await response.json();
-      return foodList; // Return the parsed JSON object
+      console.log(foodList)
+      return foodList; // Return the object with food items keyed by _id
   } catch (error) {
-      console.error('There has been a problem with your fetch operation:', error);
+      console.error('There has been a problem with loading food data from PouchDB:', error);
       throw error; // Rethrow the error for further handling
   }
 }
+
 
 // hashing for password security
 function hashPassword(password) {
   const hashedPassword = CryptoJS.SHA256(password).toString(CryptoJS.enc.Hex);
   return hashedPassword;
+}
+
+
+
+// ------------------- ACCESSORY OR INITIALIZATION FUNCTIONS --------------------------\\
+
+/*/ RECREATES ORIGINAL DATABASE
+async function clearAndInitializeFoodDatabaseFromJSON() {
+  try {
+      // Step 1: Clear the existing database
+      await food_db.destroy();
+
+      // Step 2: Recreate the database
+      const new_food_db = new PouchDB('food_db');
+
+      // Step 3: Load the JSON data
+      const response = await fetch('food_list.json');
+      if (!response.ok) {
+          throw new Error('Failed to fetch food list JSON');
+      }
+      const foodList = await response.json();
+
+      // Step 4: Modify the JSON data to add _id field
+      const foodDocuments = Object.keys(foodList).map(key => ({
+          ...foodList[key],
+          _id: key.replace(/\s+/g, '_').toLowerCase() // Generate _id based on name
+      }));
+
+      // Step 5: Insert documents into PouchDB
+      const result = await new_food_db.bulkDocs(foodDocuments);
+      console.log('Initialization successful:', result);
+  } catch (error) {
+      console.error('Error initializing food database from JSON:', error);
+      throw error; // Rethrow the error for further handling
+  }
 }
 
 /* ATTENTION: ONLY USED FOR TESTING AND DEVELOPMENT PURPOSES
