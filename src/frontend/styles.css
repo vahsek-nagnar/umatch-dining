@@ -441,6 +441,29 @@ th {
     color: white;
 }
 
-.bold-text {
-    font-weight: bold;
+/* PROFILE PAGE */
+
+.view .buttons-container button{
+    margin: 10px;
+    padding: 8px 16px;
+    background-color: #f3e8e8;
+    color: #641212;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    max-height: 40px;
+    margin-left: 0px;
+}
+
+.view .buttons-container button:hover{
+    background-color: #4d0b0b;
+    color: white;
+}
+
+.view .profile-views-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height to ensure vertical centering */
 }

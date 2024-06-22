@@ -245,7 +245,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     function updateNameTag(username) {
       const nameTag = document.getElementById('name-tag');
-      nameTag.textContent = `Welcome, ${username}!`;
+      nameTag.textContent = `User: ${username}`;
       console.log("name updated")
     }
 
