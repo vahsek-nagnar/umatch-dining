@@ -108,11 +108,16 @@ document.addEventListener("DOMContentLoaded", async () => {
         const userDatabase = await fetchUserDatabase(); // Wait for the database to be fetched
         console.log(userDatabase);
     
-        if (userDatabase[username] && userDatabase[username].password === password) { // Check if the username exists and the password matches
-          loginUser(username);
-        } else {
+        if (userDatabase[username]) {
+          const hashedPassword = await hashPassword(password); // Hash the entered password
+          if (userDatabase[username].password === hashedPassword) {
+              loginUser(username);
+          } else {
+              alert('Your username/password is incorrect');
+          }
+      } else {
           alert('Your username/password is incorrect');
-        }
+      }
       } catch (error) {
         console.error('Error during authentication:', error);
         alert('An error occurred during authentication');
@@ -203,12 +208,14 @@ document.addEventListener("DOMContentLoaded", async () => {
           alert('That username already exists');
           return;
         }
-    
+        
+        const hashedPassword = hashPassword(password); // Hash password for safety
+
         // Create a new user document
         const newUser = {
           _id: username,
           username: username,
-          password: password 
+          password: hashedPassword // signup with hashed password
         };
     
         // Save the new user document to the database
@@ -529,7 +536,6 @@ function round(value, precision) {
     return Math.round(value * multiplier) / multiplier;
 }
 
-
 async function loadFoodData() {
   try {
       const response = await fetch('food_list.json');
@@ -544,5 +550,11 @@ async function loadFoodData() {
       console.error('There has been a problem with your fetch operation:', error);
       throw error; // Rethrow the error for further handling
   }
+}
+
+// hashing for password security
+function hashPassword(password) {
+  const hashedPassword = CryptoJS.SHA256(password).toString(CryptoJS.enc.Hex);
+  return hashedPassword;
 }
 
