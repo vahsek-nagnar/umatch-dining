@@ -210,7 +210,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         const newUser = {
           _id: username,
           username: username,
-          password: hashedPassword // signup with hashed password
+          password: hashedPassword, // signup with hashed password
+          reviews: [] // Array to store reviews
         };
     
         // Save the new user document to the database
@@ -553,3 +554,28 @@ function hashPassword(password) {
   return hashedPassword;
 }
 
+/* ATTENTION: ONLY USED FOR TESTING AND DEVELOPMENT PURPOSES
+// THE FOLLOWING WILL DELETE ALL DATABASE INFORMATION STORED 
+async function clearUserDatabase() {
+  try {
+    const allDocs = await user_db.allDocs({ include_docs: true });
+    const docsToDelete = allDocs.rows.map(row => ({
+      _id: row.id,
+      _rev: row.value.rev,
+      _deleted: true
+    }));
+
+    if (docsToDelete.length > 0) {
+      const result = await user_db.bulkDocs(docsToDelete);
+      console.log('Database cleared:', result);
+    } else {
+      console.log('No documents found to delete.');
+    }
+  } catch (error) {
+    console.error('Error clearing user database:', error);
+  }
+}
+
+// Call the function to clear the user database
+clearUserDatabase();
+*/
