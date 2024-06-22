@@ -94,11 +94,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         return userDatabase;
       } catch (error) {
         console.error('Error fetching user database:', error);
-        return { // return example database
-          "keshran" : "k3",
-          "nhford" : "nosir",
-          "hackherenthusiast123" : "t3F#wwdg34gt3wg23@$Q72f0r5ur3#@$Q@#$!FDS@#5R@",
-        }
       }
     }
 
