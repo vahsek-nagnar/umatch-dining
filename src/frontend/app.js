@@ -1,3 +1,7 @@
+// Initialize databases
+const food_db = new PouchDB('food_db');
+const user_db = new PouchDB('user_db');
+
 document.addEventListener("DOMContentLoaded", async () => {
     
     // Handle navigation:
@@ -77,31 +81,44 @@ document.addEventListener("DOMContentLoaded", async () => {
     // ----------------------------------- LOGIN HANDLING ----------------------------------- \\
     
     // TODO: remove fake sample data for frontend purposes:
-    function fetchUserDatabase(){
-      return {
-        "keshran" : "k3",
-        "nhford" : "nosir",
-        "hackherenthusiast123" : "t3F#wwdg34gt3wg23@$Q72f0r5ur3#@$Q@#$!FDS@#5R@",
+    // Function to fetch the user database
+    async function fetchUserDatabase() {
+      try {
+        const result = await user_db.allDocs({ include_docs: true });
+        const userDatabase = {};
+
+        result.rows.forEach(row => {
+          userDatabase[row.doc._id] = row.doc;
+        });
+
+        return userDatabase;
+      } catch (error) {
+        console.error('Error fetching user database:', error);
+        return { // return example database
+          "keshran" : "k3",
+          "nhford" : "nosir",
+          "hackherenthusiast123" : "t3F#wwdg34gt3wg23@$Q72f0r5ur3#@$Q@#$!FDS@#5R@",
+        }
       }
     }
 
     // TODO: (requires database for authentication?)
-    function authenticateUser(username, password){
-      let correctLogin = false;
-      const userDatabase = fetchUserDatabase()
-      if (userDatabase[username] === password){ // filler database
-        correctLogin = true;
-      }
-
-      // username password pair is correct:
-      if (correctLogin){
-        loginUser(username);
-      }
-      else{ // credentials are incorrect or don't exist
-        alert(`Your username/password is incorrect`);
+    async function authenticateUser(username, password) {
+      try {
+        const userDatabase = await fetchUserDatabase(); // Wait for the database to be fetched
+        console.log(userDatabase);
+    
+        if (userDatabase[username] && userDatabase[username].password === password) { // Check if the username exists and the password matches
+          loginUser(username);
+        } else {
+          alert('Your username/password is incorrect');
+        }
+      } catch (error) {
+        console.error('Error during authentication:', error);
+        alert('An error occurred during authentication');
       }
     }
-
+    
     // function that stores the username in local storage after they've successfully logged in
     function loginUser(username) {
       // Store the username in local storage
@@ -121,8 +138,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       } else {
           console.log('No username found in local storage.');
           return "none";
-      }
-    
+      }   
     }
 
     // log out user
@@ -143,6 +159,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     loginSubmitButton.addEventListener('click', () => {
       authenticateUser(usernameInput.value, passwordInput.value);
+      usernameInput.value = '';
+      passwordInput.value = '';
     });
 
     // SIGNUP BUTTON FUNCTION:
@@ -154,6 +172,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     signupSubmitButton.addEventListener('click', () => {
       // sign up user:
       authenticateSignup(signupUsernameInput.value, signupPasswordInput.value);
+      signupUsernameInput.value = '';
+      signupPasswordInput.value = '';
     });
 
     function authenticateSignup(username, password){
@@ -170,10 +190,41 @@ document.addEventListener("DOMContentLoaded", async () => {
       }
     }
 
-    function signupUser(username, password) {
-      // TODO: adds the user to the database
-      console.log("user " + username + " has been signed up!");
+    async function signupUser(username, password) {
+      try {
+        // Check if the username already exists
+        const existingUser = await user_db.get(username).catch(err => {
+          if (err.status !== 404) {
+            throw err;
+          }
+        });
+    
+        if (existingUser) {
+          alert('That username already exists');
+          return;
+        }
+    
+        // Create a new user document
+        const newUser = {
+          _id: username,
+          username: username,
+          password: password 
+        };
+    
+        // Save the new user document to the database
+        await user_db.put(newUser);
+    
+        alert('User ' + username + ' has been signed up!');
+        navigateLoginViews("login-container");
+      } catch (error) {
+        console.error('Error signing up user:', error);
+      }
     }
+
+    // TODO: testing
+    fetchUserDatabase().then(userDatabase => {
+      console.log('User Database:', userDatabase);
+    });
 
     // ----------------------------------- PROFILE FUNCTIONS ----------------------------------- \\
 

@@ -28,6 +28,7 @@
     "test": ""
   },
   "dependencies": {
-    "http-server": "^14.1.1"
+    "http-server": "^14.1.1",
+    "pouchdb": "^9.0.0"
   }
 }
