@@ -2,6 +2,8 @@
 const food_db = new PouchDB('food_db');
 const user_db = new PouchDB('user_db');
 
+const URL = "http://localhost:3000"; // URL of server
+
 document.addEventListener("DOMContentLoaded", async () => {
     
     // Handle navigation:
