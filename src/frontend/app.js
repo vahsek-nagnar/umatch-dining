@@ -86,11 +86,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // ----------------------------------- LOGIN HANDLING ----------------------------------- \\
     
-    // TODO: data read
     // Function to fetch the user database
     async function fetchUserDatabase() {
       try {
-        const result = await user_db.allDocs({ include_docs: true });
+        const result = await user_db.allDocs({ include_docs: true }); // TODO: get user database
         const userDatabase = {};
 
         result.rows.forEach(row => {
@@ -103,7 +102,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       }
     }
 
-    // TODO: data read
     // Authenticate user function
     async function authenticateUser(username, password) {
       try {
@@ -183,9 +181,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       signupPasswordInput.value = '';
     });
 
-    // TODO: data read
+    // function to authenticate the signup
     function authenticateSignup(username, password){
-      const userDatabase = fetchUserDatabase()
+      const userDatabase = fetchUserDatabase(); // TODO: get user database
       if (Object.keys(userDatabase).some(e => e === username)){
         // return an alert saying the username exists:
         alert('That username already exists');
@@ -198,10 +196,11 @@ document.addEventListener("DOMContentLoaded", async () => {
       }
     }
 
-    // TODO: data written
+    // signup user function
     async function signupUser(username, password) {
       try {
         // Check if the username already exists
+        // TODO: get user
         const existingUser = await user_db.get(username).catch(err => {
           if (err.status !== 404) {
             throw err;
@@ -224,7 +223,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         };
     
         // Save the new user document to the database
-        await user_db.put(newUser);
+        await user_db.put(newUser); // TODO: put user
     
         alert('User ' + username + ' has been signed up!');
         navigateLoginViews("login-container");
@@ -250,7 +249,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     callAllProfileFunctions(); // Call on load-in
 
-    // TODO: data read and written
+    // Update profile function
     async function updateProfile(username) {
       const nameTag = document.getElementById('name-tag');
       nameTag.textContent = `User: ${username}`;
@@ -263,7 +262,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       usernameInfo.textContent = `Username: ${username}`;
       
       try {// Fetch user data from PouchDB
-        const user = await user_db.get(username);
+        const user = await user_db.get(username); //TODO: get user
 
         // Calculate the number of reviews and average rating
         const numReviews = user.reviews.length;
@@ -423,7 +422,7 @@ document.addEventListener("DOMContentLoaded", async () => {
           <p>Calories: ${foodItem.calories}</p>
       `;
 
-      // TODO: data read and data written
+      // Function to leave reviews
       async function leaveReview(reviewText, rating) {
         try {
             // Update food item with new review
@@ -442,7 +441,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             // Update user's reviews object if logged in
             const username = getUsername();
             if (username !== 'none') {
-                const user = await user_db.get(username);
+                const user = await user_db.get(username); // TODO: get username
                 if (!user.reviews) {
                     user.reviews = []; // Initialize reviews array if it doesn't exist
                 }
@@ -459,18 +458,17 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
       }
     
-      // TODO: data written
       // updating food item
       async function updateFoodItemInJSON(foodItem) {
         try {
           // Fetch the existing food item from PouchDB
-          const existingFoodItem = await food_db.get(foodItem._id);
+          const existingFoodItem = await food_db.get(foodItem._id); // TODO: get food item
   
           // Update the existing food item with new data
           Object.assign(existingFoodItem, foodItem);
   
           // Save the updated food item back to PouchDB
-          const response = await food_db.put(existingFoodItem);
+          const response = await food_db.put(existingFoodItem); // TODO: update food item
           console.log('Updated food item:', response);
   
           return response;
@@ -700,11 +698,11 @@ function round(value, precision) {
     return Math.round(value * multiplier) / multiplier;
 }
 
-// TODO: get food data
+// Load food data function
 async function loadFoodData() {
   try {
       // Fetch all documents from PouchDB
-      const response = await food_db.allDocs({ include_docs: true });
+      const response = await food_db.allDocs({ include_docs: true }); // TODO: get food database
 
       // Extract the documents and their data
       const foodList = {};
