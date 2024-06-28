@@ -307,7 +307,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         // Update food statistics
         const foodStatsContainer = document.getElementById('user-food-stats');
-        foodStatsContainer.innerHTML = '<h2>Food Statistics</h2>';
+        foodStatsContainer.innerHTML = '<h1>Food Statistics</h1>';
 
         // Display rating counts
         const ratingCountsContainer = document.createElement('div');
