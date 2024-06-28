@@ -312,27 +312,39 @@ document.addEventListener("DOMContentLoaded", async () => {
         // Display rating counts
         const ratingCountsContainer = document.createElement('div');
         ratingCountsContainer.innerHTML = '<h3>Reviews by Rating:</h3>';
-        for (const [rating, count] of Object.entries(ratingCounts)) {
+
+        // Convert the ratingCounts object to an array of [rating, count] pairs, sort by rating in descending order
+        const sortedRatingCounts = Object.entries(ratingCounts).sort((a, b) => b[0] - a[0]);
+
+        for (const [rating, count] of sortedRatingCounts) {
           const ratingCountElement = document.createElement('p');
           ratingCountElement.textContent = count === 1 ? `${rating} stars: ${count} review` : `${rating} stars: ${count} reviews`;
           ratingCountsContainer.appendChild(ratingCountElement);
         }
+
         foodStatsContainer.appendChild(ratingCountsContainer);
 
         // Display top food items
         const topFoodItemsContainer = document.createElement('div');
         topFoodItemsContainer.innerHTML = '<h3>Top Food Items by Rating:</h3>';
-        topFoodItems.forEach(item => {
+
+        // Slice the topFoodItems array to get only the top 10 items
+        const topTenFoodItems = topFoodItems.slice(0, 10);
+
+        topTenFoodItems.forEach(item => {
           const topFoodItemElement = document.createElement('p');
-          topFoodItemElement.innerHTML = item.numReviews === 1 ? `<strong>${item.foodItem}</strong> - ${item.avgRating}/5.0 (${item.numReviews} review)` : `<strong>${item.foodItem}</strong> - ${item.avgRating}/5.0 (${item.numReviews} reviews)` ;
+          topFoodItemElement.innerHTML = item.numReviews === 1 ? 
+            `<strong>${item.foodItem}</strong> - ${item.avgRating}/5.0 (${item.numReviews} review)` : 
+            `<strong>${item.foodItem}</strong> - ${item.avgRating}/5.0 (${item.numReviews} reviews)`;
           topFoodItemsContainer.appendChild(topFoodItemElement);
         });
+
         foodStatsContainer.appendChild(topFoodItemsContainer);
 
 
+
       } catch (error) {
-          console.error('Error updating profile:', error);
-          alert('An error occurred while updating the profile. Please try again later.');
+          console.error('Not logged in', error);
       }
 
     }
@@ -746,5 +758,46 @@ async function clearUserDatabase() {
 }
 
 // Call the function to clear the user database
-clearUserDatabase();
-*/
+//clearUserDatabase();
+
+
+// remove specific review from user:
+async function removeReviewsFromFoodItem(foodItemName) {
+  try {
+    // Fetch all user documents from PouchDB
+    const userDocs = await user_db.allDocs({ include_docs: true });
+    
+    // Iterate through each user and remove reviews that match the food item
+    for (const userDoc of userDocs.rows) {
+      const user = userDoc.doc;
+      const originalReviewCount = user.reviews.length;
+      user.reviews = user.reviews.filter(review => review.foodItem !== foodItemName);
+      if (user.reviews.length < originalReviewCount) {
+        // Update the user document in the database only if reviews were removed
+        await user_db.put(user);
+        console.log(`Removed reviews for ${foodItemName} from user ${user._id}`);
+      }
+    }
+
+    // Fetch the food item document from PouchDB
+    const foodItem = await food_db.get(foodItemName.replace(/\s+/g, '_'));
+
+    // Clear the reviews array and reset the ratings for the food item
+    foodItem.reviews = [];
+    foodItem.totalRatings = 0;
+    foodItem.numReviews = 0;
+
+    // Update the food item document in the database
+    await food_db.put(foodItem);
+
+    console.log(`All reviews for ${foodItemName} have been removed.`);
+
+  } catch (error) {
+    console.error('Error removing reviews from food item:', error);
+    alert('An error occurred while removing reviews. Please try again later.');
+  }
+}
+
+//removeReviewsFromFoodItem('1%_milk'); */
+
+
