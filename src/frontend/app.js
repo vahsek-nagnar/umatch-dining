@@ -324,29 +324,52 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         foodStatsContainer.appendChild(ratingCountsContainer);
 
+        async function getFoodItemCalories(foodName) {
+          let foodItemName = foodName.toLowerCase().replace(/\s+/g, '_');
+          try {
+            const foodItem = await food_db.get(foodItemName);
+            return foodItem.calories;
+          } catch (error) {
+            console.error(`Error fetching food item: ${foodItemName}`, error);
+            return 0; // Default to 0 calories if there's an error
+          }
+        }
+        
         // Display top food items
         const topFoodItemsContainer = document.createElement('div');
         topFoodItemsContainer.innerHTML = '<h3>Top Food Items by Rating:</h3>';
-
+        
         // Slice the topFoodItems array to get only the top 10 items
         const topTenFoodItems = topFoodItems.slice(0, 10);
-
-        topTenFoodItems.forEach(item => {
+        
+        // Asynchronously fetch calories for each top food item
+        const foodItemsWithCalories = await Promise.all(topTenFoodItems.map(async item => {
+          const calories = await getFoodItemCalories(item.foodItem);
+          return { ...item, calories };
+        }));
+        
+        // Calculate the average calories of the top 10 food items
+        const totalCalories = foodItemsWithCalories.reduce((sum, item) => sum + item.calories, 0);
+        const avgCalories = (totalCalories / foodItemsWithCalories.length).toFixed(1);
+        
+        foodItemsWithCalories.forEach(item => {
           const topFoodItemElement = document.createElement('p');
           topFoodItemElement.innerHTML = item.numReviews === 1 ? 
-            `<strong>${item.foodItem}</strong> - ${item.avgRating}/5.0 (${item.numReviews} review)` : 
-            `<strong>${item.foodItem}</strong> - ${item.avgRating}/5.0 (${item.numReviews} reviews)`;
+            `<strong>${item.foodItem}</strong> - ${item.avgRating}/5.0 (${item.numReviews} review) - ${item.calories} calories` : 
+            `<strong>${item.foodItem}</strong> - ${item.avgRating}/5.0 (${item.numReviews} reviews) - ${item.calories} calories`;
           topFoodItemsContainer.appendChild(topFoodItemElement);
         });
-
+        
+        // Display the average calories information
+        const avgCaloriesElement = document.createElement('p');
+        avgCaloriesElement.innerHTML = `<strong>Average Calories:</strong> ${avgCalories} calories`;
+        topFoodItemsContainer.appendChild(avgCaloriesElement);
+        
         foodStatsContainer.appendChild(topFoodItemsContainer);
-
-
 
       } catch (error) {
           console.error('Not logged in', error);
       }
-
     }
 
     // Profile Buttons:
