@@ -18,6 +18,10 @@ p {
     color:white;
 }
 
+.bold-text {
+    font-weight: bold;
+}
+
 /* SIDEBAR */
 
 .sidebar {
@@ -197,6 +201,7 @@ p {
 .view {
     display: none;
     /* Hide all views by default */
+    justify-content: center;
 }
 
 /* HOME CONTAINER */
@@ -459,11 +464,35 @@ th {
     background-color: #4d0b0b;
     color: white;
 }
-
+    
 .view .profile-views-container {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 100vh; /* Full viewport height to ensure vertical centering */
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 5px;
+    background-color: #410d0d;
+    margin-top: 50px;
+    max-width: 50%;
+    box-shadow: rgb(59, 7, 7) 3px 3px;
+    border-radius: 5px;
+}
+
+.view .profile-views-container h1 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    text-shadow: #ffffff50 2px 2px;
+    font-family: 'Segoe UI';
+}
+
+.view .profile-views-container label {
+    display: block;
+    margin-top: 10px;
+}
+
+.view .profile-views-container .profile-view {
+    margin-top: 20px;
 }

@@ -79,15 +79,26 @@
                     </div>
                 </div>
                 <div id="profileView" class="view" style="display:none">
-                    <h1>Your Profile</h1>
+                    <h1 class="profile-header">Profile</h1>
                     <p id="name-tag"></p>
                     <div class="buttons-container">
-                        <button id="Stats">User Information</button>
-                        <button id="Reviews">Reviews</button>
-                        <button id="Favorites">Food Statistics</button>
+                        <button id="user-information"><b>User Information</b></button>
+                        <button id="user-reviews"><b>Reviews</b></button>
+                        <button id="food-statistics"><b>Food Statistics</b></button>
                     </div>
                     <div class="profile-views-container">
-
+                        <div id='user-info' class="profile-view" style="display:none">
+                            <h1>User Information</h1>
+                            <label id="username-info"></label>
+                            <label id="numReviews-info"></label>
+                            <label id="avgRating-info"></label>
+                        </div>
+                        <div id='user-review-list' class="profile-view" style="display:none">
+                            <h1>User Reviews</h1>
+                        </div>
+                        <div id='user-food-stats' class="profile-view" style="display:none">
+                            <h1>User Food Statistics</h1>
+                        </div>
                     </div>
                 </div>
                 <div id="aboutView" class="view" style="display:none">

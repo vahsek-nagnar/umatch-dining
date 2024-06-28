@@ -24,7 +24,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     document
       .getElementById("profile")
       .addEventListener("click", () => getUsername() === "none" ? alert(`You must be logged in to access your profile`) : navigate("profileView"));
-      ;
     document
       .getElementById("about")
       .addEventListener("click", () => navigate("aboutView"));
@@ -33,6 +32,11 @@ document.addEventListener("DOMContentLoaded", async () => {
       .addEventListener("click", () => getUsername() === "none" ? navigate("loginView") : confirmLogout());
       // ^^ above basically means that the login button is a logout button if logged in, or it takes to the login page
 
+    document
+      .getElementById("profile")
+      .addEventListener("click", () => callAllProfileFunctions());
+
+      
     // login-view buttons:
     document
       .getElementById("switch-login")
@@ -238,15 +242,128 @@ document.addEventListener("DOMContentLoaded", async () => {
         return; // returns if not logged in
       }
 
-      updateNameTag(username);
+      updateProfile(username); // update name tag function
+
+      displayProfiles('user-info'); // Default to user-info
     }
 
     callAllProfileFunctions(); // Call on load-in
 
-    function updateNameTag(username) {
+    async function updateProfile(username) {
       const nameTag = document.getElementById('name-tag');
       nameTag.textContent = `User: ${username}`;
-      console.log("name updated")
+      
+      // User Info Content:
+      const usernameInfo = document.getElementById('username-info');
+      const numReviewsInfo = document.getElementById('numReviews-info');
+      const avgRatingInfo = document.getElementById('avgRating-info');
+
+      usernameInfo.textContent = `Username: ${username}`;
+      
+      try {// Fetch user data from PouchDB
+        const user = await user_db.get(username);
+
+        // Calculate the number of reviews and average rating
+        const numReviews = user.reviews.length;
+        const totalRatings = user.reviews.reduce((sum, review) => sum + review.rating, 0);
+        const avgRating = numReviews > 0 ? (totalRatings / numReviews).toFixed(1) : 'N/A';
+
+        // Update the profile information
+        numReviewsInfo.textContent = `Number of Reviews: ${numReviews}`;
+        avgRatingInfo.textContent = `Average Rating Given: ${avgRating}`;
+
+        // Add user reviews to profile:
+        const userReviewsContainer = document.getElementById('user-review-list');
+        userReviewsContainer.innerHTML = '<h1>User Reviews</h1>'; // Clear existing to remove duplicate generation
+        user.reviews.forEach(review => {
+          const reviewElement = document.createElement('p');
+          reviewElement.innerHTML = `<em>(${review.foodItem})</em> - <span class="bold-text">${review.rating}/5.0:</span> ${review.text} <br>`;
+          userReviewsContainer.appendChild(reviewElement);
+        });
+
+        // TODO: Add food statistics
+        // Calculate food statistics
+        const ratingCounts = {};
+        const foodRatings = {};
+
+        user.reviews.forEach(review => {
+          // Count reviews by rating
+          ratingCounts[review.rating] = (ratingCounts[review.rating] || 0) + 1;
+
+          // Aggregate ratings by food item
+          if (!foodRatings[review.foodItem]) {
+            foodRatings[review.foodItem] = { totalRating: 0, numReviews: 0 };
+          }
+          foodRatings[review.foodItem].totalRating += review.rating;
+          foodRatings[review.foodItem].numReviews++;
+        });
+
+        // Convert food ratings to an array and sort by average rating
+        const topFoodItems = Object.keys(foodRatings).map(foodItem => ({
+          foodItem,
+          avgRating: (foodRatings[foodItem].totalRating / foodRatings[foodItem].numReviews).toFixed(1),
+          numReviews: foodRatings[foodItem].numReviews
+        })).sort((a, b) => b.avgRating - a.avgRating);
+
+        // Update food statistics
+        const foodStatsContainer = document.getElementById('user-food-stats');
+        foodStatsContainer.innerHTML = '<h2>Food Statistics</h2>';
+
+        // Display rating counts
+        const ratingCountsContainer = document.createElement('div');
+        ratingCountsContainer.innerHTML = '<h3>Reviews by Rating:</h3>';
+        for (const [rating, count] of Object.entries(ratingCounts)) {
+          const ratingCountElement = document.createElement('p');
+          ratingCountElement.textContent = count === 1 ? `${rating} stars: ${count} review` : `${rating} stars: ${count} reviews`;
+          ratingCountsContainer.appendChild(ratingCountElement);
+        }
+        foodStatsContainer.appendChild(ratingCountsContainer);
+
+        // Display top food items
+        const topFoodItemsContainer = document.createElement('div');
+        topFoodItemsContainer.innerHTML = '<h3>Top Food Items by Rating:</h3>';
+        topFoodItems.forEach(item => {
+          const topFoodItemElement = document.createElement('p');
+          topFoodItemElement.innerHTML = item.numReviews === 1 ? `<strong>${item.foodItem}</strong> - ${item.avgRating}/5.0 (${item.numReviews} review)` : `<strong>${item.foodItem}</strong> - ${item.avgRating}/5.0 (${item.numReviews} reviews)` ;
+          topFoodItemsContainer.appendChild(topFoodItemElement);
+        });
+        foodStatsContainer.appendChild(topFoodItemsContainer);
+
+
+      } catch (error) {
+          console.error('Error updating profile:', error);
+          alert('An error occurred while updating the profile. Please try again later.');
+      }
+
+    }
+
+    // Profile Buttons:
+    const userInfoBtn = document.getElementById('user-information');
+    const userReviewsBtn = document.getElementById('user-reviews');
+    const foodStatsBtn = document.getElementById('food-statistics');
+
+    userInfoBtn.addEventListener('click', () => {
+      displayProfiles('user-info');
+    });
+
+    userReviewsBtn.addEventListener('click', () => {
+      displayProfiles('user-review-list');
+    });
+
+    foodStatsBtn.addEventListener('click', () => {
+      displayProfiles('user-food-stats');
+    });
+
+    // Function to switch profile views
+    function displayProfiles(pageId){
+
+      // hide all profile views
+      document.querySelectorAll(".profile-view").forEach((view) => {
+        view.style.display = "none";
+      });
+  
+      // Show the requested view
+      document.getElementById(pageId).style.display = "block";
     }
 
     // ----------------------------------- FOOD TABLE AND SEARCH ----------------------------------- \\
@@ -292,7 +409,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 if (!user.reviews) {
                     user.reviews = []; // Initialize reviews array if it doesn't exist
                 }
-                user.reviews.push({ text: reviewText, rating: rating });
+                user.reviews.push({ foodItem: foodItem.name, text: reviewText, rating: rating });
                 await user_db.put(user);
             }
     
