@@ -84,6 +84,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // ----------------------------------- LOGIN HANDLING ----------------------------------- \\
     
+    // TODO: data read
     // Function to fetch the user database
     async function fetchUserDatabase() {
       try {
@@ -100,6 +101,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       }
     }
 
+    // TODO: data read
     // Authenticate user function
     async function authenticateUser(username, password) {
       try {
@@ -179,6 +181,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       signupPasswordInput.value = '';
     });
 
+    // TODO: data read
     function authenticateSignup(username, password){
       const userDatabase = fetchUserDatabase()
       if (Object.keys(userDatabase).some(e => e === username)){
@@ -193,6 +196,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       }
     }
 
+    // TODO: data written
     async function signupUser(username, password) {
       try {
         // Check if the username already exists
@@ -227,11 +231,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       }
     }
 
-    // TODO: testing
-    fetchUserDatabase().then(userDatabase => {
-      console.log('User Database:', userDatabase);
-    });
-
     // ----------------------------------- PROFILE FUNCTIONS ----------------------------------- \\
 
     // function to call all the profile functions
@@ -249,6 +248,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     callAllProfileFunctions(); // Call on load-in
 
+    // TODO: data read and written
     async function updateProfile(username) {
       const nameTag = document.getElementById('name-tag');
       nameTag.textContent = `User: ${username}`;
@@ -281,7 +281,6 @@ document.addEventListener("DOMContentLoaded", async () => {
           userReviewsContainer.appendChild(reviewElement);
         });
 
-        // TODO: Add food statistics
         // Calculate food statistics
         const ratingCounts = {};
         const foodRatings = {};
@@ -422,6 +421,7 @@ document.addEventListener("DOMContentLoaded", async () => {
           <p>Calories: ${foodItem.calories}</p>
       `;
 
+      // TODO: data read and data written
       async function leaveReview(reviewText, rating) {
         try {
             // Update food item with new review
@@ -457,6 +457,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
       }
     
+      // TODO: data written
       // updating food item
       async function updateFoodItemInJSON(foodItem) {
         try {
@@ -697,6 +698,7 @@ function round(value, precision) {
     return Math.round(value * multiplier) / multiplier;
 }
 
+// TODO: get food data
 async function loadFoodData() {
   try {
       // Fetch all documents from PouchDB
