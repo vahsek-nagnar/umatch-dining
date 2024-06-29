@@ -733,15 +733,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     // ------------------------------ End Food Table and Search: ------------------------------ \\
-    
-    /*// TODO: init
-    try {
-      await populateFoodDatabaseFromJSON();
-      // Handle successful initialization
-    } catch (error) {
-      // Handle errors
-      console.error('Failed to populate food database:', error);
-    }*/
 
   });
 
