@@ -1,9 +1,4 @@
-// Initialize databases
-const food_db = new PouchDB('food_db');
-const user_db = new PouchDB('user_db');
-
-const URL = "http://localhost:3000"; // URL of server
-
+// DOM CONTENT LOADED:
 document.addEventListener("DOMContentLoaded", async () => {
     
     // Handle navigation:
@@ -87,21 +82,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     // ----------------------------------- LOGIN HANDLING ----------------------------------- \\
     
     // Function to fetch the user database
-    /* // old
-    async function fetchUserDatabase() {
-      try {
-        const result = await user_db.allDocs({ include_docs: true }); // TODO: get user database
-        const userDatabase = {};
-
-        result.rows.forEach(row => {
-          userDatabase[row.doc._id] = row.doc;
-        });
-
-        return userDatabase;
-      } catch (error) {
-        console.error('Error fetching user database:', error);
-      }
-    }*/
     // TODO: updated
     async function fetchUserDatabase() {
       try {
@@ -218,42 +198,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         signupUser(username, password); // function to sign the user up
       }
     }
-
-    /* //old signup user function
-    async function signupUser(username, password) {
-      try {
-        // Check if the username already exists
-        // TODO: get user
-        const existingUser = await user_db.get(username).catch(err => {
-          if (err.status !== 404) {
-            throw err;
-          }
-        });
-    
-        if (existingUser) {
-          alert('That username already exists');
-          return;
-        }
-        
-        const hashedPassword = hashPassword(password); // Hash password for safety
-
-        // Create a new user document
-        const newUser = {
-          _id: username,
-          username: username,
-          password: hashedPassword, // signup with hashed password
-          reviews: [] // Array to store reviews
-        };
-    
-        // Save the new user document to the database
-        await user_db.put(newUser); // TODO: put user
-    
-        alert('User ' + username + ' has been signed up!');
-        navigateLoginViews("login-container");
-      } catch (error) {
-        console.error('Error signing up user:', error);
-      }
-    }*/
 
     // TODO: updated signup user function using fetch API
     async function signupUser(username, password) {
@@ -402,13 +346,18 @@ document.addEventListener("DOMContentLoaded", async () => {
         async function getFoodItemCalories(foodName) {
           let foodItemName = foodName.toLowerCase().replace(/\s+/g, '_');
           try {
-            const foodItem = await food_db.get(foodItemName);
+            const response = await fetch(`http://localhost:3000/api/foods/${foodItemName}`);
+            if (!response.ok) {
+              throw new Error(`Failed to fetch food item: ${foodItemName}`);
+            }
+            const foodItem = await response.json();
             return foodItem.calories;
           } catch (error) {
             console.error(`Error fetching food item: ${foodItemName}`, error);
             return 0; // Default to 0 calories if there's an error
           }
         }
+        
         
         // Display top food items
         const topFoodItemsContainer = document.createElement('div');
@@ -538,26 +487,6 @@ document.addEventListener("DOMContentLoaded", async () => {
             alert('An error occurred while leaving the review. Please try again later.');
         }
       }
-    
-      /*// old updating food item
-      async function updateFoodItemInJSON(foodItem) {
-        try {
-          // Fetch the existing food item from PouchDB
-          const existingFoodItem = await food_db.get(foodItem._id); // TODO: get food item
-  
-          // Update the existing food item with new data
-          Object.assign(existingFoodItem, foodItem);
-  
-          // Save the updated food item back to PouchDB
-          const response = await food_db.put(existingFoodItem); // TODO: update food item
-          console.log('Updated food item:', response);
-  
-          return response;
-        } catch (error) {
-            console.error('Error updating food item in PouchDB:', error);
-            throw error; // Propagate the error to handle it elsewhere
-        }
-      }*/
 
       // TODO: Function to update food item via API
       async function updateFoodItemInJSON(foodItem) {
@@ -823,26 +752,6 @@ function round(value, precision) {
     return Math.round(value * multiplier) / multiplier;
 }
 
-/*// Load food data function
-async function loadFoodData() {
-  try {
-      // Fetch all documents from PouchDB
-      const response = await food_db.allDocs({ include_docs: true }); // TODO: get food database
-
-      // Extract the documents and their data
-      const foodList = {};
-      response.rows.forEach(row => {
-          foodList[row.doc._id] = row.doc;
-      });
-
-      console.log(foodList)
-      return foodList; // Return the object with food items keyed by _id
-  } catch (error) {
-      console.error('There has been a problem with loading food data from PouchDB:', error);
-      throw error; // Rethrow the error for further handling
-  }
-}*/
-
 // TODO: Load food data function using API
 async function loadFoodData() {
   try {
@@ -872,7 +781,7 @@ function hashPassword(password) {
 
 // ------------------- ACCESSORY OR INITIALIZATION FUNCTIONS --------------------------\\
 
-/*// TODO: Function to populate food_db using API
+/*// Function to populate food_db using API
 async function populateFoodDatabaseFromJSON() {
   try {
     // Step 1: Fetch JSON data
@@ -927,103 +836,5 @@ async function populateFoodDatabaseFromJSON() {
     throw error; // Rethrow the error for further handling
   }
 }*/
-
-
-
-/*/ RECREATES ORIGINAL DATABASE
-async function clearAndInitializeFoodDatabaseFromJSON() {
-  try {
-      // Step 1: Clear the existing database
-      await food_db.destroy();
-
-      // Step 2: Recreate the database
-      const new_food_db = new PouchDB('food_db');
-
-      // Step 3: Load the JSON data
-      const response = await fetch('food_list.json');
-      if (!response.ok) {
-          throw new Error('Failed to fetch food list JSON');
-      }
-      const foodList = await response.json();
-
-      // Step 4: Modify the JSON data to add _id field
-      const foodDocuments = Object.keys(foodList).map(key => ({
-          ...foodList[key],
-          _id: key.replace(/\s+/g, '_').toLowerCase() // Generate _id based on name
-      }));
-
-      // Step 5: Insert documents into PouchDB
-      const result = await new_food_db.bulkDocs(foodDocuments);
-      console.log('Initialization successful:', result);
-  } catch (error) {
-      console.error('Error initializing food database from JSON:', error);
-      throw error; // Rethrow the error for further handling
-  }
-}
-
-/* ATTENTION: ONLY USED FOR TESTING AND DEVELOPMENT PURPOSES
-// THE FOLLOWING WILL DELETE ALL DATABASE INFORMATION STORED 
-async function clearUserDatabase() {
-  try {
-    const allDocs = await user_db.allDocs({ include_docs: true });
-    const docsToDelete = allDocs.rows.map(row => ({
-      _id: row.id,
-      _rev: row.value.rev,
-      _deleted: true
-    }));
-
-    if (docsToDelete.length > 0) {
-      const result = await user_db.bulkDocs(docsToDelete);
-      console.log('Database cleared:', result);
-    } else {
-      console.log('No documents found to delete.');
-    }
-  } catch (error) {
-    console.error('Error clearing user database:', error);
-  }
-}
-
-// Call the function to clear the user database
-//clearUserDatabase();
-
-
-// remove specific review from user:
-async function removeReviewsFromFoodItem(foodItemName) {
-  try {
-    // Fetch all user documents from PouchDB
-    const userDocs = await user_db.allDocs({ include_docs: true });
-    
-    // Iterate through each user and remove reviews that match the food item
-    for (const userDoc of userDocs.rows) {
-      const user = userDoc.doc;
-      const originalReviewCount = user.reviews.length;
-      user.reviews = user.reviews.filter(review => review.foodItem !== foodItemName);
-      if (user.reviews.length < originalReviewCount) {
-        // Update the user document in the database only if reviews were removed
-        await user_db.put(user);
-        console.log(`Removed reviews for ${foodItemName} from user ${user._id}`);
-      }
-    }
-
-    // Fetch the food item document from PouchDB
-    const foodItem = await food_db.get(foodItemName.replace(/\s+/g, '_'));
-
-    // Clear the reviews array and reset the ratings for the food item
-    foodItem.reviews = [];
-    foodItem.totalRatings = 0;
-    foodItem.numReviews = 0;
-
-    // Update the food item document in the database
-    await food_db.put(foodItem);
-
-    console.log(`All reviews for ${foodItemName} have been removed.`);
-
-  } catch (error) {
-    console.error('Error removing reviews from food item:', error);
-    alert('An error occurred while removing reviews. Please try again later.');
-  }
-}
-
-//removeReviewsFromFoodItem('1%_milk'); */
 
 
