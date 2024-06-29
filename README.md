@@ -72,8 +72,8 @@ The reviews of food items are available for everyone to view, but individually c
   ```json
   [
       {
-          "_id": "apple",
-          "name": "Apple",
+          "_id": "potato",
+          "name": "Potato",
           "reviews": [],
           "totalRatings": 0,
           "numReviews": 0
@@ -93,8 +93,8 @@ The reviews of food items are available for everyone to view, but individually c
 
   ```json
   {
-      "_id": "apple",
-      "name": "Apple",
+      "_id": "potato",
+      "name": "Potato",
       "reviews": [],
       "totalRatings": 0,
       "numReviews": 0
@@ -110,7 +110,7 @@ The reviews of food items are available for everyone to view, but individually c
 
   ```json
   {
-      "name": "Orange"
+      "name": "Potato"
   }
   ```
 
@@ -119,8 +119,7 @@ The reviews of food items are available for everyone to view, but individually c
   ```json
   {
       "ok": true,
-      "id": "orange",
-      "rev": "1-abcdef123456"
+      "id": "potato",
   }
   ```
 
@@ -135,7 +134,7 @@ The reviews of food items are available for everyone to view, but individually c
 
   ```json
   {
-      "name": "Orange",
+      "name": "Potato",
       "reviews": [],
       "totalRatings": 0,
       "numReviews": 0
@@ -147,8 +146,7 @@ The reviews of food items are available for everyone to view, but individually c
   ```json
   {
       "ok": true,
-      "id": "orange",
-      "rev": "2-abcdef123457"
+      "id": "potato",
   }
   ```
 
@@ -164,8 +162,7 @@ The reviews of food items are available for everyone to view, but individually c
   ```json
   {
       "ok": true,
-      "id": "orange",
-      "rev": "2-abcdef123457"
+      "id": "potato",
   }
   ```
 
@@ -183,7 +180,7 @@ The reviews of food items are available for everyone to view, but individually c
   [
       {
           "_id": "user1",
-          "name": "User One",
+          "name": "UserOne",
           "reviews": []
       },
       // More users...
@@ -202,7 +199,7 @@ The reviews of food items are available for everyone to view, but individually c
   ```json
   {
       "_id": "user1",
-      "name": "User One",
+      "name": "UserOne",
       "reviews": []
   }
   ```
@@ -216,7 +213,7 @@ The reviews of food items are available for everyone to view, but individually c
 
   ```json
   {
-      "name": "User One"
+      "name": "UserOne"
   }
   ```
 
@@ -226,7 +223,6 @@ The reviews of food items are available for everyone to view, but individually c
   {
       "ok": true,
       "id": "user1",
-      "rev": "1-abcdef123456"
   }
   ```
 
@@ -241,7 +237,7 @@ The reviews of food items are available for everyone to view, but individually c
 
   ```json
   {
-      "name": "User One",
+      "name": "UserOne",
       "reviews": []
   }
   ```
@@ -252,7 +248,6 @@ The reviews of food items are available for everyone to view, but individually c
   {
       "ok": true,
       "id": "user1",
-      "rev": "2-abcdef123457"
   }
   ```
 
@@ -269,7 +264,6 @@ The reviews of food items are available for everyone to view, but individually c
   {
       "ok": true,
       "id": "user1",
-      "rev": "2-abcdef123457"
   }
   ```
 
@@ -284,8 +278,8 @@ The reviews of food items are available for everyone to view, but individually c
 
   ```json
   {
-      "foodItem": "Orange",
-      "text": "Great taste!",
+      "foodItem": "Potato",
+      "text": "Yum!",
       "rating": 5
   }
   ```
@@ -295,11 +289,11 @@ The reviews of food items are available for everyone to view, but individually c
   ```json
   {
       "_id": "user1",
-      "name": "User One",
+      "name": "UserOne",
       "reviews": [
           {
-              "foodItem": "Orange",
-              "text": "Great taste!",
+              "foodItem": "Potato",
+              "text": "Yum!",
               "rating": 5
           }
       ]
