@@ -87,6 +87,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // ----------------------------------- LOGIN HANDLING ----------------------------------- \\
     
     // Function to fetch the user database
+    /* // old
     async function fetchUserDatabase() {
       try {
         const result = await user_db.allDocs({ include_docs: true }); // TODO: get user database
@@ -100,7 +101,29 @@ document.addEventListener("DOMContentLoaded", async () => {
       } catch (error) {
         console.error('Error fetching user database:', error);
       }
+    }*/
+    // TODO: updated
+    async function fetchUserDatabase() {
+      try {
+        const response = await fetch('http://localhost:3000/api/users');
+        if (!response.ok) {
+          throw new Error('Failed to fetch user database');
+        }
+        const users = await response.json();
+    
+        // Transform users into the desired format (if necessary)
+        const userDatabase = {};
+        users.forEach(user => {
+          userDatabase[user._id] = user;
+        });
+    
+        return userDatabase;
+      } catch (error) {
+        console.error('Error fetching user database:', error);
+        throw error; // Optionally rethrow the error to handle it elsewhere
+      }
     }
+      
 
     // Authenticate user function
     async function authenticateUser(username, password) {
@@ -183,7 +206,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // function to authenticate the signup
     function authenticateSignup(username, password){
-      const userDatabase = fetchUserDatabase(); // TODO: get user database
+      const userDatabase = fetchUserDatabase();
       if (Object.keys(userDatabase).some(e => e === username)){
         // return an alert saying the username exists:
         alert('That username already exists');
@@ -196,7 +219,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       }
     }
 
-    // signup user function
+    /* //old signup user function
     async function signupUser(username, password) {
       try {
         // Check if the username already exists
@@ -230,7 +253,54 @@ document.addEventListener("DOMContentLoaded", async () => {
       } catch (error) {
         console.error('Error signing up user:', error);
       }
+    }*/
+
+    // TODO: updated signup user function using fetch API
+    async function signupUser(username, password) {
+      try {
+        // Check if the username already exists
+        const response = await fetch(`http://localhost:3000/api/users/${username}`);
+        if (response.ok) {
+          const existingUser = await response.json();
+          if (existingUser) {
+            alert('That username already exists');
+            return;
+          }
+        } else if (response.status !== 404) {
+          console.log('user is new');
+        }
+
+        const hashedPassword = hashPassword(password); // Hash password for safety
+
+        // Create a new user object
+        const newUser = {
+          _id: username,
+          username: username,
+          password: hashedPassword,
+          reviews: [] // Initialize reviews array
+        };
+
+        // POST request to create a new user
+        const createUserResponse = await fetch('http://localhost:3000/api/users', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(newUser)
+        });
+
+        if (!createUserResponse.ok) {
+          throw new Error('Failed to signup user');
+        }
+
+        alert(`User ${username} has been signed up!`);
+        navigateLoginViews("login-container");
+      } catch (error) {
+        console.error('Error signing up user:', error);
+        // Handle error (e.g., show error message to user)
+      }
     }
+
 
     // ----------------------------------- PROFILE FUNCTIONS ----------------------------------- \\
 
@@ -262,7 +332,12 @@ document.addEventListener("DOMContentLoaded", async () => {
       usernameInfo.textContent = `Username: ${username}`;
       
       try {// Fetch user data from PouchDB
-        const user = await user_db.get(username); //TODO: get user
+        // TODO: Fetch user data from Express server
+        const response = await fetch(`http://localhost:3000/api/users/${username}`);
+        if (!response.ok) {
+          throw new Error('Failed to fetch user data');
+        }
+        const user = await response.json(); // Get user data from server
 
         // Calculate the number of reviews and average rating
         const numReviews = user.reviews.length;
@@ -438,15 +513,21 @@ document.addEventListener("DOMContentLoaded", async () => {
             // Update JSON or database with new data
             await updateFoodItemInJSON(foodItem);
     
-            // Update user's reviews object if logged in
+            // TODO: Update user reviews via API if logged in
             const username = getUsername();
             if (username !== 'none') {
-                const user = await user_db.get(username); // TODO: get username
-                if (!user.reviews) {
-                    user.reviews = []; // Initialize reviews array if it doesn't exist
+                const response = await fetch(`http://localhost:3000/api/users/${username}/reviews`, {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ foodItem: foodItem.name, text: reviewText, rating: rating }),
+                });
+                if (!response.ok) {
+                    throw new Error('Failed to update user reviews');
                 }
-                user.reviews.push({ foodItem: foodItem.name, text: reviewText, rating: rating });
-                await user_db.put(user);
+                const updatedUser = await response.json();
+                console.log('User reviews updated:', updatedUser);
             }
     
             // Update table
@@ -458,7 +539,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
       }
     
-      // updating food item
+      /*// old updating food item
       async function updateFoodItemInJSON(foodItem) {
         try {
           // Fetch the existing food item from PouchDB
@@ -476,8 +557,30 @@ document.addEventListener("DOMContentLoaded", async () => {
             console.error('Error updating food item in PouchDB:', error);
             throw error; // Propagate the error to handle it elsewhere
         }
+      }*/
+
+      // TODO: Function to update food item via API
+      async function updateFoodItemInJSON(foodItem) {
+        try {
+          const response = await fetch(`http://localhost:3000/api/foods/${foodItem._id}`, {
+            method: 'PUT',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(foodItem),
+          });
+          if (!response.ok) {
+            throw new Error(`Failed to update food item ${foodItem._id}`);
+          }
+          const updatedFoodItem = await response.json();
+          console.log('Updated food item:', updatedFoodItem);
+          return updatedFoodItem;
+        } catch (error) {
+          console.error('Error updating food item via API:', error);
+          throw error;
+        }
       }
-      
+  
       // Close button for the popup
       const closeButton = document.createElement('button');
       closeButton.textContent = 'Close';
@@ -580,15 +683,28 @@ document.addEventListener("DOMContentLoaded", async () => {
       let foodItems = await loadFoodData();
       // Check if the food item has reviews
       let foodName = foodItem.name.replace(/\s+/g, '_').toLowerCase();
-      console.log(foodName)
-      console.log(foodItems)
-      if (foodItems[foodName] && foodItems[foodName].reviews.length > 0) {
+      let targetFoodItem = null;
+
+      // Iterate through the food items to find the one with the matching name
+      for (let key in foodItems) {
+        if (foodItems[key].name.replace(/\s+/g, '_').toLowerCase() === foodName) {
+          targetFoodItem = foodItems[key];
+          break;
+        }
+      }
+
+      console.log(foodName);
+      console.log(foodItems);
+      console.log(targetFoodItem);
+
+      // Step 3: Check if the target food item has reviews
+      if (targetFoodItem && targetFoodItem.reviews && targetFoodItem.reviews.length > 0) {
         // Iterate through the reviews and create <p> elements for each
-        foodItems[foodName].reviews.forEach(review => {
-            const reviewText = `${review.rating}/5.0: ${review.text}`;
-            const reviewElement = document.createElement('p');
-            reviewElement.textContent = reviewText;
-            reviewsContent.appendChild(reviewElement);
+        targetFoodItem.reviews.forEach(review => {
+          const reviewText = `${review.rating}/5.0: ${review.text}`;
+          const reviewElement = document.createElement('p');
+          reviewElement.textContent = reviewText;
+          reviewsContent.appendChild(reviewElement);
         });
       } else {
         // If no reviews, create a <p> element with the 'No reviews available' text and append it
@@ -688,6 +804,15 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     // ------------------------------ End Food Table and Search: ------------------------------ \\
+    
+    /*// TODO: init
+    try {
+      await populateFoodDatabaseFromJSON();
+      // Handle successful initialization
+    } catch (error) {
+      // Handle errors
+      console.error('Failed to populate food database:', error);
+    }*/
 
   });
 
@@ -698,7 +823,7 @@ function round(value, precision) {
     return Math.round(value * multiplier) / multiplier;
 }
 
-// Load food data function
+/*// Load food data function
 async function loadFoodData() {
   try {
       // Fetch all documents from PouchDB
@@ -716,7 +841,25 @@ async function loadFoodData() {
       console.error('There has been a problem with loading food data from PouchDB:', error);
       throw error; // Rethrow the error for further handling
   }
+}*/
+
+// TODO: Load food data function using API
+async function loadFoodData() {
+  try {
+    // Fetch all food items from API
+    const response = await fetch('http://localhost:3000/api/foods');
+    if (!response.ok) {
+      throw new Error('Failed to fetch food data');
+    }
+    const foodList = await response.json();
+    console.log(foodList);
+    return foodList; // Return the array of food items
+  } catch (error) {
+    console.error('Error loading food data from API:', error);
+    throw error; // Propagate the error for further handling
+  }
 }
+
 
 
 // hashing for password security
@@ -728,6 +871,64 @@ function hashPassword(password) {
 
 
 // ------------------- ACCESSORY OR INITIALIZATION FUNCTIONS --------------------------\\
+
+/*// TODO: Function to populate food_db using API
+async function populateFoodDatabaseFromJSON() {
+  try {
+    // Step 1: Fetch JSON data
+    const response = await fetch('food_list.json');
+    if (!response.ok) {
+      throw new Error('Failed to fetch food list JSON');
+    }
+    const foodList = await response.json();
+
+    // Step 2: Modify the JSON data to add _id field
+    const foodDocuments = Object.keys(foodList).map(key => ({
+      ...foodList[key],
+      _id: key.replace(/\s+/g, '_').toLowerCase() // Generate _id based on name
+    }));
+
+    // Function to send a single food item
+    async function sendFoodItem(foodItem, retryCount = 3) {
+      try {
+        const initResponse = await fetch('http://localhost:3000/api/foods', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(foodItem),
+        });
+
+        if (!initResponse.ok) {
+          throw new Error('Failed to create food item');
+        }
+
+        return initResponse.json();
+      } catch (error) {
+        console.error('Error sending food item:', error);
+        if (retryCount > 0) {
+          console.log(`Retrying food item... attempts left: ${retryCount}`);
+          return sendFoodItem(foodItem, retryCount - 1); // Retry
+        } else {
+          throw error; // If no retries left, throw error
+        }
+      }
+    }
+
+    // Step 3: Send each food item individually
+    for (const foodItem of foodDocuments) {
+      console.log(`Sending food item with _id: ${foodItem._id}`);
+      const result = await sendFoodItem(foodItem);
+      console.log('Food item initialization successful:', result);
+    }
+
+  } catch (error) {
+    console.error('Error populating food database from JSON:', error);
+    throw error; // Rethrow the error for further handling
+  }
+}*/
+
+
 
 /*/ RECREATES ORIGINAL DATABASE
 async function clearAndInitializeFoodDatabaseFromJSON() {

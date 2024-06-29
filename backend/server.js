@@ -1,7 +1,7 @@
-import express from 'express';
-import bodyParser from 'body-parser';
-import cors from 'cors';
-import PouchDB from 'pouchdb';
+const express = require('express');
+const bodyParser = require('body-parser');
+const cors = require('cors');
+const PouchDB = require('pouchdb');
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -155,6 +155,25 @@ app.post('/api/foods/init', async (req, res) => {
       res.status(500).json({ error: 'Failed to initialize food database' });
     }
   });
+
+// PUT update user's reviews
+app.put('/api/users/:username/reviews', async (req, res) => {
+    const { username } = req.params;
+    const { foodItem, text, rating } = req.body;
+    try {
+        const user = await user_db.get(username);
+        if (!user.reviews) {
+            user.reviews = [];
+        }
+        user.reviews.push({ foodItem, text, rating });
+        await user_db.put(user);
+        res.json(user);
+    } catch (error) {
+        console.error('Error updating user reviews:', error);
+        res.status(500).json({ error: 'Failed to update user reviews' });
+    }
+});
+
 
 // Start server
 app.listen(port, () => {
