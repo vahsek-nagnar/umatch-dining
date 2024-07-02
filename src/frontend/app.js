@@ -88,7 +88,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     // ----------------------------------- LOGIN HANDLING ----------------------------------- \\
     
     // Function to fetch the user database
-    // TODO: updated
     async function fetchUserDatabase() {
       try {
         const response = await fetch('http://localhost:3000/api/users');
@@ -97,7 +96,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
         const users = await response.json();
     
-        // Transform users into the desired format (if necessary)
         const userDatabase = {};
         users.forEach(user => {
           userDatabase[user._id] = user;
@@ -106,7 +104,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         return userDatabase;
       } catch (error) {
         console.error('Error fetching user database:', error);
-        throw error; // Optionally rethrow the error to handle it elsewhere
+        throw error;
       }
     }
       
@@ -161,7 +159,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       localStorage.removeItem('username');
             
       console.log('User logged out');
-      // Perform additional logout logic here (e.g., redirect to login page)
+
       navigate("loginView");
     }
 
@@ -205,7 +203,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       }
     }
 
-    // TODO: updated signup user function using fetch API
+    // Updated signup user function using fetch API
     async function signupUser(username, password) {
       try {
         // Check if the username already exists
@@ -227,7 +225,7 @@ document.addEventListener("DOMContentLoaded", async () => {
           _id: username,
           username: username,
           password: hashedPassword,
-          reviews: [] // Initialize reviews array
+          reviews: []
         };
 
         // POST request to create a new user
@@ -247,7 +245,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         navigateLoginViews("login-container");
       } catch (error) {
         console.error('Error signing up user:', error);
-        // Handle error (e.g., show error message to user)
       }
     }
 
@@ -262,7 +259,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         return; // returns if not logged in
       }
 
-      updateProfile(username); // update name tag function
+      updateProfile(username);
 
       displayProfiles('user-info'); // Default to user-info
     }
@@ -281,8 +278,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       usernameInfo.textContent = `Username: ${username}`;
       
-      try {// Fetch user data from PouchDB
-        // TODO: Fetch user data from Express server
+      try {
+        // Fetch user data from Express server
         const response = await fetch(`http://localhost:3000/api/users/${username}`);
         if (!response.ok) {
           throw new Error('Failed to fetch user data');
@@ -465,10 +462,10 @@ document.addEventListener("DOMContentLoaded", async () => {
             popupContent.querySelector('p:nth-of-type(1)').textContent = `Rating: ${newRating}/5`;
             popupContent.querySelector('p:nth-of-type(2)').textContent = `Number of Reviews: ${foodItem.numReviews}`;
     
-            // Update JSON or database with new data
+            // Update database with new data
             await updateFoodItemInJSON(foodItem);
     
-            // TODO: Update user reviews via API if logged in
+            // Update user reviews via API if logged in
             const username = getUsername();
             if (username !== 'none') {
                 const response = await fetch(`http://localhost:3000/api/users/${username}/reviews`, {
@@ -494,7 +491,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
       }
 
-      // TODO: Function to update food item via API
+      // Function to update food item via API
       async function updateFoodItemInJSON(foodItem) {
         try {
           const response = await fetch(`http://localhost:3000/api/foods/${foodItem._id}`, {
@@ -632,7 +629,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       console.log(foodItems);
       console.log(targetFoodItem);
 
-      // Step 3: Check if the target food item has reviews
+      // Check if the target food item has reviews
       if (targetFoodItem && targetFoodItem.reviews && targetFoodItem.reviews.length > 0) {
         // Iterate through the reviews and create <p> elements for each
         targetFoodItem.reviews.forEach(review => {
@@ -711,7 +708,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       filteredFoodData.forEach(item => {
         const row = document.createElement('tr');
-        row.classList.add('foodRow'); // Add a class to the <tr> element
+        row.classList.add('foodRow'); // Add a class to the row element
         row.id = item.name; // Set the id attribute
 
 
@@ -749,7 +746,7 @@ function round(value, precision) {
     return Math.round(value * multiplier) / multiplier;
 }
 
-// TODO: Load food data function using API
+// Load food data function using API
 async function loadFoodData() {
   try {
     // Fetch all food items from API
@@ -781,14 +778,12 @@ function hashPassword(password) {
 /*// Function to populate food_db using API
 async function populateFoodDatabaseFromJSON() {
   try {
-    // Step 1: Fetch JSON data
     const response = await fetch('food_list.json');
     if (!response.ok) {
       throw new Error('Failed to fetch food list JSON');
     }
     const foodList = await response.json();
 
-    // Step 2: Modify the JSON data to add _id field
     const foodDocuments = Object.keys(foodList).map(key => ({
       ...foodList[key],
       _id: key.replace(/\s+/g, '_').toLowerCase() // Generate _id based on name
@@ -821,7 +816,6 @@ async function populateFoodDatabaseFromJSON() {
       }
     }
 
-    // Step 3: Send each food item individually
     for (const foodItem of foodDocuments) {
       console.log(`Sending food item with _id: ${foodItem._id}`);
       const result = await sendFoodItem(foodItem);
