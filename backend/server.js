@@ -6,7 +6,7 @@ const PouchDB = require('pouchdb');
 const app = express();
 const port = process.env.PORT || 3000;
 
-// Middleware
+// cors
 app.use(cors());
 app.use(bodyParser.json());
 
@@ -144,7 +144,7 @@ app.delete('/api/users/:id', async (req, res) => {
 
 // Route to initialize food database with initial data
 app.post('/api/foods/init', async (req, res) => {
-    const initialData = req.body; // Assuming req.body contains initial data array
+    const initialData = req.body;
     try {
       const results = await Promise.all(
         initialData.map(async item => await food_db.post(item))
