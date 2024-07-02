@@ -636,7 +636,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       if (targetFoodItem && targetFoodItem.reviews && targetFoodItem.reviews.length > 0) {
         // Iterate through the reviews and create <p> elements for each
         targetFoodItem.reviews.forEach(review => {
-          const reviewText = `${review.rating}/5.0: ${review.text}`;
+          const reviewText = `${review.rating % 1.0 !== 0 ? review.rating : review.rating+".0"}/5.0: ${review.text}`;
           const reviewElement = document.createElement('p');
           reviewElement.textContent = reviewText;
           reviewsContent.appendChild(reviewElement);
