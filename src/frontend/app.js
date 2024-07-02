@@ -3,6 +3,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     
     // Handle navigation:
     function navigate(viewId) {
+
+      // default view to home if something random
+      if (![ 'homeView', 'profileView', 'aboutView', 'loginView' ].includes(viewId)) {
+        viewId = 'homeView';
+      }
+    
       // Hide all views
       document.querySelectorAll(".view").forEach((view) => {
         view.style.display = "none";
